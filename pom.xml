@@ -68,6 +68,7 @@
 		<repox.repox-gui.version>2.6.0-SNAPSHOT</repox.repox-gui.version>
 
 		<eu.europeana.definitions.version>1.01</eu.europeana.definitions.version>
+		<!-- postgresql.postgresql.version>9.3-1102-jdbc41</postgresql.postgresql.version> -->
 		<postgresql.postgresql.version>9.1-901.jdbc4</postgresql.postgresql.version>
 		<mysql.mysql-connector-java.version>5.1.31</mysql.mysql-connector-java.version>
 		<xml-apis.xml-apis.version>1.4.01</xml-apis.xml-apis.version> <!-- Need this version or else repo-gui fails with AppEngine Error [ java.lang.NoClassDefFoundError. 
@@ -294,7 +295,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+									<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
