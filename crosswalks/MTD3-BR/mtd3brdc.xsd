@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://purl.org/dc/elements/1.1/"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+<import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.1/xml.xsd"/>
+
+    <annotation>
+       <documentation>
+          XML DC Schema for the Electronic Theses and Dissertations
+            Metadata Set (ETD-MS)
+
+          Standard Version 1.1, 2009-12-04
+            http://www.ndltd.org/standards/metadata/
+          Schema Version 1.1, 2009-12-16
+
+          Hussein Suleman
+          Digital Libraries Laboratory, UCT
+          hussein@cs.uct.ac.za
+          
+          v1.0: Robert France and Hussein Suleman
+          Virginia Tech DLRL
+       </documentation>
+    </annotation>
+
+    <complexType name="freeTextType">
+      <annotation>
+        <documentation>
+          When a free text field is translated by someone other than the
+          author, that person's name should appear as the value to the
+          translated attribute.
+        </documentation>
+      </annotation>
+      <simpleContent>
+        <extension base="string">
+          <attribute name="translated" type="string"/>
+          <attributeGroup ref="xml:specialAttrs"/>
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <complexType name="controlledTextType">
+      <annotation>
+        <documentation>
+          When the content of a field is controlled, as in subject or date
+          fields, the controlling scheme should be annotated with either or
+          both the name of the scheme and/or a URI describing the controlled
+          object within the context of the scheme.
+        </documentation>
+      </annotation>
+      <simpleContent>
+        <extension base="string">
+          <attribute name="scheme" type="string"/>
+          <attribute name="resource" type="anyURI"/>
+          <attributeGroup ref="xml:specialAttrs"/>
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <complexType name="authorityType">
+      <annotation>
+        <documentation>
+          Each reference to an individual or institution in any field
+          should contain a string representing the name of the individual
+          or institution as it appears in the work.
+          Where possible, the reference should also contain a URI which
+          points to an authoritative record for that individual or institution.
+        </documentation>
+      </annotation>
+      <simpleContent>
+        <extension base="string">
+          <attribute name="resource" type="anyURI"/>
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <simpleType name="descriptionRoleType">
+      <annotation>
+        <documentation>
+          Optional attributes to qualify the meaning of the description tag.
+          "note" indicates additional information regarding the thesis or
+          dissertation. Example: acceptance note of the department.
+          "release" indicates a description of the version of the work.
+          Should only be used for errata, etc..
+        </documentation>
+      </annotation>
+      <restriction base="string">
+        <enumeration value="note"/>
+        <enumeration value="release"/>
+        <enumeration value="abstract"/>
+      </restriction>
+    </simpleType>
+
+    <simpleType name="dateType">
+      <annotation>
+        <documentation>
+          As defined in ISO 8601 and the profile recommended for 
+          implementing ISO 8601 dates in Dublin Core.
+        </documentation>
+      </annotation>
+      <restriction base="string">
+        <pattern value="[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?"/>
+      </restriction>
+    </simpleType>
+
+    <complexType name="publisherType">
+      <annotation>
+        <documentation>
+          Addition of country attribute for publisher
+        </documentation>
+      </annotation>
+      <simpleContent>
+        <extension base="dc:authorityType">
+          <attribute name="country" type="string"/>
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <simpleType name="rightsType">
+      <annotation>
+        <documentation>
+          * 0 Not publicly accessible
+          * 1 Limited public access
+          * 2 Publicly accessible
+        </documentation>
+      </annotation>
+      <restriction base="string">
+        <pattern value="[012]"/>
+      </restriction>
+    </simpleType>
+
+    <element name="title" type="dc:freeTextType">
+       <annotation>
+          <documentation>
+            A name given to the resource. In the case of theses and
+            dissertations, this is the title of the work as it appears on the
+            title page or equivalent. 
+          </documentation>
+       </annotation>
+    </element>
+
+    <element name="creator" type="dc:authorityType">
+       <annotation>
+          <documentation>
+            An entity primarily responsible for making the content of the
+            resource.
+            In the case of theses or dissertations, this field is appropriate
+            for the author(s) of the work. Like other names and institutions,
+            this field should be entered in free text form as it appears on
+            the title page or equivalent, with a link to to an authority
+            record if available. 
+          </documentation>
+       </annotation>
+     </element>
+
+     <element name="subject" type="dc:controlledTextType">
+       <annotation>
+         <documentation>
+           The topic of the content of the resource. In the case of theses
+           and dissertations, keywords or subjects listed on the title page
+           can be entered as free text. The "scheme" qualifier should be used
+           to indicate a controlled vocabulary.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="description">
+       <annotation>
+         <documentation>
+           An account of the content of the resource. In the case
+           of theses and disserations, this is the full text of the
+           abstract unless otherwise qualified.
+         </documentation>
+       </annotation>
+       <complexType>
+         <simpleContent>
+           <extension base="dc:freeTextType">
+             <attribute name="role" type="dc:descriptionRoleType"/>
+           </extension>
+         </simpleContent>
+       </complexType>
+     </element>
+
+     <element name="publisher" type="dc:publisherType">
+       <annotation>
+         <documentation>
+           An entity responsible for making the resource available.  This is
+           typically the group most directly responsible for digitizing
+           and/or archiving the work. The publisher may or may not be exactly
+           the same as thesis.degree.grantor. Like other institutional names,
+           this field should be entered in free text form as it appears on the
+           title page or equivalent, with a link to to an authority record
+           where available. 
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="contributor">
+       <annotation>
+         <documentation>
+           An entity responsible for making contributions to the content of
+           the resource. Typical use would be for co-authors of parts of the
+           work as well as advisors or committee members. Co-authors of the
+           entire work would be more appropriate for the creator field.
+         </documentation>
+       </annotation>
+       <complexType>
+         <simpleContent>
+           <extension base="dc:freeTextType">
+             <attribute name="role" type="string"/>
+             <attribute name="resource" type="anyURI"/>
+           </extension>
+         </simpleContent>
+       </complexType>
+     </element>
+
+     <element name="date" type="dc:dateType">
+       <annotation>
+         <documentation>
+           A date associated with an event in the life cycle of the resource.
+           In the case of theses and dissertations, this should be the date
+           that appears on the title page or equivalent of the work. Should be
+           recorded as defined in ISO 8601 and the profile recommended for
+           implementing ISO 8601 dates in Dublin Core.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="type" type="dc:freeTextType">  
+       <annotation>
+         <documentation>
+           The nature or genre of the content of the resource. This field is
+           used to distinguish the resource from works in other genres and to identify the
+           types of content included in the resource. The string "Electronic Thesis
+           or Dissertation" is recommended as one of the repeatable values for
+           this element. In addition, specify types of content using the standard
+           vocabulary found at:
+           http://dublincore.org/documents/dcmi-type-vocabulary/. Degree and
+           Education Level are now handled by the thesis.degree field.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="format" type="dc:freeTextType">
+       <annotation>
+         <documentation>
+           The physical or digital manifestation of the resource. In the case of an
+           electronic thesis or dissertation, this should contain a list of the
+           electronic format(s) in which the work is stored and/or delivered.
+           Use the standard MIME type whenever possible (for a list of
+           "registered" MIME types, visit
+           ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types).
+           List as "unknown" if no format information is available, omit if the
+           work is not available in electronic form.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="identifier" type="string">
+       <annotation>
+         <documentation>
+           An unambiguous reference to the resource within a given context.
+           This can and should be used to provide a URI where the work
+           can be viewed or downloaded. Persistent URNs such as PURLs
+           (http://purl.org/) or Handles (http://handle.net/) are
+           recommended.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="language" type="string">
+       <annotation>
+         <documentation>
+           A language of the intellectual content of the resource. This should
+           be the primary language the work is recorded in. Portions of the
+           larger work that appear in other languages should use the lang
+           qualifier. See Global Qualifiers. Language names themselves
+           should be recorded using ISO 639-2 (or RFC 1766). If the
+           language is not specified, it is assumed to be English (en).
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="coverage" type="dc:controlledTextType">
+       <annotation>
+         <documentation>
+           The extent or scope of the content of the resource. Should be used
+           for time periods or spatial regions.
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="rights" type="dc:rightsType">
+       <annotation>
+         <documentation>
+           Information about rights held in and over the resource. Typically,
+           this describes the conditions under which the work may be
+           distributed, reproduced, etc., how these conditions may change over
+           time, and whom to contact regarding the copyright of the work. 
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="source" type="dc:freeTextType">
+       <annotation>
+         <documentation>
+         </documentation>
+       </annotation>
+     </element>
+
+     <element name="relation" type="dc:freeTextType">
+       <annotation>
+         <documentation>
+         </documentation>
+       </annotation>
+     </element>
+
+</schema>
