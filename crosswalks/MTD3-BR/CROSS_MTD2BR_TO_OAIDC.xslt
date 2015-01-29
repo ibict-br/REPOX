@@ -260,6 +260,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:URL)))"/>
 			</dc:identifier>
 		</xsl:for-each>
+		<!--
 		<xsl:for-each select="$var1_mtdbr/ns0:Resumo">
 			<xsl:variable name="var3_Idioma" as="node()?" select="@Idioma"/>
 			<dc:description>
@@ -273,7 +274,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				</xsl:if>
 				<xsl:sequence select="fn:concat($var4_resultof_vmf__inputtoresult,': ',fn:string(.))"/>
 			</dc:description>
-		</xsl:for-each>
+		</xsl:for-each> -->
 		<!--
 		<xsl:for-each select="$var1_mtdbr/ns0:AgenciaFomento">
 			<xsl:variable name="var5_cur" as="node()" select="."/>
@@ -411,6 +412,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 					</xsl:if>
 				</xsl:for-each>
 			</xsl:variable>
+			<!--
 			<xsl:for-each select="$var21_resultof_filter">
 				<dc:title>
 					<xsl:attribute name="lang" namespace="">
@@ -420,7 +422,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 					</xsl:attribute>
 					<xsl:sequence select="fn:string(.)"/>
 				</dc:title>
-			</xsl:for-each>
+			</xsl:for-each> -->
 		</xsl:for-each>
 		<xsl:for-each select="$var1_mtdbr">
 			<dc:language>
@@ -459,7 +461,6 @@ exclude-result-prefixes="ns0 vmf xs fn">
 					<xsl:variable name="var26_resultof_exists" as="xs:boolean" select="fn:exists($var25_resultof_vmf__inputtoresult)"/>
 					<xsl:if test="$var26_resultof_exists">
 						<xsl:sequence select="."/>
-						
 					</xsl:if>
 				</xsl:for-each>
 			</xsl:variable>
@@ -471,7 +472,6 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				</dc:format>
 			</xsl:for-each>
 		</xsl:for-each>
-
 		</oai_dc:dc>
 	</xsl:template>
 </xsl:stylesheet>
