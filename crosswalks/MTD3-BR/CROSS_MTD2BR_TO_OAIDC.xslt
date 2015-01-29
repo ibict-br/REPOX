@@ -260,10 +260,11 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:URL)))"/>
 			</dc:identifier>
 		</xsl:for-each>
-		<!--
 		<xsl:for-each select="$var1_mtdbr/ns0:Resumo">
-			<xsl:variable name="var3_Idioma" as="node()?" select="@Idioma"/>
+			<!-- <xsl:variable name="var3_Idioma" as="node()?" select="@Idioma"/> -->
 			<dc:description>
+			<xsl:sequence select="fn:string(.)"/>
+			<!--
 				<xsl:if test="fn:exists($var3_Idioma)">
 					<xsl:variable name="var4_resultof_vmf__inputtoresult" as="xs:string?">
 						<xsl:call-template name="vmf:vmf2_inputtoresult">
@@ -272,9 +273,9 @@ exclude-result-prefixes="ns0 vmf xs fn">
 					</xsl:variable>
 						<xsl:attribute name="lang" namespace="" select="$var4_resultof_vmf__inputtoresult"/>
 				</xsl:if>
-				<xsl:sequence select="fn:concat($var4_resultof_vmf__inputtoresult,': ',fn:string(.))"/>
+				<xsl:sequence select="fn:concat($var4_resultof_vmf__inputtoresult,': ',fn:string(.))"/> -->
 			</dc:description>
-		</xsl:for-each> -->
+		</xsl:for-each> 
 		<!--
 		<xsl:for-each select="$var1_mtdbr/ns0:AgenciaFomento">
 			<xsl:variable name="var5_cur" as="node()" select="."/>
