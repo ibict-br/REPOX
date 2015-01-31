@@ -260,6 +260,13 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:URL)))"/>
 			</dc:identifier>
 		</xsl:for-each>
+		
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+			<dc:identifier>
+				<xsl:text>SEM_ARQUIVO</xsl:text>
+			</dc:identifier>
+		</xsl:if>
+		
 		<xsl:for-each select="$var1_mtdbr/ns0:Resumo">
 			<!-- <xsl:variable name="var3_Idioma" as="node()?" select="@Idioma"/> -->
 			<dc:description>
