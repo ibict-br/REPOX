@@ -30,52 +30,84 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		<xsl:variable name="var1_mtdbr" as="node()?" select="ns0:mtd2br"/>
 		
 		
-		<dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dspace.org/xmlns/dspace/dim http://www.dspace.org/schema/dim.xsd">
+	<dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dspace.org/xmlns/dspace/dim http://www.dspace.org/schema/dim.xsd">
 	
-	<!-- EXISTÊNCIA TEXTO COMPLETO -->
-		
-	<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+		<!-- TIPO DE DOCUMENTO -->
 	
+		<xsl:for-each select="$var1_mtdbr/ns0:Grau"> 
+			<dim:field element="type" mdschema="dc">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
 	
         <!-- TÍTULO -->
-		
+
+	
 		<xsl:for-each select="$var1_mtdbr/ns0:Titulo">
 			<dim:field element="title" mdschema="dc">
-				<xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Titulo)"/>
+			<!-- <xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Titulo)"/> -->
+				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each>
+
 		
 		<!--  AUTOR -->
-		
+
+<!--		
 		<xsl:if test="$var1_mtdbr/ns0:Autor/ns0:Nome">
 			<dim:field element="contributor" mdschema="dc" qualifier="author">
 				<xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Autor/ns0:Nome)"/>
 			</dim:field>
 		</xsl:if>
+-->
 		
-		<!--  DATA DE DEFESA -->
+		<xsl:for-each select="$var1_mtdbr/ns0:Autor/ns0:Nome"> 
+			<dim:field element="contributor" mdschema="dc" qualifier="author">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
+		<!--  DATA DE DEFESA
 
 		<xsl:for-each select="$var1_mtdbr">
 			<dim:field element="date" mdschema="dc" qualifier="issued">
 				<xsl:sequence select="xs:string(fn:string(ns0:DataDefesa))"/>
 			</dim:field>
-		</xsl:for-each>
+		</xsl:for-each>  -->
 		
 		
 		<!-- INSTITUIÇÃO -->
 		
-		<xsl:for-each select="$var1_mtdbr">
+		<xsl:for-each select="$var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome">
 			<dim:field element="publisher" mdschema="dc">
-				<xsl:sequence select="fn:string(ns0:InstituicaoDefesa/ns0:Nome)"/>
+				<xsl:sequence select="fn:string(.)"/>
 			</dim:field>
 		</xsl:for-each>
 		
-		<dim:field element="identifier" mdschema="dc">
+		<!-- TIPO DE ACESSO -->
+
+		<xsl:for-each select="$var1_mtdbr/ns0:Direitos"> 
+			<dim:field element="rights" mdschema="dc">
+			<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
+		
+		<!-- VALIDAÇÃO -->
+		
+	<xsl:choose>
+	<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+		<dim:field element="description" mdschema="dc">
 			<xsl:text>SEM_ARQUIVO</xsl:text>
 		</dim:field>
-	</xsl:if>
+	</xsl:when>
+	<xsl:otherwise>
+		<dim:field element="description" mdschema="dc">
+			<xsl:text>OK</xsl:text>
+		</dim:field>
+	</xsl:otherwise>
+	</xsl:choose>
 		
-
-		</dim:dim>
+	</dim:dim>
 	</xsl:template>
 </xsl:stylesheet>

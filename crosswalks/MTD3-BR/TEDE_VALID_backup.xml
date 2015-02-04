@@ -33,7 +33,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 
 	<!-- EXISTÊNCIA TEXTO COMPLETO -->
 		
-	<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+
 		
 		<!-- TÍTULO -->
 		
@@ -68,6 +68,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 			</dc:publisher>
 		</xsl:for-each>
 		
+	<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
 		<dc:identifier>
 			<xsl:text>SEM_ARQUIVO</xsl:text>
 		</dc:identifier>
