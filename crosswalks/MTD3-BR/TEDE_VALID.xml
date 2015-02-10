@@ -111,7 +111,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 			</dim:field>
 		</xsl:when>
 		
-		<!-- Orientador	-->
+		<!-- Orientador	
 		
 		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador']/ns0:Nome))">
 			<dim:field element="description" mdschema="dc">
@@ -123,7 +123,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem currículo Lattes do autor</xsl:text>
 			</dim:field>
-		</xsl:when>
+		</xsl:when> -->
 		
 		<!-- Resumo -->
 		
