@@ -98,7 +98,22 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 	<xsl:choose>
 	<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
 		<dim:field element="description" mdschema="dc">
-			<xsl:text>SEM_ARQUIVO</xsl:text>
+			<xsl:text>Sem texto completo</xsl:text>
+		</dim:field>
+	</xsl:when>
+	<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Resumo))">
+		<dim:field element="description" mdschema="dc">
+			<xsl:text>Sem resumo</xsl:text>
+		</dim:field>
+	</xsl:when>
+	<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Nome))">
+		<dim:field element="description" mdschema="dc">
+			<xsl:text>Sem nome do autor</xsl:text>
+		</dim:field>
+	</xsl:when>
+	<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Nome))">
+		<dim:field element="description" mdschema="dc">
+			<xsl:text>Sem currLattes</xsl:text>
 		</dim:field>
 	</xsl:when>
 	<xsl:otherwise>
