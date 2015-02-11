@@ -31,13 +31,20 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		
 	<dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dspace.org/xmlns/dspace/dim http://www.dspace.org/schema/dim.xsd">
-	
+		
 		<!-- TIPO DE DOCUMENTO -->
 	
 		<xsl:for-each select="$var1_mtdbr/ns0:Grau"> 
 			<dim:field element="type" mdschema="dc">
-				<xsl:sequence select="fn:string(.)"/> 
-			</dim:field>
+				<xsl:choose>
+					<xsl:when test="$var1_mtdbr/ns0:Grau='Doutor'">
+						<xsl:value-of select="'Tese'"/>
+					</xsl:when>
+					<xsl:when test="$var1_mtdbr/ns0:Grau='Mestre'">
+						<xsl:value-of select="'Dissertação'"/>
+					</xsl:when>
+				</xsl:choose>
+			</dim:field>	
 		</xsl:for-each> 
 	
         <!-- TÍTULO -->
@@ -45,7 +52,6 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 	
 		<xsl:for-each select="$var1_mtdbr/ns0:Titulo">
 			<dim:field element="title" mdschema="dc">
-			<!-- <xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Titulo)"/> -->
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each>
@@ -59,14 +65,13 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 			</dim:field>
 		</xsl:for-each> 
 		
-		<!--  DATA DE DEFESA
+		<!--  DATA DE DEFESA -->
 
 		<xsl:for-each select="$var1_mtdbr/ns0:DataDefesa">
 			<dim:field element="date" mdschema="dc" qualifier="issued">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each>  -->
-		
+		</xsl:for-each>  
 		
 		<!-- INSTITUIÇÃO -->
 		
@@ -87,11 +92,17 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 	<!-- VALIDAÇÃO -->
 		
-	<xsl:choose>
+		<!-- Tipo de documento -->
+		
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Grau))">
+			<dim:field element="description" mdschema="dc">
+				<xsl:text>Sem tipo de documento</xsl:text>
+			</dim:field>
+		</xsl:when> 
 	
 		<!-- Título -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Titulo))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Titulo))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem título</xsl:text>
 			</dim:field>
@@ -99,13 +110,13 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- Autor -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Nome))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Nome))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem nome do autor</xsl:text>
 			</dim:field>
 		</xsl:when>
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Lattes))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Autor/ns0:Lattes))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem currículo Lattes do autor</xsl:text>
 			</dim:field>
@@ -113,13 +124,13 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- Orientador	-->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador']/ns0:Nome))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador']/ns0:Nome))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem nome do orientador</xsl:text>
 			</dim:field>
 		</xsl:when>
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador']/ns0:Lattes))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador']/ns0:Lattes))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem currículo Lattes do orientador</xsl:text>
 			</dim:field>
@@ -127,44 +138,37 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- Resumo -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Resumo))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Resumo))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem resumo</xsl:text>
 			</dim:field>
-		</xsl:when> 
+		</xsl:if> 
 		
-		<!-- Instituicao de Defesa -->
+		<!-- Instituição de Defesa -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem nome da instituição</xsl:text>
 			</dim:field>
-		</xsl:when>
+		</xsl:if>
 		
 		
 		<!-- Data de defesa -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:DataDefesa))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:DataDefesa))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem data de defesa</xsl:text>
 			</dim:field>
-		</xsl:when> 
+		</xsl:if> 
 		
 		<!-- Texto completo -->
 		
-		<xsl:when test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem texto completo</xsl:text>
 			</dim:field>
-		</xsl:when>
+		</xsl:if>
 		
-		
-		<xsl:otherwise>
-			<dim:field element="description" mdschema="dc">
-				<xsl:text>OK</xsl:text>
-			</dim:field>
-		</xsl:otherwise>
-	</xsl:choose>
 		
 	</dim:dim>
 	</xsl:template>
