@@ -161,6 +161,15 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 			</dim:field>
 		</xsl:if> 
 		
+		<!-- Tipo de acesso -->
+		
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Direitos))">
+			<dim:field element="description" mdschema="dc">
+				<xsl:text>Sem tipo de acesso</xsl:text>
+			</dim:field>
+		</xsl:if> 
+		
+		
 		<!-- Texto completo -->
 		
 		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
