@@ -18,11 +18,6 @@ xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"
 exclude-result-prefixes="ns0 vmf xs dim fn">
 	
 		
-	<xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzàáâãäåæçèéêëìíîïðñòóôõö÷øùüúþÿ'" />	
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÜÚÞß'" />	
-
-
-
 	<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 				
 	<xsl:template match="/">
@@ -60,7 +55,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		<!--  AUTOR -->
 	
 		<xsl:for-each select="$var1_mtdbr/ns0:Autor/ns0:Nome"> 
-			<dim:field element="contributor" mdschema="dc" qualifier="author">
+			<dim:field element="creator" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 

@@ -17,12 +17,6 @@ xmlns:fn="http://www.w3.org/2005/xpath-functions"
 xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"
 exclude-result-prefixes="ns0 vmf xs dim fn">
 	
-		
-	<xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyzàáâãäåæçèéêëìíîïðñòóôõö÷øùüúþÿ'" />	
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÜÚÞß'" />	
-
-
-
 	<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 				
 	<xsl:template match="/">
@@ -60,7 +54,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		<!--  AUTOR -->
 	
 		<xsl:for-each select="$var1_mtdbr/ns0:Autor/ns0:Nome"> 
-			<dim:field element="contributor" mdschema="dc" qualifier="author">
+			<dim:field element="creator" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -75,7 +69,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- INSTITUIÇÃO -->
 		
-		<xsl:for-each select="$var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome">
+		<xsl:for-each select="$var1_mtdbr/ns0:Programa/ns0:Instituicao/ns0:Nome">
 			<dim:field element="publisher" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/>
 			</dim:field>
@@ -146,7 +140,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- Instituição de Defesa -->
 		
-		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Programa/ns0:Instituicao/ns0:Nome))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem nome da instituição</xsl:text>
 			</dim:field>
@@ -172,7 +166,7 @@ exclude-result-prefixes="ns0 vmf xs dim fn">
 		
 		<!-- Texto completo -->
 		
-		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:Arquivo))">
+		<xsl:if test="not(fn:exists($var1_mtdbr/ns0:BibliotecaDigital/ns0:URLDocumento))">
 			<dim:field element="description" mdschema="dc">
 				<xsl:text>Sem texto completo</xsl:text>
 			</dim:field>

@@ -34,62 +34,55 @@ exclude-result-prefixes="vmf xs dim fn METS MODS">
 		
 	<dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dspace.org/xmlns/dspace/dim http://www.dspace.org/schema/dim.xsd">
 		
-		<!-- TIPO DE DOCUMENTO 
+        <!-- TIPO DE DOCUMENTO -->
 	
-		<xsl:for-each select="$var1_mtdbr/ns0:Grau"> 
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:genre">
 			<dim:field element="type" mdschema="dc">
-				<xsl:choose>
-					<xsl:when test="$var1_mtdbr/ns0:Grau='Doutor'">
-						<xsl:value-of select="'Tese'"/>
-					</xsl:when>
-					<xsl:when test="$var1_mtdbr/ns0:Grau='Mestre'">
-						<xsl:value-of select="'Dissertação'"/>
-					</xsl:when>
-				</xsl:choose>
-			</dim:field>	
-		</xsl:for-each> -->
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each>
 	
         <!-- TÍTULO -->
 
 	
-		<xsl:for-each select="*[local-name()='titleInfo']">
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:titleInfo">
 			<dim:field element="title" mdschema="dc">
-				<xsl:sequence select="fn:string(.)"/>  
+				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each>
 
 		
-		<!--  AUTOR 
+		<!--  AUTOR -->
 	
-		<xsl:for-each select="$var1_mtdbr/ns0:Autor/ns0:Nome"> 
-			<dim:field element="contributor" mdschema="dc" qualifier="author">
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:name/*:namePart">
+			<dim:field element="creator" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each> -->
+		</xsl:for-each>
 		
-		<!--  DATA DE DEFESA
+		<!--  DATA DE DEFESA -->
 
-		<xsl:for-each select="$var1_mtdbr/ns0:DataDefesa">
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:originInfo/*:dateIssued">
 			<dim:field element="date" mdschema="dc" qualifier="issued">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each>   -->
+		</xsl:for-each>
 		
-		<!-- INSTITUIÇÃO 
+		<!-- INSTITUIÇÃO -->
 		
-		<xsl:for-each select="$var1_mtdbr/ns0:InstituicaoDefesa/ns0:Nome">
-			<dim:field element="publisher" mdschema="dc">
-				<xsl:sequence select="fn:string(.)"/>
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:originInfo/*:publisher">
+			<dim:field element="dc" mdschema="publisher">
+				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each> -->
+		</xsl:for-each>
 		
-		<!-- TIPO DE ACESSO
+		<!-- TIPO DE ACESSO -->
 
-		<xsl:for-each select="$var1_mtdbr/ns0:Direitos"> 
-			<dim:field element="rights" mdschema="dc">
-			<xsl:sequence select="fn:string(.)"/> 
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:accessCondition">
+			<dim:field element="dc" mdschema="rights">
+				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each>  -->
+		</xsl:for-each>
 		
 		
 	<!-- VALIDAÇÃO -->
