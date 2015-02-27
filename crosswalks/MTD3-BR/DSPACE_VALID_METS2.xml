@@ -36,13 +36,19 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 	
         <!-- TÍTULO -->
 	
-		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:titleInfo">
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:titleInfo[not(@*)]">
 			<dim:field element="title" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
 		
 		<!-- TÍTULO ALTERNATIVO -->
+		
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:titleInfo[@type='alternative']">
+			<dim:field element="title" mdschema="dc">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
 		
 		<!--  AUTOR -->
 	
@@ -71,7 +77,7 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- INSTITUIÇÃO -->
 		
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:originInfo/*:publisher">
-			<dim:field element="dc" mdschema="publisher">
+			<dim:field element="publisher" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -79,7 +85,7 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- TIPO DE ACESSO -->
 
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:accessCondition">
-			<dim:field element="dc" mdschema="rights">
+			<dim:field element="rights" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -87,7 +93,7 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- RESUMO -->
 		
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:abstract">
-			<dim:field element="dc" mdschema="description" qualifier="abstract">
+			<dim:field element="description" mdschema="dc" qualifier="abstract">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -95,7 +101,7 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- PALAVRAS-CHAVE -->
 		
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:subject/*:topic">
-			<dim:field element="dc" mdschema="subject">
+			<dim:field element="subject" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -103,21 +109,39 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- IDIOMA -->
 		
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:language/*:languageTerm">
-			<dim:field element="dc" mdschema="language">
+			<dim:field element="language" mdschema="dc">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
 		
 		<!-- CITAÇÃO -->
 		
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:identifier[@type='citation']">
+			<dim:field element="description" mdschema="dc" qualifier="citation">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
 		<!-- ISSN -->
 		
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:identifier[@type='issn']">
+			<dim:field element="identifier" mdschema="dc" qualifier="issn">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
 		<!-- ISBN -->
+		
+		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:identifier[@type='isbn']">
+			<dim:field element="identifier" mdschema="dc" qualifier="isbn">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
 		
 		<!-- URI -->
 		
 		<xsl:for-each select="METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:identifier[@type='uri']">
-			<dim:field element="dc" mdschema="identifier" qualifier="uri">
+			<dim:field element="identifier" mdschema="dc" qualifier="uri">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -125,7 +149,31 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 		<!-- BITSTREAM -->
 		
 		<xsl:for-each select="METS:amdSec/METS:techMD/METS:mdWrap/METS:xmlData/*:premis/*:object/*:objectIdentifier/*:objectIdentifierValue">
-			<dim:field element="dc" mdschema="identifier" qualifier="bitstream">
+			<dim:field element="identifier" mdschema="dc" qualifier="bitstream">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
+		<!-- TIPO DE ARQUIVO -->
+		
+		<xsl:for-each select="METS:amdSec/METS:techMD/METS:mdWrap/METS:xmlData/*:premis/*:object/*:objectCharacteristics/*:format/*:formatDesignation/*:formatName">
+			<dim:field element="format" mdschema="dc">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
+		<!-- PROVENIÊNCIA -->
+		
+		<xsl:for-each select="METS:amdSec/METS:techMD/METS:mdWrap/METS:xmlData/*:note[@type='provenance']">
+			<dim:field element="description" mdschema="dc" qualifier="provenance">
+				<xsl:sequence select="fn:string(.)"/> 
+			</dim:field>
+		</xsl:for-each> 
+		
+		<!-- FONTE -->
+		
+		<xsl:for-each select="METS:metsHdr/METS:agent/METS:name">
+			<dim:field element="source" mdschema="dc" qualifier="localbase">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
 		</xsl:for-each> 
@@ -143,7 +191,7 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 	
 		<!-- Título -->
 		
-		<xsl:if test="not(fn:exists(METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:titleInfo))">
+		<xsl:if test="not(fn:exists(METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:titleInfo[not(@*)]))">
 			<dim:field element="description" mdschema="dc" qualifier="report">
 				<xsl:text>Sem título</xsl:text>
 			</dim:field>
