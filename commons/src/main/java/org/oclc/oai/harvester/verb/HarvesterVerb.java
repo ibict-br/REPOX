@@ -21,6 +21,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.ByteBuffer;
+import java.nio.charset.CharacterCodingException;
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetDecoder;
+import java.nio.charset.CodingErrorAction;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.StringTokenizer;
@@ -49,6 +54,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import pt.utl.ist.util.XmlUtil;
+import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
 
 /**
  * HarvesterVerb is the parent class for each of the OAI verbs.
@@ -336,6 +342,7 @@ public abstract class HarvesterVerb {
         } while (responseCode == HttpURLConnection.HTTP_UNAVAILABLE);
         String contentEncoding = con.getHeaderField("Content-Encoding");
         logger.debug("contentEncoding=" + contentEncoding);
+
         if ("compress".equals(contentEncoding)) {
             ZipInputStream zis = new ZipInputStream(con.getInputStream());
             zis.getNextEntry();
@@ -348,36 +355,37 @@ public abstract class HarvesterVerb {
             in = con.getInputStream();
         }
 
-        byte[] inputBytes = IOUtils.toByteArray(in);
-        InputSource data = new InputSource(new ByteArrayInputStream(inputBytes));
-
         Thread t = Thread.currentThread();
         DocumentBuilder builder = builderMap.get(t);
         if (builder == null) {
             builder = factory.newDocumentBuilder();
             builderMap.put(t, builder);
         }
+
         try {
-            doc = builder.parse(data);
+            CharsetDecoder decoder = Charset.forName("UTF-8").newDecoder();
+            decoder.onMalformedInput(CodingErrorAction.REPLACE);
+            decoder.onUnmappableCharacter(CodingErrorAction.REPLACE);
+            decoder.replaceWith(Character.toString((char) 0xFFFE)); // Unicode for noncharacter-FFFE
+
+            String xmlString = XmlUtil.removeInvalidXMLCharacters(
+               decoder.decode( ByteBuffer.wrap( IOUtils.toByteArray(in) ) ).toString(),
+               Character.toString((char) 0xFFFD) ); // Unicode for '�'
+
+            InputSource data = new InputSource(new ByteArrayInputStream(xmlString.getBytes("UTF-8")));
+            doc = builder.parse( data );
         } catch (SAXException e) {
-            try {
-                //Here we can try to recover the xml from known typical problems
-
-                //Recover from invalid characters
-                //we assume this is UTF-8...
-                String xmlString = new String(inputBytes, "UTF-8");
-                xmlString = XmlUtil.removeInvalidXMLCharacters(xmlString);
-
-                data = new InputSource(new ByteArrayInputStream(xmlString.getBytes("UTF-8")));
-                doc = builder.parse(data);
-            } catch (Exception e2) {
-                //the recovered version did not work either. Throw the original exception
-                throw e;
-            }
-        } catch (IOException e3) {
-            System.out.println("e = " + e3.getMessage());
-        } catch (Exception e4) {
-            System.out.println("e = " + e4.getMessage());
+        	//TODO: Handle this exception.
+            throw e;
+        } catch (UnrecognizedCharsException e){
+            InputSource data = new InputSource(new ByteArrayInputStream(e.GetFixedString().getBytes("UTF-8")));
+            doc = builder.parse( data );
+        } catch (CharacterCodingException e){
+            System.out.println("e = " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("e = " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("e = " + e.getMessage());
         }
 
         StringTokenizer tokenizer = new StringTokenizer(getSingleString("/*/@xsi:schemaLocation"), " ");
@@ -548,13 +556,18 @@ public abstract class HarvesterVerb {
             in = con.getInputStream();
         }
 
-        byte[] inputBytes = IOUtils.toByteArray(in);
-        InputSource data = new InputSource(new ByteArrayInputStream(inputBytes));
+        CharsetDecoder decoder = Charset.forName("UTF-8").newDecoder();
+        decoder.onMalformedInput(CodingErrorAction.REPLACE);
+        decoder.onUnmappableCharacter(CodingErrorAction.REPLACE);
 
-        String xmlString = new String(inputBytes, "UTF-8");
-        xmlString = XmlUtil.removeInvalidXMLCharacters(xmlString);
+        ByteBuffer utfSafeBytes = 
+           Charset.forName("UTF-8").newEncoder().encode( decoder.decode( ByteBuffer.wrap( IOUtils.toByteArray(in) )) );
+        
+        byte[] inputBytes = new byte[ utfSafeBytes.remaining() ];
+        utfSafeBytes.get(inputBytes, 0, inputBytes.length);
 
-        builder.parse(data);
+        InputSource data = new InputSource(new ByteArrayInputStream( inputBytes ) );
+        builder.parse( data );
 
         System.out.println("data = " + data);
     }

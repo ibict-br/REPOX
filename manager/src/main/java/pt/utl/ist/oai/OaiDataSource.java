@@ -182,8 +182,7 @@ public class OaiDataSource extends DataSource{
         LogUtil.startLogInfo(logFile, startIngestTime, ingestStatus.name(), id);
 
         if (fullIngest) {
-            boolean successfulDeletion = emptyRecords();
-            if (!successfulDeletion) {
+            if (!emptyRecords()) {
                 StringUtil.simpleLog("Importing aborted - unable to delete the current Records", this.getClass(), logFile);
                 LogUtil.endLogInfo(logFile, startIngestTime, new Date(), StatusDS.ERROR.name(), id, lastIngestCount, lastIngestDeletedCount);
                 return Task.Status.FAILED;

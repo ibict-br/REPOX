@@ -214,7 +214,7 @@ public class MetadataTransformationManager {
                     if (bIdAlreadyExists && !bNewIdEqualsOld) throw new AlreadyExistsException(transformId);
 
                     //Second check the filename
-                    //reject if we find the same filena and the new is different form the old one.
+                    //reject if we find the same filename and the new is different form the old one.
                     Boolean bFilenameAlreadyExists = metadataTransformation.getStylesheet().toLowerCase().equals(xslFileName.toLowerCase());
                     Boolean bNewFilenameEqualsOld = xslFileName.toLowerCase().equals(savedMtdTrans.getStylesheet().toLowerCase());
                     if (bFilenameAlreadyExists && !bNewFilenameEqualsOld) throw new SameStylesheetTransformationException(xslFileName);

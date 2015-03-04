@@ -14,12 +14,17 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
+
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
+
 import java.io.*;
 import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  */
@@ -184,22 +189,36 @@ public class XmlUtil {
      * @author Nuno Freire
      * @param  s - The String whose non-valid characters we want to replace.
      * @return The in String, where non-valid characters are replace by spaces.
+     * @throws UnrecognizedCharsException 
      */
-    public static String removeInvalidXMLCharacters(String s) {
-
+    public static String removeInvalidXMLCharacters( String s, String replacement ) throws UnrecognizedCharsException {
         StringBuilder out = new StringBuilder(); // Used to hold the output.
-        int codePoint; // Used to reference the current character.
-        int i = 0;
-        while (i < s.length()) {
-            codePoint = s.codePointAt(i); // This is the unicode code of the character.
-            if ((codePoint == 0x9) || // Consider testing larger ranges first to improve speed.
-            (codePoint == 0xA) || (codePoint == 0xD) || ((codePoint >= 0x20) && (codePoint <= 0xD7FF)) || ((codePoint >= 0xE000) && (codePoint <= 0xFFFD)) || ((codePoint >= 0x10000) && (codePoint <= 0x10FFFF))) {
-                out.append(Character.toChars(codePoint));
-            } else {
-                out.append(' ');
-            }
-            i += Character.charCount(codePoint); // Increment with the number of code units(java chars) needed to represent a Unicode char.
-        }
+        Map< Integer, Integer > waywardCodes = new HashMap< Integer, Integer >();
+        try {
+	        int codePoint; // Used to reference the current character.
+	        int i = 0;
+	        while (i < s.length()) {
+	            codePoint = s.codePointAt(i); // This is the unicode code of the character.
+	            if ( ((codePoint >= 0x20)   && (codePoint <= 0xD7FF))  ||
+	                 ((codePoint >= 0xE000) && (codePoint <= 0xFFFD))  ||
+	                 ( codePoint <= 0x20    &&
+	                    ( codePoint == 0x9 || codePoint == 0xA || codePoint == 0xD ) ) //HT, LF, CR
+	                )
+	            {
+	               out.append(Character.toChars(codePoint));
+	            }
+	            else {
+	               out.append(replacement);
+	               waywardCodes.put( i, codePoint );
+	            }
+	            i += Character.charCount(codePoint); // Increment with the number of code units(java chars) needed to represent a Unicode char.
+	        }
+		} catch( Exception e ){
+			e.printStackTrace();
+		}
+        if( !waywardCodes.isEmpty()) {
+			throw new UnrecognizedCharsException("Unrecognized Char Coding", out.toString(), waywardCodes );
+		}
         return out.toString();
     }
 

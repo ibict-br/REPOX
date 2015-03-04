@@ -28,7 +28,7 @@ BO 	Bolivia, Plurinational State of
 BA 	BOSNIA_AND_HERZEGOVINA
 BW 	Botswana
 BV 	Bouvet Island
-BR 	Brazil
+BR 	Brasil
 IO 	British Indian Ocean Territory
 BN 	Brunei Darussalam
 BG 	BULGARIA
