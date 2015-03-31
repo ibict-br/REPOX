@@ -10,7 +10,7 @@ http://www.altova.com/mapforce
 -->
 <xsl:stylesheet version="2.0" 
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-xmlns:ns0="http://oai.ibict.br/mtd2-br/" 
+xmlns:ns0="http://www.ibict.br/schema/"
 xmlns:vmf="http://www.altova.com/MapForce/UDF/vmf" 
 xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 xmlns:fn="http://www.w3.org/2005/xpath-functions" 
@@ -131,7 +131,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				
 	<xsl:template match="/">
 
-		<xsl:variable name="var1_mtdbr" as="node()?" select="ns0:mtd2br"/>
+		<xsl:variable name="var1_mtdbr" as="node()?" select="ns0:mtdbr"/>
 		
 		
 		<oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
@@ -143,7 +143,8 @@ exclude-result-prefixes="ns0 vmf xs fn">
 			<dc:creator>
 				<xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Autor/ns0:Nome)"/>
 			</dc:creator>
-			<!-- <xsl:if test="$var1_mtdbr/ns0:Autor/ns0:Lattes">
+			<!--
+			<xsl:if test="$var1_mtdbr/ns0:Autor/ns0:Lattes">
 				<dc:creator>
 					<xsl:value-of select="fn:normalize-space(fn:replace($var1_mtdbr/ns0:Autor/ns0:Lattes,'visualizacv.jsp','visualizacv.do'))"/>
 				</dc:creator>
@@ -159,7 +160,7 @@ exclude-result-prefixes="ns0 vmf xs fn">
 			<!-- <xsl:if test="$var1_mtdbr/ns0:Contribuidor[@Papel='Orientador'][position()=1]/ns0:Lattes">
 				<dc:contributor>
 					<xsl:value-of select="fn:normalize-space($var1_mtdbr/ns0:Contribuidor[@Papel='Orientador'][position()=1]/ns0:Lattes)"/>
-				</dc:contributor>
+				</dc:contributor> 
 			</xsl:if> -->
 		</xsl:if>
 		
@@ -260,7 +261,6 @@ exclude-result-prefixes="ns0 vmf xs fn">
 				<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:URL)))"/>
 			</dc:identifier>
 		</xsl:for-each>
-		
 		
 		<xsl:for-each select="$var1_mtdbr/ns0:Resumo">
 			<!-- <xsl:variable name="var3_Idioma" as="node()?" select="@Idioma"/> -->
