@@ -188,6 +188,13 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 				<xsl:text>Sem tipo de documento</xsl:text>
 			</dim:field>
 		</xsl:if> 
+		
+		<xsl:if test="not(fn:exists(METS:dmdSec/METS:mdWrap/METS:xmlData/*:mods/*:genre))">
+			<dim:field element="description" mdschema="dc" qualifier="report">
+				<xsl:text>Tipo de fora do padrão</xsl:text>
+			</dim:field>
+		</xsl:if> 
+		
 	
 		<!-- Título -->
 		
