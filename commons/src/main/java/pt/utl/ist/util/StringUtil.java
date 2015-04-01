@@ -2,6 +2,7 @@ package pt.utl.ist.util;
 
 import org.apache.log4j.Logger;
 
+import pt.utl.ist.reports.IBICTIntegrationReport;
 import pt.utl.ist.reports.LogUtil;
 import pt.utl.ist.util.date.DateUtil;
 
@@ -184,6 +185,10 @@ public class StringUtil {
         //                }
         //            }
         //        }
+    }
+    
+    public static void SimpleIntegrationReport( String text, Class object, File file ){
+    	IBICTIntegrationReport.addSimpleIntegrationReport( text, object, file );
     }
 
     /**

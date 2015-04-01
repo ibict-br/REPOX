@@ -53,6 +53,7 @@ import org.w3c.dom.ls.LSSerializer;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import pt.utl.ist.reports.IntegrationReport;
 import pt.utl.ist.util.XmlUtil;
 import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
 
@@ -64,6 +65,7 @@ import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
  */
 public abstract class HarvesterVerb {
     private static Logger                    logger                                     = Logger.getLogger(HarvesterVerb.class);
+    private static Logger                    integrationReport                          = Logger.getLogger(IntegrationReport.class);
 
     /* Gilberto */
     /** HarvesterVerb NAMESPACE_V2_0 */

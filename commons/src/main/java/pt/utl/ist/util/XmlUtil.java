@@ -30,6 +30,7 @@ import java.util.Map;
  */
 public class XmlUtil {
     private static final Logger log               = Logger.getLogger(XmlUtil.class);
+    private static final Logger ibictIntReporter  = Logger.getLogger("ibicReporter");
     private static final String XML_FILE_ENCODING = "UTF-8";
 
     /**
@@ -210,12 +211,26 @@ public class XmlUtil {
 	            else {
 	               out.append(replacement);
 	               waywardCodes.put( i, codePoint );
+	               String logString = "";
+	               try{
+		               logString = out.substring(
+		            		   out.lastIndexOf("<identifier>") +12,
+		            		   out.lastIndexOf("</identifier>"));
+		               ibictIntReporter.info(logString +
+		            		   "\t" + "non UTF-8 character replaced" +
+		            		   "\t" + "String codePoint(" + codePoint + ") at(" + i + "), replaced by :(" + replacement + ")" );
+	               }
+	               catch( StringIndexOutOfBoundsException e ){
+	            	   ibictIntReporter.info("\t" + "non UTF-8 character replaced" +
+		            		    "\t" + "String codePoint(" + codePoint + ") at(" + i + "), replaced by :(" + replacement + ")" );
+	               }
 	            }
 	            i += Character.charCount(codePoint); // Increment with the number of code units(java chars) needed to represent a Unicode char.
 	        }
 		} catch( Exception e ){
-			e.printStackTrace();
+			log.error( e.getLocalizedMessage() );
 		}
+
         if( !waywardCodes.isEmpty()) {
 			throw new UnrecognizedCharsException("Unrecognized Char Coding", out.toString(), waywardCodes );
 		}
