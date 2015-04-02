@@ -1,0 +1,641 @@
+
+<data-providers> 
+  <provider id="CTIr0"> 
+    <name>CTI</name>  
+    <country>br</country>  
+    <description>CTI</description>  
+    <source id="CTI" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:02:18" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>CTI</description>  
+      <exportDirPath>/opt/repoxdata/CTI/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.cti.gov.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="Embrapar0"> 
+    <name>Embrapa</name>  
+    <country>br</country>  
+    <description>Alice</description>  
+    <source id="Alice" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-10-26 00:22:46" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>Alice</description>  
+      <exportDirPath>/opt/repoxdata/Alice/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.alice.cnptia.embrapa.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="Fiocruzr0"> 
+    <name>Fiocruz</name>  
+    <country>br</country>  
+    <description>Fiocruz</description>  
+    <source id="Fiocruz_arca" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:10:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fiocruz_arca</description>  
+      <exportDirPath>/opt/repoxdata/Fiocruz_arca/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.arca.fiocruz.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="Fiocruzarcar0"> 
+    <name>Fiocruz_arca</name>  
+    <country>br</country>  
+    <description>Fiocruz_arca</description>  
+    <source id="Fiocruz_ensp" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:15:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fiocruz_ensp</description>  
+      <exportDirPath>/opt/repoxdata/Fiocruz_ensp/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www6.ensp.fiocruz.br/repositorio/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="FundaoGetlioVargasr0"> 
+    <name>Funda����o Get��lio Vargas</name>  
+    <country>br</country>  
+    <description>Funda����o Get��lio Vargas</description>  
+    <source id="FGV" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-09-03 20:00:14" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>FGV</description>  
+      <exportDirPath>/opt/repoxdata/FGV/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://bibliotecadigital.fgv.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="FundaoJooPinheiror0"> 
+    <name>Funda����o Jo��o Pinheiro</name>  
+    <country>br</country>  
+    <description>Funda����o Jo��o Pinheiro</description>  
+    <source id="FJP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:20:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>FJP</description>  
+      <exportDirPath>/opt/repoxdata/FJP/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.fjp.mg.gov.br/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="FURGr0"> 
+    <name>FURG</name>  
+    <country>br</country>  
+    <description>FURG</description>  
+    <source id="FURG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:10:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>FURG</description>  
+      <exportDirPath>/opt/repoxdata/FURG/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.furg.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="IBICTr0"> 
+    <name>IBICT</name>  
+    <country>br</country>  
+    <description>IBICT</description>  
+    <source id="IBICT" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:20:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>IBICT</description>  
+      <exportDirPath>/opt/repoxdata/IBICT/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ibict.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="Inmetror0"> 
+    <name>Inmetro</name>  
+    <country>br</country>  
+    <description>Inmetro</description>  
+    <source id="Inmetro" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:15:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Inmetro</description>  
+      <exportDirPath>/opt/repoxdata/Inmetro/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorios.inmetro.gov.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="INTr0"> 
+    <name>INT</name>  
+    <country>br</country>  
+    <description>INT</description>  
+    <source id="INT" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:15:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>INT</description>  
+      <exportDirPath>/opt/repoxdata/INT/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.int.gov.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="MuseuGoeldir0"> 
+    <name>Museu Goeldi</name>  
+    <country>br</country>  
+    <description>Museu Goeldi</description>  
+    <source id="MPEG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:20:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>MPEG</description>  
+      <exportDirPath>/opt/repoxdata/MPEG/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.museu-goeldi.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="PUCRSr0"> 
+    <name>PUC_RS</name>  
+    <country>br</country>  
+    <description>PUC_RS</description>  
+    <source id="PUC_RS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-10 00:20:04" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>PUC_RS</description>  
+      <exportDirPath>/opt/repoxdata/PUC_RS/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.pucrs.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="RABCIr0"> 
+    <name>RABCI</name>  
+    <country>br</country>  
+    <description>RABCI</description>  
+    <source id="RABCI" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-05 11:17:32" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>RABCI</description>  
+      <exportDirPath>/opt/repoxdata/RABCI/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://rabci.org/rabci/oai/request/</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UCBr0"> 
+    <name>UCB</name>  
+    <country>br</country>  
+    <description>UCB</description>  
+    <source id="UCB" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:20:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UCB</description>  
+      <exportDirPath>/opt/repoxdata/UCB/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ucb.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UEPGr0"> 
+    <name>UEPG</name>  
+    <country>br</country>  
+    <description>UEPG</description>  
+    <source id="UEPG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:25:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UEPG</description>  
+      <exportDirPath>/opt/repoxdata/UEPG/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://ri.uepg.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFALr0"> 
+    <name>UFAL</name>  
+    <country>br</country>  
+    <description>UFAL</description>  
+    <source id="UFAL" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:15:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFAL</description>  
+      <exportDirPath>/opt/repoxdata/UFAL/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufal.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="UFAL2" metadataFormat="rdf" schema="http://www.openarchives.org/OAI/2.0/rdf.xsd" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" lastIngest="2014-09-04 12:16:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFAL2</description>  
+      <exportDirPath>/opt/repoxdata/UFAL2/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufal.br/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="UFAL1" metadataFormat="dim" schema="http://www.dspace.org/schema/dim.xsd" namespace="http://www.dspace.org/xmlns/dspace/dim" lastIngest="2014-09-04 12:12:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFAL1</description>  
+      <exportDirPath>/opt/repoxdata/UFAL1/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufal.br/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFBAr0"> 
+    <name>UFBA</name>  
+    <country>br</country>  
+    <description>UFBA</description>  
+    <source id="ufba" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-04-10 00:32:31" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>ufba</description>  
+      <exportDirPath>/opt/repoxdata/ufba/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://192.188.11.47:8080/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFGr0"> 
+    <name>UFG</name>  
+    <country>br</country>  
+    <description>UFG</description>  
+    <source id="UFG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-05-24 00:15:12" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>UFG</description>  
+      <exportDirPath>/opt/repoxdata/UFG/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.bc.ufg.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFGDr0"> 
+    <name>UFGD</name>  
+    <country>br</country>  
+    <description>UFGD</description>  
+    <source id="UFGD" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:25:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFGD</description>  
+      <exportDirPath>/opt/repoxdata/UFGD/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.ufgd.edu.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFLAr0"> 
+    <name>UFLA</name>  
+    <country>br</country>  
+    <description>UFLA</description>  
+    <source id="UFLA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-07 09:32:52" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFLA</description>  
+      <exportDirPath>/opt/repoxdata/UFLA/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ufla.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFMAr0"> 
+    <name>UFMA</name>  
+    <country>br</country>  
+    <description>Universidade Federal do Maranh��o</description>  
+    <source id="UFMA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:25:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFMA</description>  
+      <exportDirPath>/opt/repoxdata/UFMA/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufma.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFMSr0"> 
+    <name>UFMS</name>  
+    <country>br</country>  
+    <description>UFMS</description>  
+    <source id="UFMS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:25:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFMS</description>  
+      <exportDirPath>/opt/repoxdata/UFMS/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.cbc.ufms.br:8080/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFOPr0"> 
+    <name>UFOP</name>  
+    <country>br</country>  
+    <description>Universidade Federal de Ouro Preto</description>  
+    <source id="UFOP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:25:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFOP</description>  
+      <exportDirPath>/opt/repoxdata/UFOP/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufop.br/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFPAr0"> 
+    <name>UFPA</name>  
+    <country>br</country>  
+    <description>UFPA</description>  
+    <source id="UFPA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-10-10 00:30:02" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>UFPA</description>  
+      <exportDirPath>/opt/repoxdata/UFPA/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ufpa.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFPELr0"> 
+    <name>UFPEL</name>  
+    <country>br</country>  
+    <description>UFPEL</description>  
+    <source id="Guaiaca" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-05 11:27:17" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>Guaiaca</description>  
+      <exportDirPath>/opt/repoxdata/Guaiaca/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ufpel.edu.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFRBr0"> 
+    <name>UFRB</name>  
+    <country>br</country>  
+    <description>UFRB</description>  
+    <source id="UFRB" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:30:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFRB</description>  
+      <exportDirPath>/opt/repoxdata/UFRB/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.repositorio.ufrb.edu.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFRGSr0"> 
+    <name>UFRGS</name>  
+    <country>br</country>  
+    <description>UFRGS</description>  
+    <source id="artigos_periodicos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-07 09:32:52" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>artigos_periodicos</description>  
+      <exportDirPath>/opt/repoxdata/artigos_periodicos/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.lume.ufrgs.br/oai/request</oai-source>  
+      <oai-set>hdl_10183_40513</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFRNr0"> 
+    <name>UFRN</name>  
+    <country>br</country>  
+    <description>UFRN</description>  
+    <source id="UFRN" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-09-18 00:35:08" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>UFRN</description>  
+      <exportDirPath>/opt/repoxdata/UFRN/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ufrn.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFSr0"> 
+    <name>UFS</name>  
+    <country>br</country>  
+    <description>UFS</description>  
+    <source id="UFS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-09-04 11:21:54" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>UFS</description>  
+      <exportDirPath>/opt/repoxdata/UFS/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://ri.ufs.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFSCr0"> 
+    <name>UFSC</name>  
+    <country>br</country>  
+    <description>UFSC</description>  
+    <source id="UFSC" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-07 09:33:07" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFSC</description>  
+      <exportDirPath>/opt/repoxdata/UFSC/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>https://repositorio.ufsc.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFSCARr0"> 
+    <name>UFSCAR</name>  
+    <country>br</country>  
+    <description>UFSCAR</description>  
+    <source id="UFSCAR" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:35:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFSCAR</description>  
+      <exportDirPath>/opt/repoxdata/UFSCAR/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://livresaber.sead.ufscar.br:8080/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFUr0"> 
+    <name>UFU</name>  
+    <country>br</country>  
+    <description>UFU</description>  
+    <source id="UFU" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-25 01:00:45" isSample="false" sample="-1" status="ERROR" type="DataSourceOai"> 
+      <description>UFU</description>  
+      <exportDirPath>/opt/repoxdata/UFU/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.ufu.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFVr0"> 
+    <name>UFV</name>  
+    <country>br</country>  
+    <description>UFV</description>  
+    <source id="UFV" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:35:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFV</description>  
+      <exportDirPath>/opt/repoxdata/UFV/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.sbicafe.ufv.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UFVJMr0"> 
+    <name>UFVJM</name>  
+    <country>br</country>  
+    <description>UFVJM</description>  
+    <source id="UFVJM" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:40:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UFVJM</description>  
+      <exportDirPath>/opt/repoxdata/UFVJM/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://acervo.ufvjm.edu.br:8080/oai/request</oai-source>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UMSCSr0"> 
+    <name>UMSCS</name>  
+    <country>br</country>  
+    <description>Universidade Municipal de S��o Caetano do Sul</description>  
+    <source id="UMSCS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-07 09:00:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UMSCS</description>  
+      <exportDirPath>/opt/repoxdata/UMSCS/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.uscs.edu.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UNBr0"> 
+    <name>UNB</name>  
+    <country>br</country>  
+    <description>UNB</description>  
+    <source id="UNB" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-08-05 11:16:32" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UNB</description>  
+      <exportDirPath>/opt/repoxdata/UNB/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.unb.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UNESPr0"> 
+    <name>UNESP</name>  
+    <country>br</country>  
+    <description>UNESP</description>  
+    <source id="Unesp" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:45:05" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Unesp</description>  
+      <exportDirPath>/opt/repoxdata/Unesp/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://acervodigital.unesp.br/oai/request</oai-source>  
+      <oai-set>com_unesp_69444</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UNICAMPr0"> 
+    <name>UNICAMP</name>  
+    <country>br</country>  
+    <description>UNICAMP</description>  
+    <source id="UNICAMP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:45:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UNICAMP</description>  
+      <exportDirPath>/opt/repoxdata/UNICAMP/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://unicamp.sibi.usp.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UNICEUBr0"> 
+    <name>UNICEUB</name>  
+    <country>br</country>  
+    <description>UNICEUB</description>  
+    <source id="UNICEUB" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:45:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UNICEUB</description>  
+      <exportDirPath>/opt/repoxdata/UNICEUB/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.uniceub.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UPFr0"> 
+    <name>UPF</name>  
+    <country>br</country>  
+    <description>UPF</description>  
+    <source id="UPF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:45:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>UPF</description>  
+      <exportDirPath>/opt/repoxdata/UPF/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.upf.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="USPr0"> 
+    <name>USP</name>  
+    <country>br</country>  
+    <description>USP</description>  
+    <source id="USP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-11-11 00:10:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>USP</description>  
+      <exportDirPath>/opt/repoxdata/USP/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.producao.usp.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UTFPRr0"> 
+    <name>UTFPR</name>  
+    <country>br</country>  
+    <description>UTFPR</description>  
+    <source id="RIUT" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2014-09-04 11:12:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>RIUT</description>  
+      <exportDirPath>/opt/repoxdata/RIUT/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://repositorio.utfpr.edu.br/oai/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>oai_dc_to_oai-dc_temp</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>
+</data-providers>
