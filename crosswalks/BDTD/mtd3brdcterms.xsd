@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 rel. 2 sp2 (x64) (http://www.altova.com) by Diego Macedo (IBICT) -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/dc/terms/" targetNamespace="http://purl.org/dc/terms/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="file:///C:/Users/diegomacedo/Documents/IBICT/NovoPadraoMetadados/MTD3-BR/mtd3brdc.xsd"/>
+	<annotation>
+		<documentation>
+          XML DC Terms Schema for the Electronic Theses and Dissertations
+            Metadata Set (ETD-MS)
+
+          Standard Version 1.1, 2009-12-04
+            http://www.ndltd.org/standards/metadata/
+          Schema Version 1.1, 2009-12-16
+
+          Hussein Suleman
+          Digital Libraries Laboratory, UCT
+          hussein@cs.uct.ac.za
+          
+          v1.0: Robert France and Hussein Suleman
+          Virginia Tech DLRL
+       </documentation>
+	</annotation>
+	<element name="alternative" type="dc:freeTextType">
+		<annotation>
+			<documentation>
+            A name given to the resource. In the case of theses and
+            dissertations, this is the title of the work as it appears on the
+            title page or equivalent. 
+          </documentation>
+		</annotation>
+	</element>
+	<element name="accessioned" type="dc:dateType">
+       <annotation>
+         <documentation>
+			Obrigatório: Sim
+			Repetitivo: Não
+			dc.date.accessioned
+			O preenchimento desta data é automático pelo sistema.
+         </documentation>
+       </annotation>
+     </element>
+	<element name="available" type="dc:dateType">
+       <annotation>
+         <documentation>
+			Obrigatório: Não
+			Repetitivo: Não
+			dc.date.available
+			Data de disponibilidade do registro. Esta 
+			pode ser diferente da disponibilização do texto completo, 
+			no caso dos embargos ou restrições de acesso ao documento completo.
+         </documentation>
+       </annotation>
+     </element>
+	 <element name="issued" type="dc:dateType">
+       <annotation>
+         <documentation>
+			Obrigatório: Não
+			Repetitivo: Não
+			dc.date.issued
+			Recomenda-se formato ISO
+			Data da publicação do recurso de informação descrito,
+			isto é, data da defesa. Deve ser a única data pesquisável
+         </documentation>
+       </annotation>
+     </element>
+</schema>

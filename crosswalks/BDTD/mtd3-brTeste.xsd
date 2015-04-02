@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 rel. 2 sp2 (x64) (http://www.altova.com) by Diego Macedo (IBICT) -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:mtd3-br="http://www.ndltd.org/standards/metadata/etdms/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" targetNamespace="http://www.ndltd.org/standards/metadata/etdms/1.1/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="file:///C:/Users/diegomacedo/Documents/IBICT/NovoPadraoMetadados/MTD3-BR/mtd3brdc.xsd"/>
+	<import namespace="http://purl.org/dc/terms/" schemaLocation="file:///C:/Users/diegomacedo/Documents/IBICT/NovoPadraoMetadados/MTD3-BR/mtd3brdcterms.xsd"/>
+	<annotation>
+		<documentation>
+          XML Schema for the Electronic Theses and Dissertations
+            Metadata Set (ETD-MS)
+
+          Standard Version 1.1, 2009-12-04
+            http://www.ndltd.org/standards/metadata/
+          Schema Version 1.1, 2009-12-04
+
+          Hussein Suleman
+          Digital Libraries Laboratory, UCT
+          hussein@cs.uct.ac.za
+       </documentation>
+	</annotation>
+	<complexType name="mtd3brType">
+		<sequence>
+			<choice minOccurs="0" maxOccurs="unbounded">
+				<element ref="dc:title"/>
+				<element ref="dcterms:accessioned"/>
+				<element ref="dcterms:available"/>
+				<element ref="dcterms:issued"/>
+				<element ref="dcterms:alternative"/>
+				<element ref="dc:creator"/>
+				<element ref="dc:subject"/>
+				<element ref="dc:description"/>
+				<element ref="dc:publisher"/>
+				<element ref="dc:contributor"/>
+				<element ref="dc:date"/>
+				<element ref="dc:type"/>
+				<element ref="dc:format"/>
+				<element ref="dc:identifier"/>
+				<element ref="dc:source"/>
+				<element ref="dc:language"/>
+				<element ref="dc:relation"/>
+				<element ref="dc:coverage"/>
+				<element ref="dc:rights"/>
+			</choice>
+			<element ref="mtd3-br:degree" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	<element name="mtd3br" type="mtd3-br:mtd3brType"/>
+	<element name="degree">
+		<annotation>
+			<documentation>
+             The degree associated with the work.
+           </documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element name="name" type="dc:freeTextType" minOccurs="0" maxOccurs="unbounded">
+					<annotation>
+						<documentation>
+                      Name of the degree associated with the work as it appears within
+                      the work (example: Masters in Operations Research).
+                    </documentation>
+					</annotation>
+				</element>
+				<element name="level" type="mtd3-br:levelType" minOccurs="0" maxOccurs="unbounded">
+					<annotation>
+						<documentation>
+                      Level of education associated with the document. Example:
+                      bachelors, masters, doctoral, postdoctoral, other.
+                    </documentation>
+					</annotation>
+				</element>
+				<element name="discipline" type="dc:freeTextType" minOccurs="0" maxOccurs="unbounded">
+					<annotation>
+						<documentation>
+                      Area of study of the intellectual content of the document. Usually
+                      this will be a department name. 
+                    </documentation>
+					</annotation>
+				</element>
+				<element name="grantor" type="dc:authorityType" minOccurs="0" maxOccurs="unbounded">
+					<annotation>
+						<documentation>
+                      Institution granting the degree associated with the work. Like other
+                      institution names, this field should be entered in free text form
+                      as it appears on the title page or equivalent, with a link to an
+                      aut hority record where available.  
+                    </documentation>
+					</annotation>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	<simpleType name="levelType">
+		<annotation>
+			<documentation>
+          Level of education associated with the document.
+            0 = pre-Masters
+            1 = pre-Doctorate
+            2 = Doctorate or Post-doctorate
+        </documentation>
+		</annotation>
+		<restriction base="string">
+			<pattern value="[012]"/>
+		</restriction>
+	</simpleType>
+</schema>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="java"/>
+		<structure>
+			<children>
+				<component name="value-map" library="core" uid="5" kind="23">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="202" lty="184" rbx="279" rby="223"/>
+					<data>
+						<wsdl/>
+						<valuemap>
+							<valuemapTable>
+								<entry from="author" to="true"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="boolean"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="8" kind="23">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="13"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="15"/>
+					</targets>
+					<view ltx="229" lty="287" rbx="306" rby="326"/>
+					<data>
+						<wsdl/>
+						<valuemap>
+							<valuemapTable>
+								<entry from="authorID" to="true"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="boolean"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="teste-21" library="xml" uid="12" kind="14">
+					<properties/>
+					<view ltx="-35" rbx="122" rby="358"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.dspace.org/xmlns/dspace/dim"/>
+									<namespace uid="http://repox.ist.utl.pt"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="3" expanded="1">
+								<entry name="document" ns="3" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="exportedRecords" ns="2" expanded="1">
+										<entry name="record" ns="2" expanded="1">
+											<entry name="metadata" ns="2" expanded="1">
+												<entry name="dim" ns="1" expanded="1">
+													<entry name="field" ns="1" outkey="29" expanded="1">
+														<entry name="qualifier" type="attribute" outkey="30"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\exportDIM\teste-21.xsd" inputinstance="..\..\exportDIM\teste-21.xml" outputinstance="..\..\exportDIM\teste-21.xml" instanceroot="{http://repox.ist.utl.pt}exportedRecords"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="NOVO_MTD3-BR" library="xml" uid="13" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="583" lty="22" rbx="883" rby="522"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://10.0.0.173/mtd3br/"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="mtd3-br" expanded="1">
+										<entry name="contributorAuthor" inpkey="35"/>
+										<entry name="contributorAutorID" inpkey="36"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="NOVO_MTD3-BR.xsd" outputinstance="NOVO_MTD3-BR.xml" instanceroot="{http://10.0.0.173/mtd3br/}mtd3-br"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="6" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="1"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="341" lty="147" rbx="438" rby="223"/>
+				</component>
+				<component name="if-else" library="core" uid="7" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="16"/>
+						<datapoint pos="1" key="17"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="14"/>
+					</targets>
+					<view ltx="368" lty="250" rbx="465" rby="326"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="35" edgekey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="5" edgekey="10"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="36" edgekey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="16" edgekey="22"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="1" edgekey="31"/>
+							<edge vertexkey="17" edgekey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="30">
+						<edges>
+							<edge vertexkey="2" edgekey="33"/>
+							<edge vertexkey="13" edgekey="34"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

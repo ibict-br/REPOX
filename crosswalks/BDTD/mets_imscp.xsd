@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:fo="http://www.w3.org/1999/XSL/Format"
+xmlns:imscp="http://www.imsglobal.org/xsd/imscp_v1p1"
+xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xlink="http://www.w3.org/TR/xlink"
+xmlns:METS="http://www.loc.gov/METS/">
+ <!--output-->
+ <xsl:output encoding="UTF-8" method="xml" media-type="text/xml"/>
+<!--attributes for namespaces of various IMS CP and MD and METS-->
+ <xsl:attribute-set name="manifestNS">
+ <xsl:attribute
+name="xsi:schemaLocation">http://www.imsglobal.org/xsd/imscp_v1p1
+http://www.imsglobal.org/xsd/imscp_v1p1p3.xsd
+http://www.imsglobal.org/xsd/imsmd_v1p2
+http://www.imsglobal.org/xsd/imsmd_v1p2p2.xsd http://www.loc.gov/METS/
+http://www.loc.gov/standards/mets/mets.xsd</xsl:attribute>
+ </xsl:attribute-set>
+<!-- match METS:mets and map to imscp:manifest -->
+ <xsl:template match="METS:mets">
+ <xsl:element name="manifest"
+namespace="http://www.imsglobal.org/xsd/imscp_v1p1" use-attributesets="manifestNS">
+
+ <xsl:attribute name="identifier">MANIFEST01</xsl:attribute>
+<!-- placeholder for imscp:metadata (no attempt to map metadata
+in the METS document to the IMS-CP version -->
+ <metadata/>
+ <!-- organizations (IMS-CP can have more than one organization )
+-->
+<!-- organization is a recursive structure and hence can hold the
+recursive structMap -->
+ <organizations>
+ <xsl:attribute name="default">structMap</xsl:attribute>
+<!--set structMap mapping as the default -->
+ <xsl:apply-templates select="METS:structMap"
+mode="MapToOrganization"/>
+ </organizations>
+<!--map METS:fileSec to imscp:resources -->
+ <resources>
+ <xsl:apply-templates select="METS:fileSec"
+mode="MapToResources"/>
+ </resources>
+ </xsl:element>
+ </xsl:template>
+<!--Generate imscp:organization (from METS:structMap) -->
+<xsl:template match="METS:structMap" mode="MapToOrganization">
+ <organization>
+ <xsl:attribute name="identifier">structMap</xsl:attribute>
+<!-- map METS:div to imscp:item -->
+ <xsl:apply-templates select="METS:div" mode="MapToItem"/>
+ </organization>
+ </xsl:template>
+<!-- METS:div to imscp:item -->
+<xsl:template match="METS:div" mode="MapToItem">
+ <item>
+ <xsl:attribute name="identifier"><xsl:value-of select="generateid(.)"/></xsl:attribute>
+
+ <title>
+ <xsl:value-of select="@LABEL"/>
+ </title>
+ <xsl:apply-templates select="METS:fptr" mode="MapToItem"/>
+ <!--recursive application of METS:div to imscp:item mapping -->
+ <xsl:apply-templates select="METS:div" mode="MapToItem"/>
+ </item>
+ </xsl:template>
+<!--METS:fptr to imscp:item -->
+<xsl:template match="METS:fptr" mode="MapToItem">
+ <item>
+ <xsl:attribute name="identifier"><xsl:value-of select="generateid(.)"/></xsl:attribute>
+
+ <xsl:attribute name="identifierref"><xsl:value-of
+select="@FILEID"/></xsl:attribute>
+ <title>
+ <xsl:value-of select="../@LABEL"/> (<xsl:value-of
+select="normalize-space(id(@FILEID)/@MIMETYPE)"/>)</title>
+ <!--subjective mapping of the label attribute to title-->
+ </item>
+ </xsl:template>
+<!-- Generate Resources -->
+<!--METS:fileGrp is a recursive structure whereas imscp:resource cannot contain
+another resource. This XSLT maps out the files -->
+<xsl:template match="METS:fileSec" mode="MapToResources">
+ <xsl:apply-templates select="METS:fileGrp" mode="MapToResource"/>
+ </xsl:template>
+<!-- map all the METS:file underneath the METS:fileGrp to a imscp:resource -->
+<xsl:template match="METS:fileGrp" mode="MapToResource">
+ <xsl:apply-templates select=".//METS:file" mode="MapToResource"/>
+ </xsl:template> 
+<xsl:template match="METS:file" mode="MapToResource">
+ <resource>
+ <xsl:attribute name="identifier"><xsl:value-of
+select="@ID"/></xsl:attribute>
+ <xsl:attribute name="type">webcontent</xsl:attribute>
+ <!--the type 'webcontent' is the only IMS-defined value, but people
+are free to use other types as the deem necessary"
+(http://www.imsglobal.org/faqs/contentnewpage.cfm?number=120) -->
+ <xsl:attribute name="href"><xsl:value-of select="normalizespace(METS:FLocat/@xlink:href)"/></xsl:attribute>
+
+ <!--place holder for metadata -->
+ <metadata/>
+ <!--for resources with only one file, one can put the file ref right
+into the href attrib of resource or create a file child element -->
+ </resource>
+ </xsl:template>
+</xsl:stylesheet>
