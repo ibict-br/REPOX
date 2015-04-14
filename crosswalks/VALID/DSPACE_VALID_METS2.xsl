@@ -138,13 +138,13 @@ exclude-result-prefixes="vmf xs dim fn METS MODS PREMIS">
 			</dim:field>
 		</xsl:for-each> 
 		
-		<!-- BITSTREAM -->
+		<!-- BITSTREAM 
 		
 		<xsl:for-each select="METS:amdSec/METS:techMD/METS:mdWrap/METS:xmlData/*:premis/*:object/*:objectIdentifier/*:objectIdentifierValue">
 			<dim:field element="identifier" mdschema="dc" qualifier="bitstream">
 				<xsl:sequence select="fn:string(.)"/> 
 			</dim:field>
-		</xsl:for-each> 
+		</xsl:for-each> --> 
 		
 		<!-- TIPO DE ARQUIVO -->
 		

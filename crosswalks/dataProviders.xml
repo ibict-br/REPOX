@@ -1,0 +1,2155 @@
+
+<repox-data> 
+  <aggregator id="BDTDSr0"> 
+    <name>BDTDS</name>  
+    <nameCode>BDTDS</nameCode>  
+    <provider id="BDTDANHEMBIr0"> 
+      <name>BDTD_ANHEMBI</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do ANHEMBI</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_ANHEMBI</nameCode>  
+      <url/>  
+      <source id="BDTD_ANHEMBI" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:15:15" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do ANHEMBI" nameCode="BDTD_ANHEMBI"> 
+        <description>Biblioteca de Teses e Dissertações do ANHEMBI</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_ANHEMBI</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.anhembi.br/tedesimplificado/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDCDTNr0"> 
+      <name>BDTD_CDTN</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses de Dissertações do CDTN</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_CDTN</nameCode>  
+      <url/>  
+      <source id="BDTD_CDTN" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:15:15" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do CDTN" nameCode="BDTD_CDTN"> 
+        <description>Biblioteca de Teses e Dissertações do CDTN</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_CDTN</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.cdtn.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDESPMr0"> 
+      <name>BDTD_ESPM</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do ESPM</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_ESPM</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDESTr0"> 
+      <name>BDTD_EST</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do EST</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_EST</nameCode>  
+      <url/>  
+      <source id="BDTD_EST" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:15:15" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do EST" nameCode="BDTD_EST"> 
+        <description>Biblioteca de Teses e Dissertações do EST</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_EST</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.est.edu.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDFAMERPr0"> 
+      <name>BDTD_FAMERP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_FAMERP</nameCode>  
+      <url/>  
+      <source id="BDTD_FAMERP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:20:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da FAMERP" nameCode="BDTD_FAMERP"> 
+        <description>Biblioteca de Teses e Dissertações da FAMERP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_FAMERP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.famerp.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDFECAPr0"> 
+      <name>BDTD_FECAP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da FECAP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_FECAP</nameCode>  
+      <url/>  
+      <source id="BDTD_FECAP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:20:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da FECAP" nameCode="BDTD_FECAP"> 
+        <description>Biblioteca de Teses e Dissertações da FECAP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_FECAP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://200.169.97.106/biblioteca/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDFJPr0"> 
+      <name>BDTD_FJP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações d da FJP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_FJP</nameCode>  
+      <url/>  
+      <source id="BDTD_FJP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-14 12:20:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da FJP" nameCode="BDTD_FJP"> 
+        <description>Biblioteca de Teses e Dissertações da FJP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_FJP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.fjp.mg.gov.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDFURBr0"> 
+      <name>BDTD_FURB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da FURB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_FURB</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDIBMECSPr0"> 
+      <name>BDTD_IBMECSP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do IBMECSP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_IBMECSP</nameCode>  
+      <url/>  
+      <source id="BDTD_IBMECSP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-13 13:36:50" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do IBMECSP" nameCode="BDTD_IBMECSP"> 
+        <description>Biblioteca de Teses e Dissertações do IBMECSP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_IBMECSP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDINATELr0"> 
+      <name>BDTD_INATEL</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da INATEL</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_INATEL</nameCode>  
+      <url/>  
+      <source id="BDTD_INATEL" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-13 13:36:50" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da INATEL" nameCode="BDTD_INATEL"> 
+        <description>Biblioteca de Teses e Dissertações da INATEL</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_INATEL</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDINPAr0"> 
+      <name>BDTD_INPA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da INPA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_INPA</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDINPEr0"> 
+      <name>BDTD_INPE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do INPE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_INPE</nameCode>  
+      <url/>  
+      <source id="BDTD_INPE" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="" isSample="false" sample="-1" status="" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do INPE" nameCode="BDTD_INPE"> 
+        <description>Biblioteca de Teses e Dissertações do INPE</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_INPE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bibdigital.sid.inpe.br/col/iconet.com.br/banon/2003/11.21.21.08/doc/oai.cgi</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDIPMr0"> 
+      <name>BDTD_IPM</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do IPM</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_IPM</nameCode>  
+      <url/>  
+      <source id="BDTD_IPM" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-31 13:58:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da IPM" nameCode="BDTD_IPM"> 
+        <description>Biblioteca de Teses e Dissertações da IPM</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_IPM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.mackenzie.com.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDITAr0"> 
+      <name>BDTD_ITA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do ITA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_ITA</nameCode>  
+      <url/>  
+      <source id="BDTD_ITA" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do ITA" nameCode="BDTD_ITA"> 
+        <description>Biblioteca de Teses e Dissertações do ITA</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_ITA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://161.24.11.240/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDLNCCr0"> 
+      <name>BDTD_LNCC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do LNCC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_LNCC</nameCode>  
+      <url/>  
+      <source id="BDTD_LNCC" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-31 13:56:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do LNCC" nameCode="BDTD_LNCC"> 
+        <description>Biblioteca de Teses e Dissertações do LNCC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_LNCC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.lncc.br/tdmc/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDMETODISTAr0"> 
+      <name>BDTD_METODISTA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da METODISTA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_METODISTA</nameCode>  
+      <url/>  
+      <source id="BDTD_METODISTA" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-31 13:56:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da METODISTA" nameCode="BDTD_METODISTA"> 
+        <description>Biblioteca de Teses e Dissertações da METODISTA</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_METODISTA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ibict.metodista.br/tedeSimplificado/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPUCCAMPINASr0"> 
+      <name>BDTD_PUC_CAMPINAS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_CAMPINAS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_CAMPINAS</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_CAMPINAS" metadataFormat="mtd-br" schema="http://www.ibict.br/schema/mtd-br(v1.0).xsd" namespace="http://www.ibict.br/schema/mtd-br" lastIngest="2015-03-31 13:57:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_CAMPINAS" nameCode="BDTD_PUC_CAMPINAS"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_CAMPINAS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_CAMPINAS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bibliotecadigital.puc-campinas.edu.br/tde_oai/oai2.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPucGoiasr0"> 
+      <name>BDTD_PUC_GOIAS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_GOAIS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_GOIAS</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_GOAIS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-31 13:57:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_GOAIS" nameCode="BDTD_PUC_GOAIS"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_GOAIS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_GOAIS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.biblioteca.pucgoias.edu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPUCPRr0"> 
+      <name>BDTD_PUC_PR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_PR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_PR</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_PR" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-31 13:57:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_PR" nameCode="BDTD_PUC_PR"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_PR</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_PR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.biblioteca.pucpr.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPUCRIOr0"> 
+      <name>BDTD_PUC_RIO</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_RIO</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_RIO</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_RIO" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-06 10:54:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_RIO" nameCode="BDTD_PUC_RIO"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_RIO</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_RIO</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.maxwell.vrac.puc-rio.br/ibict.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>tede_oai_dc_valid</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPUCRSr0"> 
+      <name>BDTD_PUC_RS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_RS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_RS</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_RS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_RS" nameCode="BDTD_PUC_RS"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_RS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_RS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.pucrs.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDPUCSPr0"> 
+      <name>BDTD_PUC_SP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da PUC_SP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_PUC_SP</nameCode>  
+      <url/>  
+      <source id="BDTD_PUC_SP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-02 20:34:05" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da PUC_SP" nameCode="BDTD_PUC_SP"> 
+        <description>Biblioteca de Teses e Dissertações da PUC_SP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_PUC_SP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.sapientia.pucsp.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUBCr0"> 
+      <name>BDTD_UBC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UBC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UBC</nameCode>  
+      <url/>  
+      <source id="BDTD_UBC" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 20:44:51" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UBC" nameCode="BDTD_UBC"> 
+        <description>Biblioteca de Teses e Dissertações da UBC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UBC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUCBr0"> 
+      <name>BDTD_UCB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UCB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UCB</nameCode>  
+      <url/>  
+      <source id="BDTD_UCB" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UCB" nameCode="BDTD_UCB"> 
+        <description>Biblioteca de Teses e Dissertações da UCB</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UCB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.ucb.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUCDBr0"> 
+      <name>BDTD_UCDB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UCDB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UCDB</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUCPelr0"> 
+      <name>BDTD_UCPel</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UCPel</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UCPel</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUCSr0"> 
+      <name>BDTD_UCS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UCS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UCS</nameCode>  
+      <url/>  
+      <source id="BDTD_UCS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UCS" nameCode="BDTD_UCS"> 
+        <description>Biblioteca de Teses e Dissertações da UCS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UCS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.ucs.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUCSalr0"> 
+      <name>BDTD_UCSal</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UCSal</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UCSal</nameCode>  
+      <url/>  
+      <source id="BDTD_UCSal" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UCSal" nameCode="BDTD_UCSal"> 
+        <description>Biblioteca de Teses e Dissertações da UCSal</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UCSal</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.ucsal.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUDESCr0"> 
+      <name>BDTD_UDESC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UDESC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UDESC</nameCode>  
+      <url/>  
+      <source id="BDTD_UDESC" metadataFormat="mtd-br" schema="http://www.ibict.br/schema/mtd-br(v1.0).xsd" namespace="http://www.ibict.br/schema/mtd-br" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UDESC" nameCode="BDTD_UDESC"> 
+        <description>Biblioteca de Teses e Dissertações da UDESC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UDESC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.tede.udesc.br/tde_oai/oai2.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUEAr0"> 
+      <name>BDTD_UEA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UEA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UEA</nameCode>  
+      <url/>  
+      <source id="BDTD_UEA" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UEA" nameCode="BDTD_UEA"> 
+        <description>Biblioteca de Teses e Dissertações da UEA</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UEA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.uea.edu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUECEr0"> 
+      <name>BDTD_UECE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UECE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UECE</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUEFSr0"> 
+      <name>BDTD_UEFS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UEFS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UEFS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUELr0"> 
+      <name>BDTD_UEL</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UEL</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UEL</nameCode>  
+      <url/>  
+      <source id="BDTD_UEL" metadataFormat="mtd-br" schema="http://www.ibict.br/schema/mtd-br(v1.0).xsd" namespace="http://www.ibict.br/schema/mtd-br" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UEL" nameCode="BDTD_UEL"> 
+        <description>Biblioteca de Teses e Dissertações da UEL</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UEL</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bibliotecadigital.uel.br/OAI/oai2.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUENFr0"> 
+      <name>BDTD_UENF</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UENF</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UENF</nameCode>  
+      <url/>  
+      <source id="BDTD_UENF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 20:44:21" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UENF" nameCode="BDTD_UENF"> 
+        <description>Biblioteca de Teses e Dissertações da UENF</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UENF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUEPBr0"> 
+      <name>BDTD_UEPB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UEPB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UEPB</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUEPGr0"> 
+      <name>BDTD_UEPG</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UEPG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UEPG</nameCode>  
+      <url/>  
+      <source id="BDTD_UEPG" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UEPG" nameCode="BDTD_UEPG"> 
+        <description>Biblioteca de Teses e Dissertações da UEPG</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UEPG</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bicen-tede.uepg.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUERJr0"> 
+      <name>BDTD_UERJ</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UERJ</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UERJ</nameCode>  
+      <url/>  
+      <source id="BDTD_UERJ" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UERJ" nameCode="BDTD_UERJ"> 
+        <description>Biblioteca de Teses e Dissertações da UERJ</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UERJ</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.uerj.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFABCr0"> 
+      <name>BDTD_UFABC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFABC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFABC</nameCode>  
+      <url/>  
+      <source id="BDTD_UFABC" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 20:44:36" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFABC" nameCode="BDTD_UFABC"> 
+        <description>Biblioteca de Teses e Dissertações da UFABC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFABC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFALr0"> 
+      <name>BDTD_UFAL</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFAL</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFAL</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFBAr0"> 
+      <name>BDTD_UFBA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFBA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFBA</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFBPr0"> 
+      <name>BDTD_UFBP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFPB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFBP</nameCode>  
+      <url/>  
+      <source id="BDTD_UFPB" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFPB" nameCode="BDTD_UFPB"> 
+        <description>Biblioteca de Teses e Dissertações da UFPB</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFPB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.biblioteca.ufpb.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFCr0"> 
+      <name>BDTD_UFC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFC</nameCode>  
+      <url/>  
+      <source id="BDTD_UFC" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFC" nameCode="BDTD_UFC"> 
+        <description>Biblioteca de Teses e Dissertações da UFC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.teses.ufc.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFERSAr0"> 
+      <name>BDTD_UFERSA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFERSA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFERSA</nameCode>  
+      <url/>  
+      <source id="BDTD_UFERSA" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFERSA" nameCode="BDTD_UFERSA"> 
+        <description>Biblioteca de Teses e Dissertações da UFERSA</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFERSA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.ufersa.edu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFESr0"> 
+      <name>BDTD_UFES</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFES</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFES</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFFr0"> 
+      <name>BDTD_UFF</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFF</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFF</nameCode>  
+      <url/>  
+      <source id="BDTD_UFF" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFF" nameCode="BDTD_UFF"> 
+        <description>Biblioteca de Teses e Dissertações da UFF</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.ndc.uff.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFGr0"> 
+      <name>BDTD_UFG</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFG</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFGDr0"> 
+      <name>BDTD_UFGD</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFGD</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFGD</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFJFr0"> 
+      <name>BDTD_UFJF</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFJF</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFJF</nameCode>  
+      <url/>  
+      <source id="BDTD_UFJF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 20:44:21" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFJF" nameCode="BDTD_UFJF"> 
+        <description>Biblioteca de Teses e Dissertações da UFJF</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFJF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFMAr0"> 
+      <name>BDTD_UFMA</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFMA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFMA</nameCode>  
+      <url/>  
+      <source id="BDTD_UFMA" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFMA" nameCode="BDTD_UFMA"> 
+        <description>Biblioteca de Teses e Dissertações da UFMA</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFMA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.tedebc.ufma.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFMGr0"> 
+      <name>BDTD_UFMG</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFMG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFMG</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFMSr0"> 
+      <name>BDTD_UFMS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFMS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFMS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFOPr0"> 
+      <name>BDTD_UFOP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFOP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFOP</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFPBr0"> 
+      <name>BDTD_UFPB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFPB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFPB</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFPELr0"> 
+      <name>BDTD_UFPEL</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFPEL</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFPEL</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFPRr0"> 
+      <name>BDTD_UFPR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFPR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFPR</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFRGSr0"> 
+      <name>BDTD_UFRGS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRGS</description>  
+      <type>MUSEUM</type>  
+      <nameCode>BDTD_UFRGS</nameCode>  
+      <url/>  
+      <source id="BDTD_UFRGS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:45:52" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFRGS" nameCode="BDTD_UFRGS"> 
+        <description>Biblioteca de Teses e Dissertações da UFRGS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFRGS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.lume.ufrgs.br/oai/request</oai-source>  
+        <oai-set>hdl_10183_1</oai-set>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFRJr0"> 
+      <name>BDTD_UFRJ</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRJ</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFRJ</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFRNr1"> 
+      <name>BDTD_UFRN</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRN</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFRN</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFRPEr0"> 
+      <name>BDTD_UFRPE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRPE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFRPE</nameCode>  
+      <url/>  
+      <source id="BDTD_UFRPE" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFRPE" nameCode="BDTD_UFRPE"> 
+        <description>Biblioteca de Teses e Dissertações da UFRPE</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFRPE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.ufrpe.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFRRr0"> 
+      <name>BDTD_UFRR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFRR</nameCode>  
+      <url/>  
+      <source id="BDTD_UFRR" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFRR" nameCode="BDTD_UFRR"> 
+        <description>Biblioteca de Teses e Dissertações da UFRR</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFRR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.ufrr.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFRRJr0"> 
+      <name>BDTD_UFRRJ</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFRRJ</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFRRJ</nameCode>  
+      <url/>  
+      <source id="BDTD_UFRRJ" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-01 13:55:03" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFRRJ" nameCode="BDTD_UFRRJ"> 
+        <description>Biblioteca de Teses e Dissertações da UFRRJ</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFRRJ</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtdj.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFSr0"> 
+      <name>BDTD_UFS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>BDTD_UFS</nameCode>  
+      <url/>  
+      <source id="BDTD_UFS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFS" nameCode="BDTD_UFS"> 
+        <description>Biblioteca de Teses e Dissertações da UFS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.ufs.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFSCr0"> 
+      <name>BDTD_UFSC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFSC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFSC</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUFSCARr0"> 
+      <name>BDTD_UFSCAR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFSCAR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFSCAR</nameCode>  
+      <url/>  
+      <source id="BDTD_UFSCAR" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFSCAR" nameCode="BDTD_UFSCAR"> 
+        <description>Biblioteca de Teses e Dissertações da UFSCAR</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFSCAR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.ufscar.br/htdocs/tedeSimplificado/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFSMr0"> 
+      <name>BDTD_UFSM</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFSM</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFSM</nameCode>  
+      <url/>  
+      <source id="BDTD_UFSM" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-01 13:55:48" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFSM" nameCode="BDTD_UFSM"> 
+        <description>Biblioteca de Teses e Dissertações da UFSM</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFSM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtdj.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFTMr0"> 
+      <name>BDTD_UFTM</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFTM</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFTM</nameCode>  
+      <url/>  
+      <source id="BDTD_UFTM" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFTM" nameCode="BDTD_UFTM"> 
+        <description>Biblioteca de Teses e Dissertações da UFTM</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFTM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtd.uftm.edu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFUr0"> 
+      <name>BDTD_UFU</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFU</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFU</nameCode>  
+      <url/>  
+      <source id="BDTD_UFU" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UFU" nameCode="BDTD_UFU"> 
+        <description>Biblioteca de Teses e Dissertações da UFU</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UFU</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.ufu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFVr0"> 
+      <name>BDTD_UFV</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UFV</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UFV</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUNAERPr0"> 
+      <name>BDTD_UNAERP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNAERP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNAERP</nameCode>  
+      <url/>  
+      <source id="BDTD_UNAERP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNAERP" nameCode="BDTD_UNAERP"> 
+        <description>Biblioteca de Teses e Dissertações da UNAERP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNAERP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unaerp.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNEBr0"> 
+      <name>BDTD_UNEB</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNEB</description>  
+      <type>MUSEUM</type>  
+      <nameCode>BDTD_UNEB</nameCode>  
+      <url/>  
+      <source id="BDTD_UNEB" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-01 13:56:03" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNEB" nameCode="BDTD_UNEB"> 
+        <description>Biblioteca de Teses e Dissertações da UNEB</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNEB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bdtdj.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNECr0"> 
+      <name>BDTD_UNEC</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNEC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNEC</nameCode>  
+      <url/>  
+      <source id="BDTD_UNEC" metadataFormat="mtd-br" schema="http://www.ibict.br/schema/mtd-br(v1.0).xsd" namespace="http://www.ibict.br/schema/mtd-br" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNEC" nameCode="BDTD_UNEC"> 
+        <description>Biblioteca de Teses e Dissertações da UNEC</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNEC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bibliotecadigital.unec.edu.br/bdtdunec/tde_oai/oai2.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNESPr0"> 
+      <name>BDTD_UNESP</name>  
+      <country>br</country>  
+      <description>Biblioteca Digital de Teses e Dissertações UNESP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNESP</nameCode>  
+      <url>http://www.athena.biblioteca.unesp.br</url>  
+      <source id="BDTD_UNESP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca Digital de Teses e Dissertações da UNESP" nameCode="BDTD_UNESP"> 
+        <description>Biblioteca Digital de Teses e Dissertações da UNESP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNESP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.athena.biblioteca.unesp.br/OAI</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNGr0"> 
+      <name>BDTD_UNG</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNG</nameCode>  
+      <url/>  
+      <source id="BDTD_UNG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-01 13:55:33" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNG" nameCode="BDTD_UNG"> 
+        <description>Biblioteca de Teses e Dissertações da UNG</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNG</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNICAMPr0"> 
+      <name>BDTD_UNICAMP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNICAMP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNICAMP</nameCode>  
+      <url/>  
+      <source id="BDTD_UNICAMP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNICAMP" nameCode="BDTD_UNICAMP"> 
+        <description>Biblioteca de Teses e Dissertações da UNICAMP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNICAMP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cutter.unicamp.br/OAI/I/oai2.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNICAPr0"> 
+      <name>BDTD_UNICAP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNICAP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNICAP</nameCode>  
+      <url/>  
+      <source id="BDTD_UNICAP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNICAP" nameCode="BDTD_UNICAP"> 
+        <description>Biblioteca de Teses e Dissertações da UNICAP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNICAP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.unicap.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNICENTROr0"> 
+      <name>BDTD_UNICENTRO</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do UNICENTRO</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNICENTRO</nameCode>  
+      <url/>  
+      <source id="BDTD_UNICENTRO" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do UNICENTRO" nameCode="BDTD_UNICENTRO"> 
+        <description>Biblioteca de Teses e Dissertações do UNICENTRO</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNICENTRO</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unicentro.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNICIDr0"> 
+      <name>BDTD_UNICID</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNICID</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNICID</nameCode>  
+      <url/>  
+      <source id="BDTD_UNICID" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-01 13:55:33" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNICID" nameCode="BDTD_UNICID"> 
+        <description>Biblioteca de Teses e Dissertações da UNICID</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNICID</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://oai.ibict.br/mypoai/oai2.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIFACSr0"> 
+      <name>BDTD_UNIFACS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIFACS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIFACS</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIFACS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNIFACS" nameCode="BDTD_UNIFACS"> 
+        <description>Biblioteca de Teses e Dissertações da UNIFACS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIFACS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unifacs.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIFENASr0"> 
+      <name>BDTD_UNIFENAS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIFENAS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIFENAS</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIFENAS" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNIFENAS" nameCode="BDTD_UNIFENAS"> 
+        <description>Biblioteca de Teses e Dissertações da UNIFENAS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIFENAS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unifenas.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIFESPr0"> 
+      <name>BDTD_UNIFESP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIFESP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIFESP</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUNIFORr0"> 
+      <name>BDTD_UNIFOR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIFOR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIFOR</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIFOR" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNIFOR" nameCode="BDTD_UNIFOR"> 
+        <description>Biblioteca de Teses e Dissertações da UNIFOR</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIFOR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www2.unifor.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIGRANRIOr0"> 
+      <name>BDTD_UNIGRANRIO</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIGRANRIO</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIGRANRIO</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIGRANRIO" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNIGRANRIO" nameCode="BDTD_UNIGRANRIO"> 
+        <description>Biblioteca de Teses e Dissertações da UNIGRANRIO</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIGRANRIO</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unigranrio.edu.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNINOVEr0"> 
+      <name>BDTD_UNINOVE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNINOVE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNINOVE</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUNIOESTEr0"> 
+      <name>BDTD_UNIOESTE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do UNIOESTE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIOESTE</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIOESTE" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações do UNIOESTE" nameCode="BDTD_UNIOESTE"> 
+        <description>Biblioteca de Teses e Dissertações do UNIOESTE</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIOESTE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://tede.unioeste.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIRr0"> 
+      <name>BDTD_UNIR</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIR</nameCode>  
+      <url/>  
+      <source id="BDTD_UNIR" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNIR" nameCode="BDTD_UNIR"> 
+        <description>Biblioteca de Teses e Dissertações da UNIR</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNIR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.unir.br/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNISANTOSr0"> 
+      <name>BDTD_UNISANTOS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNISANTOS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNISANTOS</nameCode>  
+      <url/>  
+      <source id="BDTD_UNISANTOS" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-09 07:18:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNISANTOS" nameCode="BDTD_UNISANTOS"> 
+        <description>Biblioteca de Teses e Dissertações da UNISANTOS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNISANTOS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://biblioteca.unisantos.br:8181/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNISINOSr0"> 
+      <name>BDTD_UNISINOS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações UNISINOS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNISINOS</nameCode>  
+      <url/>  
+      <source id="BDTD_UNISINOS" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-10 12:40:28" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNISINOS" nameCode="BDTD_UNISINOS"> 
+        <description>Biblioteca de Teses e Dissertações da UNISINOS</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNISINOS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.repositorio.jesuita.org.br/oai/request</oai-source>  
+        <oai-set>bdtd</oai-set>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNITAUr0"> 
+      <name>BDTD_UNITAU</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNITAU</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNITAU</nameCode>  
+      <url/>  
+      <source id="BDTD_UNITAU" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNITAU" nameCode="BDTD_UNITAU"> 
+        <description>Biblioteca de Teses e Dissertações da UNITAU</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNITAU</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.unitau.br/tedesimplificado/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNIVALIr0"> 
+      <name>BDTD_UNIVALI</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do UNIVALI</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIVALI</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUNIVAPr0"> 
+      <name>BDTD_UNIVAP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIVAP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIVAP</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUNIVATESr0"> 
+      <name>BDTD_UNIVATES</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNIVATES</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNIVATES</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="UNOESTEr0"> 
+      <name>BDTD_UNOESTE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNOESTE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNOESTE</nameCode>  
+      <url/>  
+      <source id="BDTD_UNOESTE" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UNOESTE" nameCode="BDTD_UNOESTE"> 
+        <description>Biblioteca de Teses e Dissertações da UNOESTE</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UNOESTE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://apeclx.unoeste.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUNPr0"> 
+      <name>BDTD_UNP</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UNP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UNP</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUPEr0"> 
+      <name>BDTD_UPE</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações da UPE</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UPE</nameCode>  
+      <url/>  
+      <source id="BDTD_UPE" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-01 13:43:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UPE" nameCode="BDTD_UPE"> 
+        <description>Biblioteca de Teses e Dissertações da UPE</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UPE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.bdtd.upe.br/tedesimplificado/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUPFr0"> 
+      <name>BDTD_UPF</name>  
+      <country>br</country>  
+      <description>Universidade de Passo Fundo</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_UPF</nameCode>  
+      <url/>  
+      <source id="BDTD_UPF" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-03-24 14:06:10" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca de Teses e Dissertações da UPF" nameCode="BDTD_UPF"> 
+        <description>Biblioteca de Teses e Dissertações da UPF</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_UPF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://secure.upf.br/tede/tde_oai/oai3.php</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUSCSr0"> 
+      <name>BDTD_USCS</name>  
+      <country>br</country>  
+      <description>Biblioteca de Teses e Dissertações do USCS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_USCS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="BDTDUSPr0"> 
+      <name>BDTD_USP</name>  
+      <country>br</country>  
+      <description>Biblioteca Digital de Teses e Dissertações da USP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>BDTD_USP</nameCode>  
+      <url>http://www.teses.usp.br</url>  
+      <source id="BDTD_USP" metadataFormat="mtd2-br" schema="http://oai.ibict.br/mtd2-br/mtd2-br.xsd" namespace="http://oai.ibict.br/mtd2-br/" lastIngest="2015-04-07 06:23:36" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca Digital de Teses e Dissertações da USP" nameCode="BDTD_USP"> 
+        <description>Biblioteca Digital de Teses e Dissertações da USP</description>  
+        <exportDirPath>/data/repoxData/export/BDTD_USP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.teses.usp.br/cgi-bin/mtd2br.pl</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>tede_mtd2br_valid</metadataTransformation>  
+          <metadataTransformation>mtd2-br_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider> 
+  </aggregator>  
+  <aggregator id="PERIODICOSr0"> 
+    <name>PERIODICOS</name>  
+    <nameCode>PERIODICOS</nameCode>  
+    <provider id="PERIODICOSr0"> 
+      <name>PERIODICOS</name>  
+      <country>br</country>  
+      <description>PERIODICOS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>PERIODICOS</nameCode>  
+      <source id="PERIODICOS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="" isSample="false" sample="-1" status="RUNNING" type="DataSourceOai" name="PERIODICOS" nameCode="PERIODICOS"> 
+        <description>PERIODICOS</description>  
+        <exportDirPath>/data/repoxData/export/PERIODICOS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://localhost:8081/repox/OAIHandler</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider> 
+  </aggregator>  
+  <aggregator id="REPOSITORIOSr0"> 
+    <name>REPOSITORIOS</name>  
+    <nameCode>REPOSITORIOS</nameCode>  
+    <provider id="RICTIr0"> 
+      <name>RI_CTI</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do CTI</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_CTI</nameCode>  
+      <url/>  
+      <source id="RI_CTI" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:17:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do CTI" nameCode="RI_CTI"> 
+        <description>Repositório Institucional do CTI</description>  
+        <exportDirPath>/data/repoxData/export/RI_CTI</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.cti.gov.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIAlicer0"> 
+      <name>RI_EMBRAPA</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da EMBRAPA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_EMBRAPA</nameCode>  
+      <url/>  
+      <source id="RI_EMBRAPA" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:15:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da EMBRAPA" nameCode="RI_EMBRAPA"> 
+        <description>Repositório Institucional da EMBRAPA</description>  
+        <exportDirPath>/data/repoxData/export/RI_EMBRAPA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.alice.cnptia.embrapa.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIENSPr0"> 
+      <name>RI_ENSP</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da ENSP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_ENSP</nameCode>  
+      <url/>  
+      <source id="RI_ENSP" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 08:02:53" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Repositório Institucional da ENSP" nameCode="RI_ENSP"> 
+        <description>Repositório Institucional da ENSP</description>  
+        <exportDirPath>/data/repoxData/export/Repositório Institucional da ENSP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www6.ensp.fiocruz.br/repositorio/oai/request</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIFGVr0"> 
+      <name>RI_FGV</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do FGV</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_FGV</nameCode>  
+      <url/>  
+      <source id="RI_FGV" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do FGV" nameCode="RI_FGV"> 
+        <description>Repositório Institucional do FGV</description>  
+        <exportDirPath>/data/repoxData/export/RI_FGV</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bibliotecadigital.fgv.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIArcar0"> 
+      <name>RI_FIOCRUZ</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da FIOCRUZ</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_FIOCRUZ</nameCode>  
+      <url/>  
+      <source id="RI_FIOCRUZ" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-02 11:55:11" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da FIOCRUZ" nameCode="RI_FIOCRUZ"> 
+        <description>Repositório Institucional Arca</description>  
+        <exportDirPath>/data/repoxData/export/RI_FIOCRUZ</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.arca.fiocruz.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIFURGr0"> 
+      <name>RI_FURG</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da FURG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_FURG</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="RIIBICTr0"> 
+      <name>RI_IBICT</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do IBICT</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_IBICT</nameCode>  
+      <url/>  
+      <source id="Deposita" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-02 11:58:26" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Comum do Brasil" nameCode="Deposita"> 
+        <description>Repositório Comum do Brasil</description>  
+        <exportDirPath>/data/repoxData/export/Deposita</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://deposita.ibict.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source>  
+      <source id="RI_IBICT" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do IBICT" nameCode="RI_IBICT"> 
+        <description>Repositório Institucional do IBICT</description>  
+        <exportDirPath>/data/repoxData/export/RI_IBICT</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ibict.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIInmetror0"> 
+      <name>RI_INMETRO</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do INMETRO</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_INMETRO</nameCode>  
+      <url/>  
+      <source id="RI_INMETRO" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do INMETRO" nameCode="RI_INMETRO"> 
+        <description>Repositório Institucional do INMETRO</description>  
+        <exportDirPath>/data/repoxData/export/RI_INMETRO</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorios.inmetro.gov.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIINTr0"> 
+      <name>RI_INT</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do INT</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_INT</nameCode>  
+      <url/>  
+      <source id="RI_INT" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do INT" nameCode="RI_INT"> 
+        <description>Repositório Institucional do INT</description>  
+        <exportDirPath>/data/repoxData/export/RI_INT</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.int.gov.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIMPEGr0"> 
+      <name>RI_MPEG</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do MPEG</description>  
+      <type>MUSEUM</type>  
+      <nameCode>RI_MPEG</nameCode>  
+      <url/>  
+      <source id="RI_MPEG" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do MPEG" nameCode="RI_MPEG"> 
+        <description>Repositório Institucional do MPEG</description>  
+        <exportDirPath>/data/repoxData/export/RI_MPEG</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.museu-goeldi.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIPUCRSr0"> 
+      <name>RI_PUC_RS</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da PUC_RS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_PUC_RS</nameCode>  
+      <url/>  
+      <source id="RI_PUC_RS" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da PUC_RS" nameCode="RI_PUC_RS"> 
+        <description>Repositório Institucional da PUC_RS</description>  
+        <exportDirPath>/data/repoxData/export/RI_PUC_RS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.pucrs.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RISBIcafer0"> 
+      <name>RI_SBI_cafe</name>  
+      <country>br</country>  
+      <description>Repositório Institucional do SBI_Cafe</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_SBI_cafe</nameCode>  
+      <url/>  
+      <source id="RI_SBI_Cafe" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 07:55:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional do SBI_Cafe" nameCode="RI_SBI_Cafe"> 
+        <description>Repositório Institucional do SBI_Cafe</description>  
+        <exportDirPath>/data/repoxData/export/RI_SBI_Cafe</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.sbicafe.ufv.br/oai/request</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUCBr0"> 
+      <name>RI_UCB</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UCB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UCB</nameCode>  
+      <url/>  
+      <source id="RI_UCB" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UCB" nameCode="RI_UCB"> 
+        <description>Repositório Institucional da UCB</description>  
+        <exportDirPath>/data/repoxData/export/RI_UCB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ucb.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFALr0"> 
+      <name>RI_UFAL</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFAL</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFAL</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="RIUFFr0"> 
+      <name>RI_UFF</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFF</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFF</nameCode>  
+      <url/>  
+      <source id="RI_UFF" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFF" nameCode="RI_UFF"> 
+        <description>Repositório Institucional da UFF</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://sistemas.uff.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFGr0"> 
+      <name>RI_UFG</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFG</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFG</nameCode>  
+      <url/>  
+      <source id="RI_UFG" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFG" nameCode="RI_UFG"> 
+        <description>Repositório Institucional da UFG</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFG</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.bc.ufg.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFGDr0"> 
+      <name>RI_UFGD</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFGC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFGD</nameCode>  
+      <url/>  
+      <source id="RI_UFGD" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:18:33" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFGD" nameCode="RI_UFGD"> 
+        <description>Repositório Institucional da UFGD</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFGD</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.ufgd.edu.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFLAr0"> 
+      <name>RI_UFLA</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFLA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFLA</nameCode>  
+      <url/>  
+      <source id="RI_UFLA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 08:06:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFLA" nameCode="RI_UFLA"> 
+        <description>Repositório Institucional da UFLA</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFLA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ufla.br/oai/request</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFMAr0"> 
+      <name>RI_UFMA</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFMA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFMA</nameCode>  
+      <url/>  
+      <source id="RI_UFMA" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:41:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFMA" nameCode="RI_UFMA"> 
+        <description>Repositório Institucional da UFMA</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFMA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.repositorio.ufma.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="REPOSITORIOUFMSr0"> 
+      <name>RI_UFMS</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFMS</description>  
+      <type>MUSEUM</type>  
+      <nameCode>RI_UFMS</nameCode>  
+      <url/>  
+      <source id="RI_UFMS" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFMS" nameCode="RI_UFMS"> 
+        <description>Repositório Institucional da UFMS</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFMS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.cbc.ufms.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFOPr0"> 
+      <name>RI_UFOP</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFOP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFOP</nameCode>  
+      <url/>  
+      <source id="RI_UFOP" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFOP" nameCode="RI_UFOP"> 
+        <description>Repositório Institucional da UFOP</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFOP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.repositorio.ufop.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFPAr0"> 
+      <name>RI_UFPA</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFPA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFPA</nameCode>  
+      <url/>  
+      <source id="RI_UFPA" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFPA" nameCode="RI_UFPA"> 
+        <description>Repositório Institucional da UFPA</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFPA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ufpa.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFPELr0"> 
+      <name>RI_UFPEL</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFPEL</description>  
+      <type>MUSEUM</type>  
+      <nameCode>RI_UFPEL</nameCode>  
+      <url/>  
+      <source id="RI_UFPEL" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFPEL" nameCode="RI_UFPEL"> 
+        <description>Repositório Institucional da UFPEL</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFPEL</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ufpel.edu.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFPRr0"> 
+      <name>RI_UFPR</name>  
+      <country>br</country>  
+      <description>Repositório Institucional UFPR</description>  
+      <type>MUSEUM</type>  
+      <nameCode>RI_UFPR</nameCode>  
+      <url/>  
+      <source id="RI_UFPR" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFPR" nameCode="RI_UFPR"> 
+        <description>Repositório Institucional da UFPR</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFPR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://dspace.c3sl.ufpr.br/dspace-oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFRBr0"> 
+      <name>RI_UFRB</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFRB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFRB</nameCode>  
+      <url/>  
+      <source id="RI_UFRB" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:41:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFRB" nameCode="RI_UFRB"> 
+        <description>Repositório Institucional da UFRB</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFRB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.repositorio.ufrb.edu.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RDUFRGSr0"> 
+      <name>RI_UFRGS</name>  
+      <country>br</country>  
+      <description>Repositório Insititucional da UFRGS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFRGS</nameCode>  
+      <url>http://www.lume.ufrgs.br/</url>  
+      <source id="RI_UFRGS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-02 09:43:40" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Produção Científica da UFRGS" nameCode="RI_UFRGS"> 
+        <description>Produção Científica da UFRGS</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFRGS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.lume.ufrgs.br/oai/request</oai-source>  
+        <oai-set>hdl_10183_40513</oai-set>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDTDUFRNr0"> 
+      <name>RI_UFRN</name>  
+      <country>br</country>  
+      <description>Repositorio Institucional da UFRN</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFRN</nameCode>  
+      <url/>  
+      <source id="RI_UFRN" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-02 08:14:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFRN" nameCode="RI_UFRN"> 
+        <description>Repositório Institucional da UFRN</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFRN</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ufrn.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFSr0"> 
+      <name>RI_UFS</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="RIUFSCARr1"> 
+      <name>RI_UFSC</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFSC</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFSC</nameCode>  
+      <url/>  
+      <source id="RI_UFSC" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-02 08:19:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFSC" nameCode="RI_UFSC"> 
+        <description>Repositório Institucional da UFSC</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFSC</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://150.162.242.35/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFSCARr0"> 
+      <name>RI_UFSCAR</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFSCAR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFSCAR</nameCode>  
+      <url/>  
+      <source id="RI_UFSCAR" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFSCAR" nameCode="RI_UFSCAR"> 
+        <description>Repositório Institucional da UFSCAR</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFSCAR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://livresaber.sead.ufscar.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFUr0"> 
+      <name>RI_UFU</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFU</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UFU</nameCode>  
+      <url/>  
+      <source id="RI_UFU" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFU" nameCode="RI_UFU"> 
+        <description>Repositório Institucional da UFU</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFU</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.ufu.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUFVJMr0"> 
+      <name>RI_UFVJM</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UFVJM</description>  
+      <type>MUSEUM</type>  
+      <nameCode>RI_UFVJM</nameCode>  
+      <url/>  
+      <source id="RI_UFVJM" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UFVJM" nameCode="RI_UFVJM"> 
+        <description>Repositório Institucional da UFVJM</description>  
+        <exportDirPath>/data/repoxData/export/RI_UFVJM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://acervo.ufvjm.edu.br:8080/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUMSCSr0"> 
+      <name>RI_UMSCS</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UMSCS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UMSCS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="UNBr0"> 
+      <name>RI_UNB</name>  
+      <country>br</country>  
+      <description>RI_UNB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UNB</nameCode>  
+      <url>http://repositorio.unb.br/</url>  
+      <source id="RI_UNB" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UnB" nameCode="RI_UNB"> 
+        <description>Repositório Institucional da UnB</description>  
+        <exportDirPath>/data/repoxData/export/RI_UNB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.unb.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUNESPr0"> 
+      <name>RI_UNESP</name>  
+      <country>br</country>  
+      <description>Repositórios UNESP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UNESP</nameCode>  
+      <url>http://base.repositorio.unesp.br/</url>  
+      <source id="RI_UNESP" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional UNESP" nameCode="RI_UNESP"> 
+        <description>Repositório Institucional UNESP</description>  
+        <exportDirPath>/data/repoxData/export/RI_UNESP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://base.repositorio.unesp.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>dspace_valid_mets2</metadataTransformation>  
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDUNICAMPr0"> 
+      <name>RI_UNICAMP</name>  
+      <country>br</country>  
+      <description>Biblioteca Digital da Unicamp</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UNICAMP</nameCode>  
+      <url>http://www.bibliotecadigital.unicamp.br/</url>  
+      <source id="RI_UNICAMP" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca Digital da Produção Intelectual e Científica da Unicamp" nameCode="RI_UNICAMP"> 
+        <description>Biblioteca Digital da Produção Intelectual e Científica da Unicamp</description>  
+        <exportDirPath>/data/repoxData/export/RI_UNICAMP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://unicamp.sibi.usp.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUNICEUBr0"> 
+      <name>RI_UNICEUB</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UniCEUB</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UNICEUB</nameCode>  
+      <url/>  
+      <source id="RI_UNICEUB" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:41:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UniCEUB" nameCode="RI_UNICEUB"> 
+        <description>Repositório Institucional da UniCEUB</description>  
+        <exportDirPath>/data/repoxData/export/RI_UNICEUB</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.uniceub.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUPFr0"> 
+      <name>RI_UPF</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da UPF</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UPF</nameCode>  
+      <url/>  
+      <source id="RI_UPF" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-04-01 14:41:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UPF" nameCode="RI_UPF"> 
+        <description>Repositório Institucional da UPF</description>  
+        <exportDirPath>/data/repoxData/export/RI_UPF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.upf.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUSCSr0"> 
+      <name>RI_USCS</name>  
+      <country>br</country>  
+      <description>Repositório Institucional da USCS</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_USCS</nameCode>  
+      <url/>  
+      <source id="RI_USCS" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da USCS" nameCode="RI_USCS"> 
+        <description>Repositório Institucional da USCS</description>  
+        <exportDirPath>/data/repoxData/export/RI_USCS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.uscs.edu.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BDPIUSPr0"> 
+      <name>RI_USP</name>  
+      <country>br</country>  
+      <description>Biblioteca Digital da Produção Intelectual da USP</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_USP</nameCode>  
+      <url>http://www.producao.usp.br/</url>  
+      <source id="RI_USP" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Biblioteca Digital da Produção Intelectual da USP" nameCode="RI_USP"> 
+        <description>Biblioteca Digital da Produção Intelectual da USP</description>  
+        <exportDirPath>/data/repoxData/export/RI_USP</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.producao.usp.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIUTFPRr0"> 
+      <name>RI_UTFPR</name>  
+      <country>br</country>  
+      <description>Repositório Institucional UTFPR</description>  
+      <type>LIBRARY</type>  
+      <nameCode>RI_UTFPR</nameCode>  
+      <url/>  
+      <source id="RI_UTFPR" metadataFormat="mets" schema="http://www.loc.gov/standards/mods/v3/mods-3-0.xsd" namespace="http://www.loc.gov/METS/" lastIngest="2015-03-24 14:07:55" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Repositório Institucional da UTFPR" nameCode="RI_UTFPR"> 
+        <description>Repositório Institucional da UTFPR</description>  
+        <exportDirPath>/data/repoxData/export/RI_UTFPR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://repositorio.utfpr.edu.br/oai/request</oai-source>  
+        <metadataTransformations> 
+          <metadataTransformation>mets2_to_oai_dc</metadataTransformation> 
+        </metadataTransformations>  
+        <restServices/> 
+      </source> 
+    </provider> 
+  </aggregator>
+</repox-data>
