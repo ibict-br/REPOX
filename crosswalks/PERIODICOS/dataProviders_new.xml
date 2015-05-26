@@ -1,0 +1,2414 @@
+
+<repox-data> 
+  <aggregator id="PERIODICOSr0"> 
+    <name>PERIODICOS</name>  
+    <nameCode>PERIODICOS</nameCode>  
+    <provider id="ABHRr0"> 
+      <name>ABHR</name>  
+      <country>br</country>  
+      <description>ABHR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>ABHR</nameCode>  
+      <url/>  
+      <source id="Anais_Simposios_ABHR" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 12:21:59" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Anais Simpósios ABHR" nameCode="Anais_Simposios_ABHR"> 
+        <description>Anais Simpósios ABHR</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Anais_Simposios_ABHR</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.abhr.org.br/plura/ojs/index.php/anais/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="BatistaPioneirar0"> 
+      <name>BATISTAPIONEIRA</name>  
+      <country>br</country>  
+      <description>BATISTAPIONEIRA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>BATISTAPIONEIRA</nameCode>  
+      <url/>  
+      <source id="Revista_Batista_Pioneira" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 12:23:44" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Batista Pioneira" nameCode="Revista_Batista_Pioneira"> 
+        <description>Revista Batista Pioneira</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Batista_Pioneira</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.batistapioneira.edu.br/index.php/rbp/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="CENSUPEGr0"> 
+      <name>CENSUPEG</name>  
+      <country>br</country>  
+      <description>CENSUPEG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>CENSUPEG</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="CJFr0"> 
+      <name>CJF</name>  
+      <country>br</country>  
+      <description>CJF</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>CJF</nameCode>  
+      <url/>  
+      <source id="Revista_CEJ" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:51:07" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Revista CEJ" nameCode="Revista_CEJ"> 
+        <description>Revista CEJ</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_CEJ</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www2.cjf.jus.br/ojs2/index.php/cej/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="EsMaRNr0"> 
+      <name>ESMARN</name>  
+      <country>br</country>  
+      <description>ESMARN</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>ESMARN</nameCode>  
+      <url/>  
+      <source id="Revista_Direito_e_Liberdade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:16:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Direito e Liberdade" nameCode="Revista_Direito_e_Liberdade"> 
+        <description>Revista Direito e Liberdade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Direito_e_Liberdade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.esmarn.tjrn.jus.br/revistas/index.php/revista_direito_e_liberdade/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="ESPMr0"> 
+      <name>ESPM</name>  
+      <country>br</country>  
+      <description>ESPM</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>ESPM</nameCode>  
+      <url/>  
+      <source id="InternexT" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:18:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="InternexT - Revista Eletrônica de Negócios Internacionais" nameCode="InternexT"> 
+        <description>InternexT - Revista Eletrônica de Negócios Internacionais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/InternexT</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://internext.espm.br/index.php/internext/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Comunicacao_Midia_e_Consumo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:19:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Comunicação Mídia e Consumo" nameCode="Revista_Comunicacao_Midia_e_Consumo"> 
+        <description>Revista Comunicação Mídia e Consumo</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Comunicacao_Midia_e_Consumo</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistacmc.espm.br/index.php/revistacmc/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="ESSr0"> 
+      <name>ESS</name>  
+      <country>br</country>  
+      <description>Escola Superior de Sustentabilidade</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>ESS</nameCode>  
+      <url/>  
+      <source id="RevistaBrasileiradeAdministrr0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:10:45" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Administração Científica" nameCode="Revista_Brasileira _de_Administracao_Cientifica"> 
+        <description>Revista Brasileira de Administração Científica</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira _de_Administracao_Cientifica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://sustenere.co/journals/index.php/rbadm/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Scire_Salutis" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:15:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Scire Salutis" nameCode="Scire_Salutis"> 
+        <description>Scire Salutis</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Scire_Salutis</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://sustenere.co/journals/index.php/sciresalutis/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="RevistaIberoAmericanadeCiencr0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:12:30" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ibero-Americana de Ciências Ambientais" nameCode="Revista_Ibero-Americana_de_Ciencias_Ambientais"> 
+        <description>Revista Ibero-Americana de Ciências Ambientais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ibero-Americana_de_Ciencias_Ambientais</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://sustenere.co/journals/index.php/rica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Nordestina_de_Ecoturismo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:14:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Nordestina de Ecoturismo" nameCode="Revista_Nordestina_de_Ecoturismo"> 
+        <description>Revista Nordestina de Ecoturismo</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Nordestina_de_Ecoturismo</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://sustenere.co/journals/index.php/ecoturismo/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="ESTr0"> 
+      <name>EST</name>  
+      <country>br</country>  
+      <description>EST</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>EST</nameCode>  
+      <url/>  
+      <source id="Identidade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:25:00" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Identidade!" nameCode="Identidade"> 
+        <description>Identidade!</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Identidade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.est.edu.br/index.php/identidade/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Protestantismo_em_Revista" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:21:45" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Protestantismo em Revista" nameCode="Protestantismo_em_Revista"> 
+        <description>Protestantismo em Revista</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Protestantismo_em_Revista</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.est.edu.br/index.php/nepp/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Tear_Online" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:25:30" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Tear Online" nameCode="Tear_Online"> 
+        <description>Tear Online</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Tear_Online</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.est.edu.br/index.php/tear/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FARAr0"> 
+      <name>FARA</name>  
+      <country>br</country>  
+      <description>FARA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FARA</nameCode>  
+      <url/>  
+      <source id="RevistaEletronicadeEducaor0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:47:01" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica de Educação da Faculdade Araguaia" nameCode="Revista_Eletronica_de_Educação"> 
+        <description>Revista Eletrônica de Educação da Faculdade Araguaia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_de_Educação</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.fara.edu.br/sipe/index.php/renefara/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FCr0"> 
+      <name>FC</name>  
+      <country>br</country>  
+      <description>Filosofia Capital</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FC</nameCode>  
+      <url/>  
+      <source id="Cadernos_Zygmunt_Bauman" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:43:01" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Cadernos Zygmunt Bauman" nameCode="Cadernos_Zygmunt_Bauman"> 
+        <description>Cadernos Zygmunt Bauman</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Cadernos_Zygmunt_Bauman</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.filosofiacapital.org/ojs-2.1.1/index.php/cadernoszygmuntbauman/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Filosofia_Capital" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:44:46" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Filosofia Capital" nameCode="Revista_Filosofia_Capital"> 
+        <description>Revista Filosofia Capital</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Filosofia_Capital</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.filosofiacapital.org/ojs-2.1.1/index.php/filosofiacapital/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FCCLr0"> 
+      <name>FCCL</name>  
+      <country>br</country>  
+      <description>Faculdade Cenecista de Campo Largo</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FCCL</nameCode>  
+      <url/>  
+      <source id="Revista_Eletronica_de_Sistemas_de_Informacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:43:01" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica de Sistemas de Informação" nameCode="Revista_Eletronica_de_Sistemas_de_Informacao"> 
+        <description>Revista Eletrônica de Sistemas de Informação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_de_Sistemas_de_Informacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://189.16.45.2/ojs/index.php/reinfo/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FEItuveravar0"> 
+      <name>FEI</name>  
+      <country>br</country>  
+      <description>FEI</description>  
+      <type>LIBRARY</type>  
+      <nameCode>FEI</nameCode>  
+      <url/>  
+      <source id="Nucleus_Animalium" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:41:31" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Nucleus Animalium" nameCode="Nucleus_Animalium"> 
+        <description>Nucleus Animalium</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Nucleus_Animalium</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.nucleus.feituverava.com.br/index.php/animalium/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Nucleus" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:40:16" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Nucleus" nameCode="Nucleus"> 
+        <description>Nucleus</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Nucleus</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.nucleus.feituverava.com.br/index.php/nucleus/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FSAr0"> 
+      <name>FSA</name>  
+      <country>br</country>  
+      <description>FSA</description>  
+      <type>LIBRARY</type>  
+      <nameCode>FSA</nameCode>  
+      <url/>  
+      <source id="Revista_FSA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:32:35" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Revista FSA" nameCode="Revista_FSA"> 
+        <description>Revista FSA</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_FSA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://189.43.21.151/revista/index.php/fsa/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FUMECr0"> 
+      <name>FUMEC</name>  
+      <country>br</country>  
+      <description>FUMEC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FUMEC</nameCode>  
+      <url/>  
+      <source id="Mediacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:49:31" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Mediação" nameCode="Mediacao"> 
+        <description>Mediação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Mediacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.fumec.br/revistas/index.php/mediacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FURBr0"> 
+      <name>FURB</name>  
+      <country>br</country>  
+      <description>FURB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FURB</nameCode>  
+      <url/>  
+      <source id="Revista_Universo_Contabil" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:52:31" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Universo Contábil" nameCode="Revista_Universo_Contabil"> 
+        <description>Revista Universo Contábil</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Universo_Contabil</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://proxy.furb.br/ojs/index.php/universocontabil/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Brasileira_de_Desenvolvimento" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:51:46" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Desenvolvimento Regional" nameCode="Revista_Brasileira_de_Desenvolvimento"> 
+        <description>Revista Brasileira de Desenvolvimento Regional</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Desenvolvimento</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://proxy.furb.br/ojs/index.php/rbdr/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="LinguagensRevistadeLetrasArtr0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:50:47" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Linguagens: Revista de Letras  Artes e Comunicação" nameCode="Linguagens_Revista_de Letras_Artes"> 
+        <description>Linguagens: Revista de Letras Artes e Comunicação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Linguagens_Revista_de Letras_Artes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://proxy.furb.br/ojs/index.php/linguagens/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="FURGr0"> 
+      <name>FURG</name>  
+      <country>br</country>  
+      <description>FURG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>FURG</nameCode>  
+      <url/>  
+      <source id="Revista_Momento_Dialogos_em_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:54:46" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Momento - Diálogos em Educação" nameCode="Revista_Momento_Dialogos_em_Educacao"> 
+        <description>Revista Momento - Diálogos em Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Momento_Dialogos_em_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.furg.br/momento/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="REMEA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 13:53:16" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="REMEA - Revista Eletrônica do Mestrado de Educação Ambiental" nameCode="REMEA"> 
+        <description>REMEA - Revista Eletrônica do Mestrado de Educação Ambiental</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/REMEA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.furg.br/remea/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="IBICTr0"> 
+      <name>IBICT</name>  
+      <country>br</country>  
+      <description>IBICT</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>IBICT</nameCode>  
+      <url/>  
+      <source id="Conexao_SIPAER" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:17:02" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Conexão SIPAER" nameCode="Conexao_SIPAER"> 
+        <description>Conexao_SIPAER</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Conexao_SIPAER</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://inseer.ibict.br/sipaer/index.php/sipaer/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="RevistaBaianadeSaudePublicar0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:18:17" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Baiana de Saúde Pública" nameCode="Revista_Baiana_de_Saude_Publica"> 
+        <description>Revista_Baiana_de_Saude_Publica</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista Baiana de Saúde Pública</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://inseer.ibict.br/rbsp/index.php/rbsp/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ciencia_da_Informacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:16:17" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ciência da Informação" nameCode="Ciencia_da_Informacao"> 
+        <description>Ciência da Informação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ciencia_da_Informacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.ibict.br/cienciadainformacao/index.php/ciinf/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="IFRNr0"> 
+      <name>IFRN</name>  
+      <country>br</country>  
+      <description>IFRN</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>IFRN</nameCode>  
+      <url/>  
+      <source id="Holos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:19:02" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Holos" nameCode="Holos"> 
+        <description>Holos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Holos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www2.ifrn.edu.br/ojs/index.php/HOLOS/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="IFRSr0"> 
+      <name>IFRS</name>  
+      <country>br</country>  
+      <description>IFRS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>IFRS</nameCode>  
+      <url/>  
+      <source id="TearRevistadeEducaoCienciar0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:20:17" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Tear: Revista de Educação  Ciência e Tecnologia" nameCode="Tear_Revista_de_Educação_Ciencia_e_Tecnologia"> 
+        <description>Tear: Revista de Educação Ciência e Tecnologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Tear_Revista_de_Educação_Ciencia_e_Tecnologia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.canoas.ifrs.edu.br/seer/index.php/tear/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="JMPHCr0"> 
+      <name>JMPHC</name>  
+      <country>br</country>  
+      <description>JMPHC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>JMPHC</nameCode>  
+      <url/>  
+      <source id="JMPHC_Journal_of_Management" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:22:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="JMPHC. Journal of Management and Primary Health Care" nameCode="JMPHC_Journal_of_Management"> 
+        <description>JMPHC. Journal of Management and Primary Health Care</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/JMPHC_Journal_of_Management</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.jmphc.com/ojs/index.php/01/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="Metodistar0"> 
+      <name>METODISTA</name>  
+      <country>br</country>  
+      <description>METODISTA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>METODISTA</nameCode>  
+      <url/>  
+      <source id="Comunicacao_e_Sociedade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:22:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Comunicação e Sociedade" nameCode="Comunicacao_e_Sociedade"> 
+        <description>Comunicação e Sociedade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Comunicacao_e_Sociedade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://www.metodista.br/revistas/revistas-ims/index.php/CSO/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Eletronica_Gestao_e_Servicos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:26:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica Gestão e Serviços" nameCode="Revista_Eletronica_Gestao_e_Servicos"> 
+        <description>Revista Eletrônica Gestão e Serviços</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_Gestao_e_Servicos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://www.metodista.br/revistas/revistas-ims/index.php/REGS/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Mudancas_Psicologia_da_Saude" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:24:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Mudanças - Psicologia da Saúde" nameCode="Mudancas_Psicologia_da_Saude"> 
+        <description>Mudanças - Psicologia da Saúde</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Mudancas_Psicologia_da_Saude</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://www.metodista.br/revistas/revistas-ims/index.php/MUD/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Ciencia_e_Tecnologia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:24:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ciência &amp; Tecnologia" nameCode="Revista_Ciencia_e_Tecnologia"> 
+        <description>Revista Ciência &amp; Tecnologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ciencia_e_Tecnologia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://www.metodista.br/revistas/revistas-unimep/index.php/cienciatecnologia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="PUCMinasr0"> 
+      <name>PUCMINAS</name>  
+      <country>br</country>  
+      <description>PUCMINAS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>PUCMINAS</nameCode>  
+      <url/>  
+      <source id="Percurso_Academico_Revista_Interdisciplinar" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:28:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Percurso Acadêmico - Revista Interdisciplinar da PUC Minas no Barreiro" nameCode="Percurso_Academico_Revista_Interdisciplinar"> 
+        <description>Percurso Acadêmico - Revista Interdisciplinar da PUC Minas no Barreiro</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Percurso_Academico_Revista_Interdisciplinar</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.pucminas.br/index.php/percursoacademico/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Sinapse_Multipla" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:34:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Sinapse Múltipla" nameCode="Sinapse_Multipla"> 
+        <description>Sinapse Múltipla</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Sinapse_Multipla</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.pucminas.br/index.php/sinapsemultipla/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="PUCRSr0"> 
+      <name>PUCRS</name>  
+      <country>br</country>  
+      <description>PUCRS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>PUCRS</nameCode>  
+      <url/>  
+      <source id="Revista_FAMECOS_Midia_cultura" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:43:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista FAMECOS: Mídia cultura e tecnologia" nameCode="Revista_FAMECOS_Midia_cultura"> 
+        <description>Revista FAMECOS: Mídia cultura e tecnologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_FAMECOS_Midia_cultura</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaseletronicas.pucrs.br/ojs/index.php/revistafamecos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Civitas_Revista_de_Ciencias_Sociais" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:36:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Civitas Revista de Ciências Sociais" nameCode="Civitas_Revista_de_Ciencias_Sociais"> 
+        <description>Civitas Revista de Ciências Sociais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Civitas_Revista_de_Ciencias_Sociais</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaseletronicas.pucrs.br/ojs/index.php/civitas/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Navegacoes_Revista_de_Cultura" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:49:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Navegações: Revista de Cultura e Literaturas de Língua Portuguesa" nameCode="Navegacoes_Revista_de_Cultura"> 
+        <description>Navegações: Revista de Cultura e Literaturas de Língua Portuguesa</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Navegacoes_Revista_de_Cultura</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaseletronicas.pucrs.br/ojs/index.php/navegacoes/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Letras_de_Hoje" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:45:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Letras de Hoje" nameCode="Letras_de_Hoje"> 
+        <description>Letras de Hoje</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Letras_de_Hoje</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaseletronicas.pucrs.br/fale/ojs/index.php/fale/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estudos_Ibero_Americanos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:40:18" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estudos Ibero-Americanos" nameCode="Estudos_Ibero_Americanos"> 
+        <description>Estudos Ibero-Americanos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estudos_Ibero_Americanos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaseletronicas.pucrs.br/ojs/index.php/iberoamericana/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="PUCSPr0"> 
+      <name>PUCSP</name>  
+      <country>br</country>  
+      <description>PUCSP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>PUCSP</nameCode>  
+      <url/>  
+      <source id="Verve" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:44:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Verve" nameCode="Verve"> 
+        <description>Verve</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Verve</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.pucsp.br/index.php/verve/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="International_Journal_for_the_History" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:46:03" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="International Journal for the History of Science" nameCode="International_Journal_for_the_History"> 
+        <description>International Journal for the History of Science</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/International_Journal_for_the_History</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.pucsp.br/index.php/circumhc/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RBHEr0"> 
+      <name>RBHE</name>  
+      <country>br</country>  
+      <description>RBHE</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>RBHE</nameCode>  
+      <url/>  
+      <source id="Revista_Brasileira_de_Historia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:48:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de História da Educação" nameCode="Revista_Brasileira_de_Historia"> 
+        <description>Revista Brasileira de História da Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Historia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.rbhe.sbhe.org.br/index.php/rbhe/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RBMr0"> 
+      <name>RBM</name>  
+      <country>br</country>  
+      <description>Revista Brasileira Marketing</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>RBM</nameCode>  
+      <url/>  
+      <source id="Revista_Brasileira_de_Marketing" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:49:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Marketing" nameCode="Revista_Brasileira_de_Marketing"> 
+        <description>Revista Brasileira de Marketing</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Marketing</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistabrasileiramarketing.org/ojs-2.2.4/index.php/remark/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RevistaGEPr0"> 
+      <name>REVISTAGEP</name>  
+      <country>br</country>  
+      <description>REVISTAGEP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>REVISTAGEP</nameCode>  
+      <url/>  
+      <source id="Revista_de_Gestao_e_Projetos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:50:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Gestão e Projetos" nameCode="Revista_de_Gestao_e_Projetos"> 
+        <description>Revista de Gestão e Projetos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Gestao_e_Projetos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistagep.org/ojs/index.php/gep/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="RIEOEIr0"> 
+      <name>RIEOEI</name>  
+      <country>br</country>  
+      <description>RIEOEI</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>RIEOEI</nameCode>  
+      <url/>  
+      <source id="Revista_Ibero" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:31:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ibero Americana de Estratégia - RIAE" nameCode="Revista_Ibero"> 
+        <description>Revista Ibero Americana de Estratégia - RIAE</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ibero</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistaiberoamericana.org/ojs/index.php/ibero/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="SAREr0"> 
+      <name>SARE</name>  
+      <country>br</country>  
+      <description>SARE</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>SARE</nameCode>  
+      <url/>  
+      <source id="Encontro_Revista_de_Psicologia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:00:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Encontro: Revista de Psicologia" nameCode="Encontro_Revista_de_Psicologia"> 
+        <description>Encontro: Revista de Psicologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Encontro_Revista_de_Psicologia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://sare.anhanguera.com/index.php/rencp/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="SBBr0"> 
+      <name>SBB</name>  
+      <country>br</country>  
+      <description>SBB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>SBB</nameCode>  
+      <url/>  
+      <source id="Acta_Botanica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:13:24" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Acta  Botanica" nameCode="Acta_Botanica"> 
+        <description>Acta Botanica</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Acta_Botanica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://botanica.org.br/acta/index.php/acta/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="SBPJorr0"> 
+      <name>SBPJOR</name>  
+      <country>br</country>  
+      <description>SBPJOR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>SBPJOR</nameCode>  
+      <url/>  
+      <source id="Brazilian_Journalism_Research" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:17:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Brazilian Journalism Research" nameCode="Brazilian_Journalism_Research"> 
+        <description>Brazilian Journalism Research</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Brazilian_Journalism_Research</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://bjr.sbpjor.org.br/bjr/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="SCIELOr0"> 
+      <name>SCIELO</name>  
+      <country>br</country>  
+      <description>SCIELO</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>SCIELO</nameCode>  
+      <url/>  
+      <source id="SCIELO" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 10:54:28" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="SCIELO" nameCode="SCIELO"> 
+        <description>SCIELO</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/SCIELO</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.scielo.br/oai/scielo-oai.php</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UCBr0"> 
+      <name>UCB</name>  
+      <country>br</country>  
+      <description>UCB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UCB</nameCode>  
+      <url/>  
+      <source id="Revista_Brasileira_de_Ciencia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:18:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Ciência e Movimento" nameCode="Revista_Brasileira_de_Ciencia"> 
+        <description>Revista Brasileira de Ciência e Movimento</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Ciencia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://portalrevistas.ucb.br/index.php/RBCM/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UCGr0"> 
+      <name>UCG</name>  
+      <country>br</country>  
+      <description>UCG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UCG</nameCode>  
+      <url/>  
+      <source id="Habitus" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:19:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Habitus" nameCode="Habitus"> 
+        <description>Habitus</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Habitus</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.ucg.br/index.php/habitus/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UCPELr0"> 
+      <name>UCPEL</name>  
+      <country>br</country>  
+      <description>UCPEL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UCPEL</nameCode>  
+      <url/>  
+      <source id="Sociedade_em_Debate_on_line" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:20:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Sociedade em Debate on line" nameCode="Sociedade_em_Debate_on_line"> 
+        <description>Sociedade em Debate on line</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Sociedade_em_Debate_on_line</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.rle.ucpel.tche.br/index.php/rsd/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UCSr0"> 
+      <name>UCS</name>  
+      <country>br</country>  
+      <description>UCS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UCS</nameCode>  
+      <url/>  
+      <source id="Comunicacao_e_cultura" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:21:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Comunicação e cultura" nameCode="Comunicacao_e_cultura"> 
+        <description>Comunicação e cultura</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Comunicacao_e_cultura</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.ucs.br/etc/revistas/index.php/conexao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UEGr0"> 
+      <name>UEG</name>  
+      <country>br</country>  
+      <description>UEG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEG</nameCode>  
+      <url/>  
+      <source id="Revista_Eletronica_Expedicoes" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:30:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista_Eletronica_Expedicoes" nameCode="Revista Eletrônica - Expedições: Teoria da História e Historiografia"> 
+        <description>Revista Eletrônica - Expedições: Teoria da História e Historiografia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_Expedicoes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revista.ueg.br/index.php/revista_geth/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_de_Historia_da_UEG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:23:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de História da UEG" nameCode="Revista_de_Historia_da_UEG"> 
+        <description>Revista de História da UEG</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Historia_da_UEG</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revista.ueg.br/index.php/revistahistoria/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UELr0"> 
+      <name>UEL</name>  
+      <country>br</country>  
+      <description>UEL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEL</nameCode>  
+      <url/>  
+      <source id="Signum_Estudos_da_Linguagem" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:37:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Signum: Estudos da Linguagem" nameCode="Signum_Estudos_da_Linguagem"> 
+        <description>Signum: Estudos da Linguagem</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Signum_Estudos_da_Linguagem</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/signum/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="RevistadoDireitoPublicor0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:35:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista do Direito Público" nameCode="Revista_do Direito_Publico"> 
+        <description>Revista do Direito Público</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_do Direito_Publico</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/direitopub/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Espaco_Pedagogico" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:43:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Espaço Pedagógico" nameCode="Espaco_Pedagogico"> 
+        <description>Espaço Pedagógico</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Espaço_Pedagogico</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/discursosfotograficos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Historia_Ensino" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:33:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Historia_Ensino" nameCode="História &amp; Ensino"> 
+        <description>História &amp; Ensino</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Historia_Ensino</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/histensino/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estudos_Interdisciplinares" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:42:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estudos Interdisciplinares em Psicologia" nameCode="Estudos_Interdisciplinares"> 
+        <description>Estudos Interdisciplinares em Psicologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estudos_Interdisciplinares</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/eip/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="BBR_Biochemistry" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:45:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="BBR Biochemistry and Biotechnology Reports" nameCode="BBR_Biochemistry"> 
+        <description>BBR Biochemistry and Biotechnology Reports</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/BBR_Biochemistry</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/bbr/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Servico_Social_em_Revista" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:36:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Serviço Social em Revista" nameCode="Servico_Social_em_Revista"> 
+        <description>Serviço Social em Revista</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Servico_Social_em_Revista</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/ssrevista/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Projetica_Revista_Cientifica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:34:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Projética Revista Científica de Design" nameCode="Projetica_Revista_Cientifica"> 
+        <description>Projética Revista Científica de Design</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Projetica_Revista_Cientifica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uel.br/revistas/uel/index.php/projetica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UEMr0"> 
+      <name>UEM</name>  
+      <country>br</country>  
+      <description>UEM</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEM</nameCode>  
+      <url/>  
+      <source id="Acta_Scientiarum_Biological" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:45:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Acta Scientiarum Biological Sciences" nameCode="Acta_Scientiarum_Biological"> 
+        <description>Acta Scientiarum Biological Sciences</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Acta_Scientiarum_Biological</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.uem.br/ojs/index.php/ActaSciBiolSci/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Acta_Scientiarum_Agronomy" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:40:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Acta Scientiarum Agronomy" nameCode="Acta_Scientiarum_Agronomy"> 
+        <description>Acta Scientiarum Agronomy</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Acta_Scientiarum_Agronomy</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.uem.br/ojs/index.php/ActaSciAgron/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Acta_Scientiarum_Animal_Sciences" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:42:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Acta Scientiarum Animal Sciences" nameCode="Acta_Scientiarum_Animal_Sciences"> 
+        <description>Acta Scientiarum Animal Sciences</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Acta_Scientiarum_Animal_Sciences</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.uem.br/ojs/index.php/ActaSciAnimSci/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UEMAr0"> 
+      <name>UEMA</name>  
+      <country>br</country>  
+      <description>UEMA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEMA</nameCode>  
+      <url/>  
+      <source id="Pesquisa_em_Foco" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:46:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Pesquisa em Foco" nameCode="Pesquisa_em_Foco"> 
+        <description>Pesquisa em Foco</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Pesquisa_em_Foco</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ppg.revistas.uema.br/index.php/PESQUISA_EM_FOCO/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UEMSr0"> 
+      <name>UEMS</name>  
+      <country>br</country>  
+      <description>UEMS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEMS</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="UEPGr0"> 
+      <name>UEPG</name>  
+      <country>br</country>  
+      <description>UEPG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UEPG</nameCode>  
+      <url/>  
+      <source id="Revista_de_Historia_Regional" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:48:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de História Regional" nameCode="Revista_de_Historia_Regional"> 
+        <description>Revista de História Regional</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Historia_Regional</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas2.uepg.br/index.php/rhr/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Praxis_Educativa" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:47:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Práxis Educativa" nameCode="Praxis_Educativa"> 
+        <description>Práxis Educativa</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Praxis_Educativa</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas2.uepg.br/index.php/praxiseducativa/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UESBr0"> 
+      <name>UESB</name>  
+      <country>br</country>  
+      <description>UESB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UESB</nameCode>  
+      <url/>  
+      <source id="Revista_de_Letras" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:50:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Letras" nameCode="Revista_de_Letras"> 
+        <description>Revista de Letras</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Letras</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.uesb.br/index.php/folio/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFALr0"> 
+      <name>UFAL</name>  
+      <country>br</country>  
+      <description>UFAL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFAL</nameCode>  
+      <url/>  
+      <source id="Debates_em_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:51:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Debates em Educação" nameCode="Debates_em_Educacao"> 
+        <description>Debates em Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Debates_em_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufal.br/index.php/debateseducacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFCr0"> 
+      <name>UFC</name>  
+      <country>br</country>  
+      <description>UFC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFC</nameCode>  
+      <url/>  
+      <source id="Revista_Brasileira_de_Estudos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:52:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Estudos da Presença" nameCode="Revista_Brasileira_de_Estudos"> 
+        <description>Revista Brasileira de Estudos da Presença</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Estudos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.higieneanimal.ufc.br/seer/index.php/higieneanimal/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFCGr0"> 
+      <name>UFCG</name>  
+      <country>br</country>  
+      <description>UFCG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFCG</nameCode>  
+      <url/>  
+      <source id="Revista_de_Administracao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:04:34" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Administração Contabilidade e Sustentabilidade" nameCode="Revista_de_Administracao"> 
+        <description>Revista de Administração Contabilidade e Sustentabilidade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Administracao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://150.165.111.246/revistaadmin/index.php/uacc/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFERSAr0"> 
+      <name>UFERSA</name>  
+      <country>br</country>  
+      <description>UFERSA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFERSA</nameCode>  
+      <url/> 
+    </provider>  
+    <provider id="UFESr0"> 
+      <name>UFES</name>  
+      <country>br</country>  
+      <description>UFES</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFES</nameCode>  
+      <url/>  
+      <source id="Gestao_e_Conexoes" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:55:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Gestão &amp; Conexões" nameCode="Gestao_e_Conexoes"> 
+        <description>Gestão &amp; Conexões</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Gestao_e_Conexoes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.ufes.br/ppgadm/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Temporalis" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:58:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Temporalis" nameCode="Temporalis"> 
+        <description>Temporalis</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Temporalis</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufes.br/temporalis/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Argumentum" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:01:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Argumentum" nameCode="Argumentum"> 
+        <description>Argumentum</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Argumentum</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufes.br/argumentum/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFFr0"> 
+      <name>UFF</name>  
+      <country>br</country>  
+      <description>UFF</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFF</nameCode>  
+      <url/>  
+      <source id="Confluencias_Revista_Interdisciplinar" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:58:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Confluências | Revista Interdisciplinar de Sociologia e Direito" nameCode="Confluencias_Revista_Interdisciplinar"> 
+        <description>Confluências | Revista Interdisciplinar de Sociologia e Direito</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Confluencias_Revista_Interdisciplinar</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.confluencias.uff.br/index.php/confluencias/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Pensamento_Contemporaneo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:05:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Pensamento Contemporâneo em Administração" nameCode="Revista_Pensamento_Contemporaneo"> 
+        <description>Revista Pensamento Contemporâneo em Administração</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Pensamento_Contemporaneo</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uff.br/pae/index.php/pca/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Journal_of_Specialized_Nursing" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:02:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Journal of Specialized Nursing Care" nameCode="Journal_of_Specialized_Nursing"> 
+        <description>Journal of Specialized Nursing Care</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Journal_of_Specialized_Nursing</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uff.br/jsncare/index.php/jsncare/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Brasileira_de_Ciencia_UFF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:04:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Ciência Veterinária" nameCode="Revista_Brasileira_de_Ciencia_UFF"> 
+        <description>Revista Brasileira de Ciência Veterinária</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_de_Ciencia_UFF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uff.br/rbcv/ojs/index.php/rbcv/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Genero" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:00:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Gênero" nameCode="Genero"> 
+        <description>Gênero</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Genero</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistagenero.uff.br/index.php/revistagenero/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFGr0"> 
+      <name>UFG</name>  
+      <country>br</country>  
+      <description>UFG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFG</nameCode>  
+      <url/>  
+      <source id="Inter_Acao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:06:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Inter-Ação" nameCode="Inter_Acao"> 
+        <description>Inter-Ação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Inter_Acao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.ufg.br/index.php/interacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Pensar_a_Pratica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:08:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Pensar a Prática" nameCode="Pensar_a_Pratica"> 
+        <description>Pensar a Prática</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Pensar_a_Pratica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.ufg.br/index.php/fef/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Itinerarius_Reflectionis" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:07:36" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Itinerarius Reflectionis" nameCode="Itinerarius_Reflectionis"> 
+        <description>Itinerarius Reflectionis</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Itinerarius_Reflectionis</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.ufg.br/index.php/ritref/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFGDr0"> 
+      <name>UFGD</name>  
+      <country>br</country>  
+      <description>UFGD</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFGD</nameCode>  
+      <url/>  
+      <source id="Educacao_e_Fronteiras" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:09:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Educação e Fronteiras" nameCode="Educacao_e_Fronteiras"> 
+        <description>Educação e Fronteiras</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Educacao_e_Fronteiras</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.ufgd.edu.br/index.php/educacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFMAr0"> 
+      <name>UFMA</name>  
+      <country>br</country>  
+      <description>UFMA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFMA</nameCode>  
+      <url/>  
+      <source id="Cadernos_de_Pesquisa" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:09:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Cadernos de Pesquisa" nameCode="Cadernos_de_Pesquisa"> 
+        <description>Cadernos de Pesquisa</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Cadernos_de_Pesquisa</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicoseletronicos.ufma.br/index.php/cadernosdepesquisa/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFMGr0"> 
+      <name>UFMG</name>  
+      <country>br</country>  
+      <description>UFMG</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFMG</nameCode>  
+      <url/>  
+      <source id="Trabalho_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:27:52" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Trabalho &amp; Educação" nameCode="Trabalho_Educacao"> 
+        <description>Trabalho &amp; Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Trabalho_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.portal.fae.ufmg.br/seer/index.php/trabedu/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Gerais_Revista_Interinstitucional" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:11:36" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Gerais Revista Interinstitucional de Psicologia" nameCode="Gerais_Revista_Interinstitucional"> 
+        <description>Gerais Revista Interinstitucional de Psicologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Gerais_Revista_Interinstitucional</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.fafich.ufmg.br/gerais/index.php/gerais/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ensaio_Pesquisa_em_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:10:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ensaio Pesquisa em Educação em Ciências" nameCode="Ensaio_Pesquisa_em_Educacao"> 
+        <description>Ensaio Pesquisa em Educação em Ciências</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ensaio_Pesquisa_em_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.portal.fae.ufmg.br/seer/index.php/ensaio/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFMTr0"> 
+      <name>UFMT</name>  
+      <country>br</country>  
+      <description>UFMT</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFMT</nameCode>  
+      <url/>  
+      <source id="Revista_de_Educacao_Publica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:29:07" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Educação Pública" nameCode="Revista_de_Educacao_Publica"> 
+        <description>Revista de Educação Pública</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Educacao_Publica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicoscientificos.ufmt.br/ojs/index.php/educacaopublica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPAr0"> 
+      <name>UFPA</name>  
+      <country>br</country>  
+      <description>UFPA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPA</nameCode>  
+      <url/>  
+      <source id="NovosCadernosNAEAr0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:34:37" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Novos Cadernos NAEA" nameCode="Novos_Cadernos_NAEA"> 
+        <description>Novos_Cadernos_NAEA</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Novos Cadernos NAEA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.ufpa.br/index.php/ncn/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPBr0"> 
+      <name>UFPB</name>  
+      <country>br</country>  
+      <description>UFPB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPB</nameCode>  
+      <url/>  
+      <source id="Informacao_e_Sociedade_estudos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:36:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Informação &amp; Sociedade: estudos" nameCode="Informacao_e_Sociedade_estudos"> 
+        <description>Informação &amp; Sociedade: estudos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Informacao_e_Sociedade_estudos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.ies.ufpb.br/ojs2/index.php/ies/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Problemata_Revista_Internacional" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:46:37" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Problemata Revista Internacional de Filosofia" nameCode="Problemata_Revista_Internacional"> 
+        <description>Problemata Revista Internacional de Filosofia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Problemata_Revista_Internacional</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufpb.br/ojs2/index.php/problemata/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Genero_e_Direito" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:39:07" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Gênero &amp; Direito" nameCode="Revista_Genero_e_Direito"> 
+        <description>Revista Gênero &amp; Direito</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Genero_e_Direito</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufpb.br/ojs2/index.php/ged/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Claves" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:35:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Claves" nameCode="Claves"> 
+        <description>Claves</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Claves</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufpb.br/ojs/index.php/claves/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Perspectivas_em_Gestao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:37:37" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Perspectivas em Gestão &amp; Conhecimento" nameCode="Perspectivas_em_Gestao"> 
+        <description>Perspectivas em Gestão &amp; Conhecimento</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Perspectivas_em_Gestao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufpb.br/ojs2/index.php/pgc/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPELr0"> 
+      <name>UFPEL</name>  
+      <country>br</country>  
+      <description>UFPEL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPEL</nameCode>  
+      <url/>  
+      <source id="Revista_Eletronica_de_Administracao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:48:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica de Administração e Turismo - ReAT" nameCode="Revista_Eletronica_de_Administracao"> 
+        <description>Revista Eletrônica de Administração e Turismo - ReAT</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_de_Administracao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.ufpel.edu.br/ojs2/index.php/AT/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPIr0"> 
+      <name>UFPI</name>  
+      <country>br</country>  
+      <description>UFPI</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPI</nameCode>  
+      <url/>  
+      <source id="PENSANDO_Revista_de_Filosofia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:50:52" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="PENSANDO - Revista de Filosofia" nameCode="PENSANDO_Revista_de_Filosofia"> 
+        <description>PENSANDO - Revista de Filosofia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/PENSANDO_Revista_de_Filosofia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.ojs.ufpi.br/index.php/pensando/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPRr0"> 
+      <name>UFPR</name>  
+      <country>br</country>  
+      <description>UFPR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPR</nameCode>  
+      <url/>  
+      <source id="Contradictio" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:21:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Contradictio" nameCode="Contradictio"> 
+        <description>Contradictio</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Contradictio</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ojs.c3sl.ufpr.br/ojs2/index.php/contradictio/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFPRr1"> 
+      <name>UFPR</name>  
+      <country>br</country>  
+      <description>UFPR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFPR</nameCode>  
+      <url/>  
+      <source id="Musica_em_Perspectiva" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:56:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Música em Perspectiva" nameCode="Musica_em_Perspectiva"> 
+        <description>Música em Perspectiva</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Musica_em_Perspectiva</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ojs.c3sl.ufpr.br/ojs2/index.php/musica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="AtoZ_Novas_Praticas" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:51:52" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="AtoZ Novas Práticas Informação Conhecimento" nameCode="AtoZ_Novas_Praticas"> 
+        <description>AtoZ Novas Práticas Informação Conhecimento</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/AtoZ_Novas_Praticas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.atoz.ufpr.br/index.php/atoz/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Geografar" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:53:07" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Geografar" nameCode="Revista_Geografar"> 
+        <description>Revista Geografar</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Geografar</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ojs.c3sl.ufpr.br/ojs2/index.php/geografar/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="RevistaRaeGaOEspaor0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:54:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ra'e Ga - O Espaço Geográfico em Análise" nameCode="Revista_Ra_e_Ga_O_Espaço"> 
+        <description>Revista Ra'e Ga - O Espaço Geográfico em Análise</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ra_e_Ga_O_Espaço</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ojs.c3sl.ufpr.br/ojs2/index.php/raega/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFRGSr0"> 
+      <name>UFRGS</name>  
+      <country>br</country>  
+      <description>UFRGS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFRGS</nameCode>  
+      <url/>  
+      <source id="Contingentia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:55:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Contingentia" nameCode="Contingentia"> 
+        <description>Contingentia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Contingentia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufrgs.br/index.php/contingentia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFRNr0"> 
+      <name>UFRN</name>  
+      <country>br</country>  
+      <description>UFRN</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFRN</nameCode>  
+      <url/>  
+      <source id="Revista_Ambiente_Contabil" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:56:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ambiente Contábil" nameCode="Revista_Ambiente_Contabil"> 
+        <description>Revista Ambiente Contábil</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ambiente_Contabil</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://ufrn.emnuvens.com.br/ambiente/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFRRr0"> 
+      <name>UFRR</name>  
+      <country>br</country>  
+      <description>UFRR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFRR</nameCode>  
+      <url/>  
+      <source id="Acta_Geografica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:57:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Acta Geografica" nameCode="Acta_Geografica"> 
+        <description>Acta Geografica</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Acta_Geografica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.ufrr.br/index.php/actageo/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="AgroAmbiente_On_Line" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:58:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="AgroAmbiente On Line" nameCode="AgroAmbiente_On_Line"> 
+        <description>AgroAmbiente On Line</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/AgroAmbiente_On_Line</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.ufrr.br/index.php/agroambiente/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFSCr0"> 
+      <name>UFSC</name>  
+      <country>br</country>  
+      <description>UFSC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFSC</nameCode>  
+      <url/>  
+      <source id="Motrivivencia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:02:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Motrivivência" nameCode="Motrivivencia"> 
+        <description>Motrivivência</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Motrivivencia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/motrivivencia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Scientia_Traductionis" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:05:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Scientia Traductionis" nameCode="Scientia_Traductionis"> 
+        <description>Scientia Traductionis</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Scientia_Traductionis</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/scientia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ilha_Desterro" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:14:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ilha do Desterro" nameCode="Ilha_Desterro"> 
+        <description>Ilha do Desterro</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ilha_Desterro</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/desterro/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Working_Papers_em_Linguistica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:06:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Working Papers em Linguística" nameCode="Working_Papers_em_Linguistica"> 
+        <description>Working Papers em Linguística</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Working_Papers_em_Linguistica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/workingpapers/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="IJIE" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:24:24" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Iberoamerican Journal of Industrial Engineering (IJIE)" nameCode="IJIE"> 
+        <description>Iberoamerican Journal of Industrial Engineering (IJIE)</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/IJIE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.incubadora.ufsc.br/index.php/IJIE/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_de_Ciencias_da_Administracao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:23:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Ciências da Administração" nameCode="Revista_de_Ciencias_da_Administracao"> 
+        <description>Revista de Ciências da Administração</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Ciencias_da_Administracao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/adm/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Politica_e_Sociedade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:15:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Política &amp; Sociedade" nameCode="Politica_e_Sociedade"> 
+        <description>Política &amp; Sociedade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Politica_e_Sociedade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/politica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Caderno_Brasileiro_Ensino" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:59:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Caderno Brasileiro Ensino Física" nameCode="Caderno_Brasileiro_Ensino"> 
+        <description>Caderno Brasileiro Ensino Física</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Caderno_Brasileiro_Ensino</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/fisica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Mundos_do_Trabalho" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:03:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Mundos do Trabalho" nameCode="Mundos_do_Trabalho"> 
+        <description>Mundos do Trabalho</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Mundos_do_Trabalho</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/mundosdotrabalho/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Esbocos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:00:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Esboços" nameCode="Esbocos"> 
+        <description>Esboços</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Esbocos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.ufsc.br/index.php/esbocos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFSMr0"> 
+      <name>UFSM</name>  
+      <country>br</country>  
+      <description>UFSM</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFSM</nameCode>  
+      <url/>  
+      <source id="Monografias_Ambientais" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:23:24" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Monografias Ambientais REMOA/UFSM" nameCode="Monografias_Ambientais"> 
+        <description>Monografias Ambientais REMOA/UFSM</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Monografias_Ambientais</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/remoa/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Educacao_Especial" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:14:24" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Educação Especial (UFSM)" nameCode="Revista_Educacao_Especial"> 
+        <description>Revista Educação Especial (UFSM)</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Educacao_Especial</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/educacaoespecial/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="CadernosComunicaor0" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:23:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Cadernos de Comunicação" nameCode="Cadernos_Comunicação"> 
+        <description>Cadernos de Comunicação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Cadernos_Comunicação</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/ccomunicacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Direitos_Emergentes" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:15:24" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Direitos Emergentes na Sociedade Global" nameCode="Revista_Direitos_Emergentes"> 
+        <description>Revista Direitos Emergentes na Sociedade Global</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Direitos_Emergentes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/REDESG/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="REGET" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:15:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica em Gestão  Educação e Tecnologia Ambiental (REGET)" nameCode="REGET"> 
+        <description>Revista Eletrônica em Gestão Educação e Tecnologia Ambiental (REGET)</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/REGET</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/reget/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Eletronica_Direito" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:13:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Eletrônica do Curso de Direito da UFSM" nameCode="Revista_Eletronica_Direito"> 
+        <description>Revista Eletrônica do Curso de Direito da UFSM</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica_Direito</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://cascavel.ufsm.br/revistas/ojs-2.2.2/index.php/revistadireito/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFUr0"> 
+      <name>UFU</name>  
+      <country>br</country>  
+      <description>UFU</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFU</nameCode>  
+      <url/>  
+      <source id="Educacao_e_Filosofia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:14:19" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Educação e Filosofia" nameCode="Educacao_e_Filosofia"> 
+        <description>Educação e Filosofia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Educacao_e_Filosofia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/EducacaoFilosofia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Horizonte_Cientifico" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:13:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Horizonte Científico" nameCode="Horizonte_Cientifico"> 
+        <description>Horizonte Científico</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Horizonte_Cientifico</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/horizontecientifico/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Brasileira" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:12:34" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Geografia Médica e da Saúde" nameCode="Revista_Brasileira"> 
+        <description>Revista Brasileira de Geografia Médica e da Saúde</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/hygeia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ouvirouver" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:13:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ouvirouver" nameCode="Ouvirouver"> 
+        <description>Ouvirouver</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ouvirouver</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/ouvirouver/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ensino_Revista" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:13:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ensino em Revista" nameCode="Ensino_Revista"> 
+        <description>Ensino em Revista</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ensino_Revista</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/emrevista/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Economia_ensaios" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:15:04" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Economia Ensaios" nameCode="Economia_ensaios"> 
+        <description>Economia Ensaios</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Economia_ensaios</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/revistaeconomiaensaios/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Caminhos_de_Geografia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:11:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Caminhos de Geografia" nameCode="Revista_Caminhos_de_Geografia"> 
+        <description>Revista Caminhos de Geografia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Caminhos_de_Geografia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufu.br/index.php/caminhosdegeografia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFVr0"> 
+      <name>UFV</name>  
+      <country>br</country>  
+      <description>UFV</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UFV</nameCode>  
+      <url/>  
+      <source id="Engenharia_Agricultura" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:09:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Engenharia na Agricultura" nameCode="Engenharia_Agricultura"> 
+        <description>Engenharia na Agricultura</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Engenharia_Agricultura</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.ufv.br/seer/index.php/reveng/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNBr0"> 
+      <name>UNB</name>  
+      <country>br</country>  
+      <description>UNB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNB</nameCode>  
+      <url/>  
+      <source id="Revista_Sul" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:20:24" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Revista Sul-Americana de Filosofia e Educação" nameCode="Revista_Sul"> 
+        <description>Revista Sul-Americana de Filosofia e Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Sul</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.bce.unb.br/index.php/resafe/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_linhas" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:19:54" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Revista linhas Críticas" nameCode="Revista_linhas"> 
+        <description>Revista linhas Críticas</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_linhas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.bce.unb.br/index.php/linhascriticas/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Eletronica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:20:09" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Revista Eletrônica Gestão &amp; Saúde" nameCode="Revista_Eletronica"> 
+        <description>Revista Eletrônica Gestão &amp; Saúde</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Eletronica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://gestaoesaude.unb.br/index.php/gestaoesaude/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNEBr1"> 
+      <name>UNEB</name>  
+      <country>br</country>  
+      <description>UNEB</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNEB</nameCode>  
+      <url/>  
+      <source id="Revista_da_FAEEBA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:16:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista da FAEEBA. Educação e Contemporaneidade" nameCode="Revista_da_FAEEBA"> 
+        <description>Revista da FAEEBA. Educação e Contemporaneidade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_da_FAEEBA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.uneb.br/index.php/faeeba/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Brasileira_EJA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:12:24" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Educação de Jovens e Adultos" nameCode="Revista_Brasileira_EJA"> 
+        <description>Revista Brasileira de Educação de Jovens e Adultos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_EJA</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.uneb.br/index.php/educajovenseadultos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Tabuleiro_Letras" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:15:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Tabuleiro de Letras" nameCode="Tabuleiro_Letras"> 
+        <description>Tabuleiro de Letras</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Tabuleiro_Letras</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.uneb.br/index.php/tabuleirodeletras/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNESPr0"> 
+      <name>UNESP</name>  
+      <country>br</country>  
+      <description>UNESP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNESP</nameCode>  
+      <url/>  
+      <source id="Perspectivas_Revista" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:11:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Perspectivas Revista de Ciências Sociais" nameCode="Perspectivas_Revista"> 
+        <description>Perspectivas Revista de Ciências Sociais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Perspectivas_Revista</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.fclar.unesp.br/perspectivas/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Geografia_em_Atos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:55:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Geografia em Atos" nameCode="Geografia_em_Atos"> 
+        <description>Geografia em Atos</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Geografia_em_Atos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.fct.unesp.br/index.php/geografiaematos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Filosofia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Filosofia da UNESP" nameCode="Revista_Filosofia"> 
+        <description>Revista de Filosofia da UNESP</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Filosofia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www2.marilia.unesp.br/revistas/index.php/transformacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estudos_Sociologia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:55:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estudos de Sociologia" nameCode="Estudos_Sociologia"> 
+        <description>Estudos de Sociologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estudos_Sociologia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://seer.fclar.unesp.br/estudos/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estudos_Geograficos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:55:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estudos Geográficos: Revista Eletrônica de Geografia" nameCode="Estudos_Geograficos"> 
+        <description>Estudos Geográficos: Revista Eletrônica de Geografia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estudos_Geograficos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.periodicos.rc.biblioteca.unesp.br/index.php/estgeo/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNIABEUr0"> 
+      <name>UNIABEU</name>  
+      <country>br</country>  
+      <description>UNIABEU</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIABEU</nameCode>  
+      <url/>  
+      <source id="Revista_UNIABEU" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:08:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista UNIABEU" nameCode="Revista_UNIABEU"> 
+        <description>Revista UNIABEU</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_UNIABEU</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uniabeu.edu.br/publica/index.php/RU/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_do_Curso" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:12:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista do Curso de Direito da UNIABEU" nameCode="Revista_do_Curso"> 
+        <description>Revista do Curso de Direito da UNIABEU</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_do_Curso</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uniabeu.edu.br/publica/index.php/rcd/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="E_scrita" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:24" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="E-scrita" nameCode="E_scrita"> 
+        <description>E-scrita</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/E_scrita</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.uniabeu.edu.br/publica/index.php/re/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniBHr0"> 
+      <name>UNIBH</name>  
+      <country>br</country>  
+      <description>UNIBH</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIBH</nameCode>  
+      <url/>  
+      <source id="EHUM" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:47:52" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="EHUM" nameCode="EHUM"> 
+        <description>EHUM</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/EHUM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unibh.br/index.php/dchla/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="eScientia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:47:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="eScientia" nameCode="eScientia"> 
+        <description>eScientia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/eScientia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unibh.br/index.php/dcbas/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="ECivitas" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:48:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="ECivitas" nameCode="ECivitas"> 
+        <description>ECivitas</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/ECivitas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unibh.br/index.php/dcjpg/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniBrasilr0"> 
+      <name>UNIBRASIL</name>  
+      <country>br</country>  
+      <description>UNIBRASIL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIBRASIL</nameCode>  
+      <url/>  
+      <source id="Revista_Direitos" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:50:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Direitos Fundamentais e Democracia" nameCode="Revista_Direitos"> 
+        <description>Revista Direitos Fundamentais e Democracia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Direitos</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistaeletronicardfd.unibrasil.com.br/index.php/rdfd/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNICAMPr0"> 
+      <name>UNICAMP</name>  
+      <country>br</country>  
+      <description>UNICAMP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNICAMP</nameCode>  
+      <url/>  
+      <source id="Ethnobiology_Conservation" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:19:39" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Ethnobiology and Conservation" nameCode="Ethnobiology_Conservation"> 
+        <description>Ethnobiology and Conservation</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ethnobiology_Conservation</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.fae.unicamp.br/revista/index.php/etd/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="LIAMES" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:20:54" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Línguas Indígenas Americanas (LIAMES)" nameCode="LIAMES"> 
+        <description>Línguas Indígenas Americanas (LIAMES)</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/LIAMES</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.iel.unicamp.br/revista/index.php/liames/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Conexoes" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:07:49" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Conexões" nameCode="Conexoes"> 
+        <description>Conexões</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Conexoes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://fefnet178.fef.unicamp.br/ojs/index.php/fef/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Lingua_Literatura" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:22:24" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Língua  Literatura e Ensino" nameCode="Lingua_Literatura"> 
+        <description>Língua Literatura e Ensino</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Lingua_Literatura</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.iel.unicamp.br/revista/index.php/lle/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Digital" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:47:22" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Digital de Biblioteconomia e Ciência da Informação" nameCode="Revista_Digital"> 
+        <description>Revista Digital de Biblioteconomia e Ciência da Informação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Digital</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.sbu.unicamp.br/seer/ojs/index.php/sbu_rci/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Sinteses" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="" isSample="false" sample="-1" status="" type="DataSourceOai" name="Sínteses" nameCode="Sinteses"> 
+        <description>Sínteses</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Sinteses</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.iel.unicamp.br/revista/index.php/sinteses/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNICENTROr0"> 
+      <name>UNICENTRO</name>  
+      <country>br</country>  
+      <description>UNICENTRO</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNICENTRO</nameCode>  
+      <url/>  
+      <source id="Ambiencia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:06:34" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ambiência" nameCode="Ambiencia"> 
+        <description>Ambiência</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ambiencia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unicentro.br/index.php/ambiencia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Ciencias" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:05:34" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Ciências Exatas e Naturais" nameCode="Revista_Ciencias"> 
+        <description>Revista Ciências Exatas e Naturais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ciencias</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unicentro.br/index.php/RECEN/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniChristusr0"> 
+      <name>UNICHRISTUS</name>  
+      <country>br</country>  
+      <description>UNICHRISTUS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNICHRISTUS</nameCode>  
+      <url/>  
+      <source id="Journal_of_Health" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:34:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Journal of Health and Biological Sciences - JHBS" nameCode="Journal_of_Health"> 
+        <description>Journal of Health and Biological Sciences - JHBS</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Journal_of_Health</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://201.20.109.36:2627/index.php/medicina/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniFAPr0"> 
+      <name>UNIFAP</name>  
+      <country>br</country>  
+      <description>UNIFAP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIFAP</nameCode>  
+      <url/>  
+      <source id="PRACS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:15:51" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="PRACS Revista Eletrônica de Humanidades do Curso de Ciências Sociais da UNIFAP" nameCode="PRACS"> 
+        <description>PRACS Revista Eletrônica de Humanidades do Curso de Ciências Sociais da UNIFAP</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/PRACS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.unifap.br/index.php/pracs/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estacao_Cientifica" metadataFormat="ese" schema="http://www.europeana.eu/schemas/ese/ESE-V3.4.xsd" namespace="http://www.europeana.eu/schemas/ese/" lastIngest="2015-04-14 17:10:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estação Científica (UNIFAP)" nameCode="Estacao_Cientifica"> 
+        <description>Estação Científica (UNIFAP)</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estacao_Cientifica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.unifap.br/index.php/estacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniLaSaller0"> 
+      <name>UNILASALLE</name>  
+      <country>br</country>  
+      <description>UNILASALLE</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNILASALLE</nameCode>  
+      <url/>  
+      <source id="Mouseion" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:14:36" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Mouseion: Revista Eletrônica do Museu e Arquivo Histórico La Salle" nameCode="Mouseion"> 
+        <description>Mouseion: Revista Eletrônica do Museu e Arquivo Histórico La Salle</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Mouseion</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.unilasalle.edu.br/index.php/Mouseion/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:13:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Educação Ciência e Cultura" nameCode="Revista_Educacao"> 
+        <description>Revista Educação Ciência e Cultura</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.unilasalle.edu.br/index.php/Educacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Interfaces_Brasil" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:15:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Interfaces Brasil/Canadá" nameCode="Interfaces_Brasil"> 
+        <description>Interfaces Brasil/Canadá</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Interfaces_Brasil</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.unilasalle.edu.br/index.php/interfaces/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniOester0"> 
+      <name>UNIOESTE</name>  
+      <country>br</country>  
+      <description>UNIOESTE</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIOESTE</nameCode>  
+      <url/>  
+      <source id="Colloquium_Vitae" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="" isSample="false" sample="-1" status="" type="DataSourceOai" name="Colloquium Vitae" nameCode="Colloquium_Vitae"> 
+        <description>Colloquium Vitae</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Colloquium_Vitae</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unoeste.br/revistas/ojs/index.php/cv/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Caderno_de_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:13:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Caderno de Educação Fisica  Estudos e Reflexoes" nameCode="Caderno_de_Educacao"> 
+        <description>Caderno de Educação Fisica Estudos e Reflexoes</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Caderno_de_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://e-revista.unioeste.br/index.php/cadernoedfisica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Colloquium_Agrariae" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:13:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Colloquium Agrariae" nameCode="Colloquium_Agrariae"> 
+        <description>Colloquium Agrariae</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Colloquium_Agrariae</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unoeste.br/revistas/ojs/index.php/ca/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Faz_Ciencia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:11:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Faz Ciencia" nameCode="Faz_Ciencia"> 
+        <description>Faz Ciencia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Faz_Ciencia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://e-revista.unioeste.br/index.php/fazciencia/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Colloquium_Humanarum" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:53:35" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Colloquium Humanarum" nameCode="Colloquium_Humanarum"> 
+        <description>Colloquium Humanarum</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Colloquium_Humanarum</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unoeste.br/revistas/ojs/index.php/ch/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ciencias_Sociais" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:08:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ciências Sociais em Perspectiva" nameCode="Ciencias_Sociais"> 
+        <description>Ciências Sociais em Perspectiva</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ciencias_Sociais</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://e-revista.unioeste.br/index.php/ccsaemperspectiva/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Ciencias_Sociais_Aplicadas" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Ciências Sociais Aplicadas em Revista" nameCode="Ciencias_Sociais_Aplicadas"> 
+        <description>Ciências Sociais Aplicadas em Revista</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Ciencias_Sociais_Aplicadas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://e-revista.unioeste.br/index.php/csaemrevista/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNIPARr0"> 
+      <name>UNIPAR</name>  
+      <country>br</country>  
+      <description>UNIPAR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIPAR</nameCode>  
+      <url/>  
+      <source id="Revista_Ciencias_Empresariais" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:12:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Ciências Empresariais da UNIPAR" nameCode="Revista_Ciencias_Empresariais"> 
+        <description>Revista de Ciências Empresariais da UNIPAR</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Ciencias_Empresariais</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unipar.br/empresarial/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Educere" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:15:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Educere" nameCode="Educere"> 
+        <description>Educere</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Educere</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unipar.br/educere/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_de_Ciencias_Juridicas" metadataFormat="ese" schema="http://www.europeana.eu/schemas/ese/ESE-V3.4.xsd" namespace="http://www.europeana.eu/schemas/ese/" lastIngest="2015-04-14 17:08:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Ciências Jurídicas e Sociais da UNIPAR" nameCode="Revista_de_Ciencias_Juridicas"> 
+        <description>Revista de Ciências Jurídicas e Sociais da UNIPAR</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Ciencias_Juridicas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unipar.br/juridica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Arquivos_Ciencias" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Arquivos Ciências Saúde UNIPAR" nameCode="Arquivos_Ciencias"> 
+        <description>Arquivos Ciências Saúde UNIPAR</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Arquivos_Ciencias</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unipar.br/saude/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniRIOr0"> 
+      <name>UniRIO</name>  
+      <country>br</country>  
+      <description>UniRIO</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UniRIO</nameCode>  
+      <url/>  
+      <source id="Revista_de_Pesquisa" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:08:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Pesquisa: Cuidado é Fundamental Online" nameCode="Revista_de_Pesquisa"> 
+        <description>Revista de Pesquisa: Cuidado é Fundamental Online</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Pesquisa</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.unirio.br/index.php/cuidadofundamental/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="iSYS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:06:06" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="iSYS Revista Brasileira de Sistemas de Informacao" nameCode="iSYS"> 
+        <description>iSYS Revista Brasileira de Sistemas de Informacao</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/iSYS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.seer.unirio.br/index.php/isys/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNISCr0"> 
+      <name>UNISC</name>  
+      <country>br</country>  
+      <description>UNISC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNISC</nameCode>  
+      <url/>  
+      <source id="Revista_Barbaroi" metadataFormat="ese" schema="http://www.europeana.eu/schemas/ese/ESE-V3.4.xsd" namespace="http://www.europeana.eu/schemas/ese/" lastIngest="2015-04-14 17:08:08" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Barbarói" nameCode="Revista_Barbaroi"> 
+        <description>Revista Barbarói</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Barbaroi</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://online.unisc.br/seer/index.php/barbaroi/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Estudos_do_CEPE" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Estudos do CEPE" nameCode="Estudos_do_CEPE"> 
+        <description>Estudos do CEPE</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Estudos_do_CEPE</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://online.unisc.br/seer/index.php/cepe/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniSinosr0"> 
+      <name>UNISINOS</name>  
+      <country>br</country>  
+      <description>UNISINOS</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNISINOS</nameCode>  
+      <url/>  
+      <source id="Verso_Reverso" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Verso e Reverso" nameCode="Verso_Reverso"> 
+        <description>Verso e Reverso</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Verso_Reverso</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unisinos.br/index.php/versoereverso/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNISULr0"> 
+      <name>UNISUL</name>  
+      <country>br</country>  
+      <description>UNISUL</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNISUL</nameCode>  
+      <url/>  
+      <source id="POIESIS" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="POIESIS - Revista do Programa de Pós-Graduação em Educação" nameCode="POIESIS"> 
+        <description>POIESIS - Revista do Programa de Pós-Graduação em Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/POIESIS</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.portaldeperiodicos.unisul.br/index.php/Poiesis/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNITr0"> 
+      <name>UNIT</name>  
+      <country>br</country>  
+      <description>UNIT</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIT</nameCode>  
+      <url/>  
+      <source id="Interfaces_Educacao" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:53" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Interfaces Científicas - Educação" nameCode="Interfaces_Educacao"> 
+        <description>Interfaces Científicas - Educação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Interfaces_Educacao</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.set.edu.br/index.php/educacao/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Interfaces_Saude" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:59:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Interfaces Científicas - Saúde e Ambiente" nameCode="Interfaces_Saude"> 
+        <description>Interfaces Científicas - Saúde e Ambiente</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Interfaces_Saude</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.set.edu.br/index.php/saude/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Interfaces_Direito" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:10:54" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Interfaces Científicas - Direito" nameCode="Interfaces_Direito"> 
+        <description>Interfaces Científicas - Direito</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Interfaces_Direito</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.set.edu.br/index.php/direito/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Interfaces_Humanas" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 16:01:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Interfaces Científicas - Humanas e Sociais" nameCode="Interfaces_Humanas"> 
+        <description>Interfaces Científicas - Humanas e Sociais</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Interfaces_Humanas</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>https://periodicos.set.edu.br/index.php/humanas/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNITAUr0"> 
+      <name>UNITAU</name>  
+      <country>br</country>  
+      <description>UNITAU</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNITAU</nameCode>  
+      <url/>  
+      <source id="Clinica_Pesquisa" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:38" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Clínica e Pesquisa em Odontologia" nameCode="Clinica_Pesquisa"> 
+        <description>Clínica e Pesquisa em Odontologia</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Clinica_Pesquisa</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.unitau.br/ojs-2.2/index.php/clipeodonto/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Caminhos_em_Linguistica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:58:36" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Caminhos em Linguística aplicada" nameCode="Caminhos_em_Linguistica"> 
+        <description>Caminhos em Linguística aplicada</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Caminhos_em_Linguistica</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.unitau.br/ojs-2.2/index.php/caminhoslinguistica/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNIVAPr0"> 
+      <name>UNIVAP</name>  
+      <country>br</country>  
+      <description>UNIVAP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIVAP</nameCode>  
+      <url/>  
+      <source id="Revista_Univap" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:56:21" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Univap" nameCode="Revista_Univap"> 
+        <description>Revista Univap</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Univap</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revista.univap.br/index.php/revistaunivap/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNIVATESr0"> 
+      <name>UNIVATES</name>  
+      <country>br</country>  
+      <description>UNIVATES</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIVATES</nameCode>  
+      <url/>  
+      <source id="Versoes" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Versões" nameCode="Versoes"> 
+        <description>Versões</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Versoes</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.univates.br/revistas/index.php/estudoedebate/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UniverCienciar0"> 
+      <name>UNIVERCIENCIA</name>  
+      <country>br</country>  
+      <description>UNIVERCIENCIA</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNIVERCIENCIA</nameCode>  
+      <url/>  
+      <source id="E_COM" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="E-COM" nameCode="E_COM"> 
+        <description>E-COM</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/E_COM</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.univerciencia.org/index.php/e-com/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNOESCr0"> 
+      <name>UNOESC</name>  
+      <country>br</country>  
+      <description>UNOESC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNOESC</nameCode>  
+      <url/>  
+      <source id="Revista_Espaco" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:54:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Espaço Jurídico/Espaço Jurídico Journal of Law" nameCode="Revista_Espaco"> 
+        <description>Revista Espaço Jurídico/Espaço Jurídico Journal of Law</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Espaco</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://editora.unoesc.edu.br/index.php/espacojuridico/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Roteiro" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:53:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Roteiro" nameCode="Roteiro"> 
+        <description>Roteiro</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Roteiro</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://editora.unoesc.edu.br/index.php/roteiro/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UNOESTEr0"> 
+      <name>UNOESTE</name>  
+      <country>br</country>  
+      <description>UNOESTE</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UNOESTE</nameCode>  
+      <url/>  
+      <source id="Colloquium_Exactarum" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 14:37:48" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Colloquium Exactarum" nameCode="Colloquium_Exactarum"> 
+        <description>Colloquium Exactarum</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Colloquium_Exactarum</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.unoeste.br/revistas/ojs/index.php/ce/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UPFr0"> 
+      <name>UPF</name>  
+      <country>br</country>  
+      <description>UPF</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UPF</nameCode>  
+      <url/>  
+      <source id="Espaco_Pedagogico_UPF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:11:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Espaço Pedagógico" nameCode="Espaco_Pedagogico_UPF"> 
+        <description>Espaço Pedagógico</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Espaco_Pedagogico_UPF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.upf.br/seer/index.php/rep/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Historia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:07:23" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista História: Debates e Tendências" nameCode="Revista_Historia"> 
+        <description>Revista História: Debates e Tendências</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Historia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.upf.br/seer/index.php/rhdt/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_Brasileira_UPF" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:12:09" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Brasileira de Ciências do Envelhecimento Humano" nameCode="Revista_Brasileira_UPF"> 
+        <description>Revista Brasileira de Ciências do Envelhecimento Humano</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Brasileira_UPF</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.upf.br/seer/index.php/rbceh/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Secretariado_Executivo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:45:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Secretariado Executivo em Revist@" nameCode="Secretariado_Executivo"> 
+        <description>Secretariado Executivo em Revist@</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Secretariado_Executivo</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.upf.br/seer/index.php/ser/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UFTr0"> 
+      <name>URC</name>  
+      <country>br</country>  
+      <description>URC</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>URC</nameCode>  
+      <source id="Revista_Direito_e_Dialogicidade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:21:39" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Direito e Dialogicidade" nameCode="Revista_Direito_e_Dialogicidade"> 
+        <description>Revista Direito e Dialogicidade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Direito_e_Dialogicidade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://periodicos.urca.br/ojs/index.php/DirDialog/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="USPr0"> 
+      <name>USP</name>  
+      <country>br</country>  
+      <description>USP</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>USP</nameCode>  
+      <url/>  
+      <source id="Alterjor_Jornalismo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:45:05" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Alterjor Jornalismo Popular Alternativo" nameCode="Alterjor_Jornalismo"> 
+        <description>Alterjor Jornalismo Popular Alternativo</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Alterjor_Jornalismo</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.usp.br/alterjor/ojs/index.php/alterjor/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source>  
+      <source id="Revista_de_Ciencia" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:44:20" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista de Ciência da Informação e Documentação" nameCode="Revista_de_Ciencia"> 
+        <description>Revista de Ciência da Informação e Documentação</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_de_Ciencia</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://www.revistas.usp.br/incid/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="UTFPRr0"> 
+      <name>UTFPR</name>  
+      <country>br</country>  
+      <description>UTFPR</description>  
+      <type>PUBLISHER</type>  
+      <nameCode>UTFPR</nameCode>  
+      <url/>  
+      <source id="Tecnologia_e_Sociedade" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 17:17:39" isSample="false" sample="-1" status="ERROR" type="DataSourceOai" name="Tecnologia e Sociedade" nameCode="Tecnologia_e_Sociedade"> 
+        <description>Tecnologia e Sociedade</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Tecnologia_e_Sociedade</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://revistas.utfpr.edu.br/ct/tecnologiaesociedade/index.php/000/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider>  
+    <provider id="VeraCruzr0"> 
+      <name>VERACRUZ</name>  
+      <country>br</country>  
+      <description>Vera Cruz</description>  
+      <type>MUSEUM</type>  
+      <nameCode>VERACRUZ</nameCode>  
+      <url/>  
+      <source id="Revista_Veras" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-04-14 15:42:50" isSample="false" sample="-1" status="OK" type="DataSourceOai" name="Revista Veras" nameCode="Revista_Veras"> 
+        <description>Revista Veras</description>  
+        <exportDirPath>/data/repoxData_periodicos/export/Revista_Veras</exportDirPath>  
+        <recordIdPolicy type="IdProvidedRecordIdPolicy"/>  
+        <oai-source>http://iseveracruz.edu.br/revistas/index.php/revistaveras/oai</oai-source>  
+        <metadataTransformations/>  
+        <restServices/> 
+      </source> 
+    </provider> 
+  </aggregator>
+</repox-data>
