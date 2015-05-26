@@ -9,6 +9,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 
 import pt.utl.ist.configuration.ConfigSingleton;
+import pt.utl.ist.reports.IntegrationReport;
 import pt.utl.ist.util.FileUtil;
 import pt.utl.ist.util.RunnableStoppable;
 import pt.utl.ist.util.StringUtil;
@@ -309,6 +310,13 @@ public class OaiHarvester implements RunnableStoppable {
                 return getListRecordsWithRetries(resumptionToken, retries - 1);
             } else {
                 StringUtil.simpleLog("Harvest ABORTED: exceeded " + MAX_OAI_VERB_RETRIES + " retries", this.getClass(), logFile);
+
+                IntegrationReport.Report(
+        				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
+        				sourceUrl,
+        				IntegrationReport.IRTACT_HARVESTING_ABORTED,
+        				MAX_OAI_VERB_RETRIES + " retries" );
+                
                 throw e;
             }
         }
@@ -320,6 +328,13 @@ public class OaiHarvester implements RunnableStoppable {
             return listRecords;
         } catch (FileNotFoundException e) { //This is the error returned by a 404
             StringUtil.simpleLog("Error 404 harvesting " + sourceUrl + " - " + e.getMessage(), e, this.getClass(), logFile);
+
+            IntegrationReport.Report(
+    				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
+    				sourceUrl,
+    				IntegrationReport.IRTACT_HARVESTING_ABORTED,
+    				MAX_OAI_VERB_RETRIES + " retries" );
+            
             if (retries > 0) {
                 int currentRetry = MAX_OAI_VERB_RETRIES - retries + 1;
                 long sleepTime = currentRetry * 10 * 1000;
@@ -328,6 +343,13 @@ public class OaiHarvester implements RunnableStoppable {
                 return getListRecordsWithRetries(retries - 1);
             } else {
                 StringUtil.simpleLog("Harvest ABORTED: exceeded " + MAX_OAI_VERB_RETRIES + " retries", this.getClass(), logFile);
+
+                IntegrationReport.Report(
+        				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
+        				sourceUrl,
+        				IntegrationReport.IRTACT_HARVESTING_ABORTED,
+        				MAX_OAI_VERB_RETRIES + " retries" );
+
                 throw e;
             }
         }
@@ -385,6 +407,12 @@ public class OaiHarvester implements RunnableStoppable {
         for (int i = 0; i < length; ++i) {
             Node item = errors.item(i);
             StringUtil.simpleLog("Message Returned from the Server: " + item.getFirstChild().getTextContent(), this.getClass(), logFile);
+
+            IntegrationReport.Report(
+				IntegrationReport.IRT_EV_GENERIC_ERROR,
+				sourceUrl,
+				IntegrationReport.IRTACT_HARVESTING_ABORTED,
+				item.getFirstChild().getTextContent() );
         }
     }
 

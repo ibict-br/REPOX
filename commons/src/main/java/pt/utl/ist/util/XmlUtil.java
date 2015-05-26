@@ -14,7 +14,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
+import pt.utl.ist.reports.IntegrationReport;
 
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
@@ -30,7 +30,6 @@ import java.util.Map;
  */
 public class XmlUtil {
     private static final Logger log               = Logger.getLogger(XmlUtil.class);
-    private static final Logger ibictIntReporter  = Logger.getLogger("ibicReporter");
     private static final String XML_FILE_ENCODING = "UTF-8";
 
     /**
@@ -189,12 +188,15 @@ public class XmlUtil {
      *
      * @author Nuno Freire
      * @param  s - The String whose non-valid characters we want to replace.
-     * @return The in String, where non-valid characters are replace by spaces.
-     * @throws UnrecognizedCharsException 
+     * @param RTERR_UNMET_CHAR_ERR 
+     * @param IRTERR_UNMET_UTF8_CHAR 
+     * @return The in String, where non-valid characters are replace by spaces. 
+     * @throws WrongUTFCodingException 
      */
-    public static String removeInvalidXMLCharacters( String s, String replacement ) throws UnrecognizedCharsException {
+    public static String removeInvalidXMLCharacters( String s, String replacement ) throws IntegrationReport, WrongUTFCodingException {
         StringBuilder out = new StringBuilder(); // Used to hold the output.
-        Map< Integer, Integer > waywardCodes = new HashMap< Integer, Integer >();
+        String identifier = "";
+        Map< String, String > waywardCodes = new HashMap< String, String >();
         try {
 	        int codePoint; // Used to reference the current character.
 	        int i = 0;
@@ -204,25 +206,20 @@ public class XmlUtil {
 	                 ((codePoint >= 0xE000) && (codePoint <= 0xFFFD))  ||
 	                 ( codePoint <= 0x20    &&
 	                    ( codePoint == 0x9 || codePoint == 0xA || codePoint == 0xD ) ) //HT, LF, CR
-	                )
+	               )
 	            {
 	               out.append(Character.toChars(codePoint));
 	            }
 	            else {
 	               out.append(replacement);
-	               waywardCodes.put( i, codePoint );
-	               String logString = "";
+	               identifier = "";
 	               try{
-		               logString = out.substring(
-		            		   out.lastIndexOf("<identifier>") +12,
-		            		   out.lastIndexOf("</identifier>"));
-		               ibictIntReporter.info(logString +
-		            		   "\t" + "non UTF-8 character replaced" +
-		            		   "\t" + "String codePoint(" + codePoint + ") at(" + i + "), replaced by :(" + replacement + ")" );
+	            	   identifier = out.substring( out.lastIndexOf("<identifier>") +12, out.lastIndexOf("</identifier>"));
 	               }
-	               catch( StringIndexOutOfBoundsException e ){
-	            	   ibictIntReporter.info("\t" + "non UTF-8 character replaced" +
-		            		    "\t" + "String codePoint(" + codePoint + ") at(" + i + "), replaced by :(" + replacement + ")" );
+	               catch( Exception e ){
+	               }
+	               finally{
+		               waywardCodes.put( identifier, "code: " + codePoint + ", changed by: " + replacement );
 	               }
 	            }
 	            i += Character.charCount(codePoint); // Increment with the number of code units(java chars) needed to represent a Unicode char.
@@ -231,8 +228,8 @@ public class XmlUtil {
 			log.error( e.getLocalizedMessage() );
 		}
 
-        if( !waywardCodes.isEmpty()) {
-			throw new UnrecognizedCharsException("Unrecognized Char Coding", out.toString(), waywardCodes );
+        if( !waywardCodes.isEmpty() ) {
+			throw new WrongUTFCodingException( out.toString(), waywardCodes );
 		}
         return out.toString();
     }

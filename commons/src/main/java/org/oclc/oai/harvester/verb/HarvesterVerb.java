@@ -28,6 +28,7 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CodingErrorAction;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.InflaterInputStream;
@@ -54,6 +55,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import pt.utl.ist.reports.IntegrationReport;
+import pt.utl.ist.util.WrongUTFCodingException;
 import pt.utl.ist.util.XmlUtil;
 import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
 
@@ -64,8 +66,8 @@ import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
  * @author Nuno Freire
  */
 public abstract class HarvesterVerb {
-    private static Logger                    logger                                     = Logger.getLogger(HarvesterVerb.class);
-    private static Logger                    integrationReport                          = Logger.getLogger(IntegrationReport.class);
+    private static Logger                    logger            = Logger.getLogger(HarvesterVerb.class);
+    private static final Logger ibictIntReporter  = Logger.getLogger("ibicReporter");
 
     /* Gilberto */
     /** HarvesterVerb NAMESPACE_V2_0 */
@@ -376,11 +378,21 @@ public abstract class HarvesterVerb {
 
             InputSource data = new InputSource(new ByteArrayInputStream(xmlString.getBytes("UTF-8")));
             doc = builder.parse( data );
+			ibictIntReporter.info("teste");
         } catch (SAXException e) {
         	//TODO: Handle this exception.
             throw e;
-        } catch (UnrecognizedCharsException e){
-            InputSource data = new InputSource(new ByteArrayInputStream(e.GetFixedString().getBytes("UTF-8")));
+        } catch (WrongUTFCodingException e){
+    		for( Map.Entry<String, String> entry : e.getDescription().entrySet() ){   
+    			IntegrationReport.Report(
+    				IntegrationReport.IRT_EV_WRONG_UTF_CODE,
+    				requestURL + entry.getKey(),
+    				IntegrationReport.IRTACT_UNMET_CHAR_REPLACED,
+    				entry.getValue() );
+    		}
+
+    		// Go on
+            InputSource data = new InputSource(new ByteArrayInputStream(e.getOutText().getBytes("UTF-8")));
             doc = builder.parse( data );
         } catch (CharacterCodingException e){
             System.out.println("e = " + e.getMessage());
