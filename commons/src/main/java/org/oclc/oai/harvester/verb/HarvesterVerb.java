@@ -378,7 +378,6 @@ public abstract class HarvesterVerb {
 
             InputSource data = new InputSource(new ByteArrayInputStream(xmlString.getBytes("UTF-8")));
             doc = builder.parse( data );
-			ibictIntReporter.info("teste");
         } catch (SAXException e) {
         	//TODO: Handle this exception.
             throw e;
