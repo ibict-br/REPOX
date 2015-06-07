@@ -4,17 +4,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WrongUTFCodingException extends Exception {
-	private static final long serialVersionUID = -7276924149259963512L;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4476377657835308199L;
 
-	private HashMap< String, String > description = new HashMap<String, String>();
+	private HashMap< String, CharErrorSpecification > description = new HashMap<String, CharErrorSpecification>();
 	private String outText = "";
 
-	public WrongUTFCodingException( String outText, Map< String, String > description ){
+	public WrongUTFCodingException( String outText, Map< String, CharErrorSpecification > description ){
 		this.description.putAll(description);
 		this.outText = outText;
 	}
 
-	public HashMap<String, String> getDescription() {
+	public HashMap<String, CharErrorSpecification> getDescription() {
 		return description;
 	}
 

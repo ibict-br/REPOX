@@ -314,6 +314,8 @@ public class OaiHarvester implements RunnableStoppable {
                 IntegrationReport.Report(
         				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
         				sourceUrl,
+        				"",
+        				"",
         				IntegrationReport.IRTACT_HARVESTING_ABORTED,
         				MAX_OAI_VERB_RETRIES + " retries" );
                 
@@ -332,6 +334,8 @@ public class OaiHarvester implements RunnableStoppable {
             IntegrationReport.Report(
     				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
     				sourceUrl,
+    				"",
+    				"",
     				IntegrationReport.IRTACT_HARVESTING_ABORTED,
     				MAX_OAI_VERB_RETRIES + " retries" );
             
@@ -347,6 +351,8 @@ public class OaiHarvester implements RunnableStoppable {
                 IntegrationReport.Report(
         				IntegrationReport.IRT_EV_MAX_RETRIES_EXCEEDED,
         				sourceUrl,
+        				"",
+        				"",
         				IntegrationReport.IRTACT_HARVESTING_ABORTED,
         				MAX_OAI_VERB_RETRIES + " retries" );
 
@@ -411,6 +417,8 @@ public class OaiHarvester implements RunnableStoppable {
             IntegrationReport.Report(
 				IntegrationReport.IRT_EV_GENERIC_ERROR,
 				sourceUrl,
+				"",
+				"",
 				IntegrationReport.IRTACT_HARVESTING_ABORTED,
 				item.getFirstChild().getTextContent() );
         }

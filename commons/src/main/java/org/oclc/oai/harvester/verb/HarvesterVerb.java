@@ -55,6 +55,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import pt.utl.ist.reports.IntegrationReport;
+import pt.utl.ist.util.CharErrorSpecification;
 import pt.utl.ist.util.WrongUTFCodingException;
 import pt.utl.ist.util.XmlUtil;
 import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
@@ -67,7 +68,6 @@ import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
  */
 public abstract class HarvesterVerb {
     private static Logger                    logger            = Logger.getLogger(HarvesterVerb.class);
-    private static final Logger ibictIntReporter  = Logger.getLogger("ibicReporter");
 
     /* Gilberto */
     /** HarvesterVerb NAMESPACE_V2_0 */
@@ -382,12 +382,14 @@ public abstract class HarvesterVerb {
         	//TODO: Handle this exception.
             throw e;
         } catch (WrongUTFCodingException e){
-    		for( Map.Entry<String, String> entry : e.getDescription().entrySet() ){   
+    		for( Map.Entry<String, CharErrorSpecification> entry : e.getDescription().entrySet() ){   
     			IntegrationReport.Report(
     				IntegrationReport.IRT_EV_WRONG_UTF_CODE,
-    				requestURL + entry.getKey(),
+    				requestURL,
+    				entry.getKey(),
+    				entry.getValue().getSpec(),
     				IntegrationReport.IRTACT_UNMET_CHAR_REPLACED,
-    				entry.getValue() );
+    				entry.getValue().getCodePoint() + " was changed by: " + entry.getValue().getReplacement() );
     		}
 
     		// Go on

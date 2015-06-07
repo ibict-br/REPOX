@@ -22,14 +22,19 @@ public class IntegrationReport extends Exception {
 	/**
 	 * fills the following fields:
 	 * 	dc.date.occurrence, id, collection, dc.description.report dc.identifier.oai dc.description.action dc.description.details
+	 * @param string 
+	 * @param irtactUnmetCharReplaced 
 	 */
-	public static void Report(String event, String identifier, String action, String detail){
+
+	public static void Report(String event, String url, String identifier, String spec, String action, String detail ){
 		ibictIntReporter.info(
 		    "\t" +                // dc.date.occurrence /*date info on log4j config file*/
 		    "+\t" +               // id
 		    "000\t" +             // collection
 		    event + "\t" +        // dc.description.report
+		    url + "\t" +          // URL
 		    identifier + "\t" +   // dc.identifier.oai
+		    spec + "\t" +         // spec
 		    action + "\t" +       // dc.description.action
 		    detail                // dc.description.details
 		);

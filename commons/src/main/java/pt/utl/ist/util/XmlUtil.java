@@ -196,7 +196,9 @@ public class XmlUtil {
     public static String removeInvalidXMLCharacters( String s, String replacement ) throws IntegrationReport, WrongUTFCodingException {
         StringBuilder out = new StringBuilder(); // Used to hold the output.
         String identifier = "";
-        Map< String, String > waywardCodes = new HashMap< String, String >();
+        String spec = "";
+
+        Map< String, CharErrorSpecification > waywardCodes = new HashMap< String, CharErrorSpecification >();
         try {
 	        int codePoint; // Used to reference the current character.
 	        int i = 0;
@@ -213,13 +215,15 @@ public class XmlUtil {
 	            else {
 	               out.append(replacement);
 	               identifier = "";
+	               spec = "";
 	               try{
 	            	   identifier = out.substring( out.lastIndexOf("<identifier>") +12, out.lastIndexOf("</identifier>"));
+	            	   spec = out.substring( out.lastIndexOf("<setSpec>") +9, out.lastIndexOf("</setSpec>"));
 	               }
 	               catch( Exception e ){
 	               }
 	               finally{
-		               waywardCodes.put( identifier, "code: " + codePoint + ", changed by: " + replacement );
+		               waywardCodes.put( identifier, new CharErrorSpecification( spec, codePoint, replacement ) );
 	               }
 	            }
 	            i += Character.charCount(codePoint); // Increment with the number of code units(java chars) needed to represent a Unicode char.
