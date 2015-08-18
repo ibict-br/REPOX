@@ -41,7 +41,7 @@ public abstract class RepoxConfiguration {
     private static final String PROPERTY_DB_PASSWORD                 = "database.password";
 
     private static final String PROPERTY_LDAP_HOST                   = "ldapHost";
-    private static final String PROPERTY_LDAP_ROOT_DN              = "ldapRootDN";
+    private static final String PROPERTY_LDAP_ROOT_DN                = "ldapRootDN";
     private static final String PROPERTY_LDAP_ROOT_PASSWORD          = "ldapRootPassword";
     private static final String PROPERTY_LDAP_BASE_PATH              = "ldapBasePath";
     private static final String PROPERTY_LDAP_USER_PREFIX            = "ldapUserPrefix";
@@ -160,7 +160,7 @@ public abstract class RepoxConfiguration {
         this.ldapRootDN = configurationProperties.getProperty(PROPERTY_LDAP_ROOT_DN);
         this.ldapRootPassword = configurationProperties.getProperty(PROPERTY_LDAP_ROOT_PASSWORD);
         this.ldapBasePath = configurationProperties.getProperty(PROPERTY_LDAP_BASE_PATH);
-        
+
         this.ldapUserPrefix = configurationProperties.getProperty(PROPERTY_LDAP_USER_PREFIX);
         this.ldapLoginDN = configurationProperties.getProperty(PROPERTY_LDAP_LOGIN_DN);
         this.currentServerOAIUrl = configurationProperties.getProperty(PROPERTY_SERVER_OAI_URL);

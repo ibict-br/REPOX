@@ -17,7 +17,6 @@ public class DefaultRepoxConfiguration extends RepoxConfiguration {
     private String exportDefaultFolder;
     private String adminEmailPass;
 
-
     public DefaultRepoxConfiguration(Properties configurationProperties) throws IOException {
         super(configurationProperties);
         this.exportDefaultFolder = configurationProperties.getProperty(PROPERTY_EXPORT_DEFAULT_FOLDER);

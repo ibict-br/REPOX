@@ -28,7 +28,8 @@ import java.nio.charset.CharsetDecoder;
 import java.nio.charset.CodingErrorAction;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Iterator;
+import java.util.Map.Entry;
 import java.util.StringTokenizer;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.InflaterInputStream;
@@ -58,7 +59,6 @@ import pt.utl.ist.reports.IntegrationReport;
 import pt.utl.ist.util.CharErrorSpecification;
 import pt.utl.ist.util.WrongUTFCodingException;
 import pt.utl.ist.util.XmlUtil;
-import pt.utl.ist.util.exceptions.UnrecognizedCharsException;
 
 /**
  * HarvesterVerb is the parent class for each of the OAI verbs.
@@ -382,7 +382,9 @@ public abstract class HarvesterVerb {
         	//TODO: Handle this exception.
             throw e;
         } catch (WrongUTFCodingException e){
-    		for( Map.Entry<String, CharErrorSpecification> entry : e.getDescription().entrySet() ){   
+        	Iterator<Entry<String, CharErrorSpecification>> entries = e.getDescription().entrySet().iterator();
+    		while( entries.hasNext() ){
+    			Entry<String, CharErrorSpecification> entry = entries.next();
     			IntegrationReport.Report(
     				IntegrationReport.IRT_EV_WRONG_UTF_CODE,
     				requestURL,
